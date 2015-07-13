@@ -186,6 +186,7 @@ main(int argc, char *argv[])
 		pEventLoop = new GfuiEventLoop;
 	pApp->setEventLoop(pEventLoop);
 
+	//以下，程序刚打开时，用来创建窗口的 Add by gaoyu 2015-7-13
 	// When there's a GUI, setup the window / screen and menu infrastructure.
     if (!bTextOnly && !dynamic_cast<GfuiApplication*>(pApp)->setupWindow())
 	{
@@ -193,6 +194,7 @@ main(int argc, char *argv[])
 				  << " after some error occurred (see above)." << std::endl;
 		return 1;
 	}
+    //以上，程序刚打开时，用来创建窗口的 Add by gaoyu 2015-7-13
 
 	// Load the user interface module (graphical or text-only UI).
 	pmodUserItf =
