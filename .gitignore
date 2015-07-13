@@ -8,5 +8,9 @@
 /games/
 /lib64/
 /packaging/
+###############
+#  fixed file #
+###############
+*.includecache
 
 

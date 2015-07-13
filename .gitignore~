@@ -3,5 +3,13 @@
 ###############
 /data/
 /doc/
+/cmake/
+/CMakeFiles/
+/games/
+/lib64/
+/packaging/
+###############
+#  fixed file #
+###############
 
 
