@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/telemetry/telemetryv1/telemetry.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/telemetry/telemetryv1/telemetryitf.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/telemetry/telemetryv1/telemetry.cpp" "/home/gaoyu/speed-dream/src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/telemetry/telemetryv1/telemetryitf.cpp" "/home/gaoyu/speed-dream/src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,8 +27,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

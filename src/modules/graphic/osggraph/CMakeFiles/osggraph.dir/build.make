@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/depend.make
@@ -51,17 +51,17 @@ include src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o: src/modules/graphic/osggraph/Utils/OsgMath.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Utils/OsgMath.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Utils/OsgMath.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Utils/OsgMath.cpp > CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Utils/OsgMath.cpp > CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Utils/OsgMath.cpp -o CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Utils/OsgMath.cpp -o CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o.requires
@@ -74,17 +74,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o.provide
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o: src/modules/graphic/osggraph/Sky/OsgSphere.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgSphere.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgSphere.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgSphere.cpp > CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgSphere.cpp > CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgSphere.cpp -o CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgSphere.cpp -o CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o.requires
@@ -97,17 +97,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o.provide
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o: src/modules/graphic/osggraph/Sky/OsgSun.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgSun.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgSun.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgSun.cpp > CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgSun.cpp > CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgSun.cpp -o CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgSun.cpp -o CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o.requires
@@ -120,17 +120,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o.provides.b
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o: src/modules/graphic/osggraph/Sky/OsgMoon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgMoon.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgMoon.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgMoon.cpp > CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgMoon.cpp > CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgMoon.cpp -o CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgMoon.cpp -o CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o.requires
@@ -143,17 +143,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o.provides.
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o: src/modules/graphic/osggraph/Sky/OsgStars.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgStars.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgStars.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgStars.cpp > CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgStars.cpp > CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgStars.cpp -o CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgStars.cpp -o CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o.requires
@@ -166,17 +166,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o.provides
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o: src/modules/graphic/osggraph/Sky/OsgDome.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgDome.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgDome.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgDome.cpp > CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgDome.cpp > CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgDome.cpp -o CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgDome.cpp -o CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o.requires
@@ -189,17 +189,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o.provides.
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o: src/modules/graphic/osggraph/Sky/OsgCloud.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgCloud.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgCloud.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgCloud.cpp > CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgCloud.cpp > CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgCloud.cpp -o CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgCloud.cpp -o CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o.requires
@@ -212,17 +212,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o.provides
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o: src/modules/graphic/osggraph/Sky/OsgSky.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgSky.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgSky.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgSky.cpp > CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgSky.cpp > CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Sky/OsgSky.cpp -o CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Sky/OsgSky.cpp -o CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o.requires
@@ -235,17 +235,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o.provides.b
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o: src/modules/graphic/osggraph/Loader/AccGeode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/AccGeode.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/AccGeode.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/AccGeode.cpp > CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/AccGeode.cpp > CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/AccGeode.cpp -o CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/AccGeode.cpp -o CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o.requires
@@ -258,17 +258,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o.provi
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.o: src/modules/graphic/osggraph/Loader/AccException.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Loader/AccException.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/AccException.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Loader/AccException.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/AccException.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Loader/AccException.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/AccException.cpp > CMakeFiles/osggraph.dir/Loader/AccException.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/AccException.cpp > CMakeFiles/osggraph.dir/Loader/AccException.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Loader/AccException.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/AccException.cpp -o CMakeFiles/osggraph.dir/Loader/AccException.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/AccException.cpp -o CMakeFiles/osggraph.dir/Loader/AccException.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.o.requires
@@ -281,17 +281,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.o.p
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.o: src/modules/graphic/osggraph/Loader/ReaderWriterACC.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/ReaderWriterACC.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/ReaderWriterACC.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/ReaderWriterACC.cpp > CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/ReaderWriterACC.cpp > CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/ReaderWriterACC.cpp -o CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/ReaderWriterACC.cpp -o CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.o.requires
@@ -304,17 +304,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o: src/modules/graphic/osggraph/Loader/OsgLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/OsgLoader.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/OsgLoader.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/OsgLoader.cpp > CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/OsgLoader.cpp > CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Loader/OsgLoader.cpp -o CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Loader/OsgLoader.cpp -o CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o.requires
@@ -327,17 +327,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o.prov
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o: src/modules/graphic/osggraph/Scenery/OsgBackground.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Scenery/OsgBackground.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Scenery/OsgBackground.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Scenery/OsgBackground.cpp > CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Scenery/OsgBackground.cpp > CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Scenery/OsgBackground.cpp -o CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Scenery/OsgBackground.cpp -o CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o.requires
@@ -350,17 +350,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o: src/modules/graphic/osggraph/Scenery/OsgPit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Scenery/OsgPit.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Scenery/OsgPit.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Scenery/OsgPit.cpp > CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Scenery/OsgPit.cpp > CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Scenery/OsgPit.cpp -o CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Scenery/OsgPit.cpp -o CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o.requires
@@ -373,17 +373,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o.provid
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o: src/modules/graphic/osggraph/Scenery/OsgScenery.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Scenery/OsgScenery.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Scenery/OsgScenery.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Scenery/OsgScenery.cpp > CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Scenery/OsgScenery.cpp > CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Scenery/OsgScenery.cpp -o CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Scenery/OsgScenery.cpp -o CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o.requires
@@ -396,17 +396,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o.pr
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o: src/modules/graphic/osggraph/Render/OsgRender.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Render/OsgRender.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Render/OsgRender.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Render/OsgRender.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Render/OsgRender.cpp > CMakeFiles/osggraph.dir/Render/OsgRender.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Render/OsgRender.cpp > CMakeFiles/osggraph.dir/Render/OsgRender.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Render/OsgRender.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Render/OsgRender.cpp -o CMakeFiles/osggraph.dir/Render/OsgRender.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Render/OsgRender.cpp -o CMakeFiles/osggraph.dir/Render/OsgRender.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o.requires
@@ -419,17 +419,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o.prov
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.o: src/modules/graphic/osggraph/Render/OsgReflectionMapping.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Render/OsgReflectionMapping.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Render/OsgReflectionMapping.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Render/OsgReflectionMapping.cpp > CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Render/OsgReflectionMapping.cpp > CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Render/OsgReflectionMapping.cpp -o CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Render/OsgReflectionMapping.cpp -o CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.o.requires
@@ -442,17 +442,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o: src/modules/graphic/osggraph/Render/OsgShader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Render/OsgShader.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Render/OsgShader.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Render/OsgShader.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Render/OsgShader.cpp > CMakeFiles/osggraph.dir/Render/OsgShader.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Render/OsgShader.cpp > CMakeFiles/osggraph.dir/Render/OsgShader.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Render/OsgShader.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Render/OsgShader.cpp -o CMakeFiles/osggraph.dir/Render/OsgShader.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Render/OsgShader.cpp -o CMakeFiles/osggraph.dir/Render/OsgShader.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o.requires
@@ -465,17 +465,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o.prov
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o: src/modules/graphic/osggraph/Viewer/OsgView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgView.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgView.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgView.cpp > CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgView.cpp > CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgView.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgView.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o.requires
@@ -488,17 +488,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o.provid
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o: src/modules/graphic/osggraph/Viewer/OsgScreens.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgScreens.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgScreens.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgScreens.cpp > CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgScreens.cpp > CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgScreens.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgScreens.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o.requires
@@ -511,17 +511,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o.pro
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o: src/modules/graphic/osggraph/Viewer/OsgCamera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgCamera.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgCamera.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgCamera.cpp > CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgCamera.cpp > CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgCamera.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgCamera.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o.requires
@@ -534,17 +534,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o.prov
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o: src/modules/graphic/osggraph/Viewer/OsgHUD.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgHUD.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgHUD.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgHUD.cpp > CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgHUD.cpp > CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgHUD.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgHUD.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o.requires
@@ -557,17 +557,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o.provide
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o: src/modules/graphic/osggraph/Viewer/OsgDebugHUD.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgDebugHUD.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgDebugHUD.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgDebugHUD.cpp > CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgDebugHUD.cpp > CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Viewer/OsgDebugHUD.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Viewer/OsgDebugHUD.cpp -o CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o.requires
@@ -580,17 +580,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o.pr
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o: src/modules/graphic/osggraph/Car/OsgCar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Car/OsgCar.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Car/OsgCar.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Car/OsgCar.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Car/OsgCar.cpp > CMakeFiles/osggraph.dir/Car/OsgCar.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Car/OsgCar.cpp > CMakeFiles/osggraph.dir/Car/OsgCar.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Car/OsgCar.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Car/OsgCar.cpp -o CMakeFiles/osggraph.dir/Car/OsgCar.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Car/OsgCar.cpp -o CMakeFiles/osggraph.dir/Car/OsgCar.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o.requires
@@ -603,17 +603,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o.provides.b
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o: src/modules/graphic/osggraph/Car/OsgWheel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Car/OsgWheel.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Car/OsgWheel.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Car/OsgWheel.cpp > CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Car/OsgWheel.cpp > CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Car/OsgWheel.cpp -o CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Car/OsgWheel.cpp -o CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o.requires
@@ -626,17 +626,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o.provides
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o: src/modules/graphic/osggraph/Car/OsgBrake.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Car/OsgBrake.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Car/OsgBrake.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Car/OsgBrake.cpp > CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Car/OsgBrake.cpp > CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/Car/OsgBrake.cpp -o CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/Car/OsgBrake.cpp -o CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o.requires
@@ -649,17 +649,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o.provides
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.o: src/modules/graphic/osggraph/OsgGraph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/OsgGraph.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/OsgGraph.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/OsgGraph.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/OsgGraph.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/OsgGraph.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/OsgGraph.cpp > CMakeFiles/osggraph.dir/OsgGraph.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/OsgGraph.cpp > CMakeFiles/osggraph.dir/OsgGraph.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/OsgGraph.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/OsgGraph.cpp -o CMakeFiles/osggraph.dir/OsgGraph.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/OsgGraph.cpp -o CMakeFiles/osggraph.dir/OsgGraph.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.o.requires
@@ -672,17 +672,17 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.o.provides.bui
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.o: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/flags.make
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.o: src/modules/graphic/osggraph/OsgMain.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/OsgMain.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/OsgMain.cpp
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/osggraph.dir/OsgMain.cpp.o -c /home/gaoyu/speed-dream/src/modules/graphic/osggraph/OsgMain.cpp
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osggraph.dir/OsgMain.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/OsgMain.cpp > CMakeFiles/osggraph.dir/OsgMain.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/graphic/osggraph/OsgMain.cpp > CMakeFiles/osggraph.dir/OsgMain.cpp.i
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osggraph.dir/OsgMain.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/OsgMain.cpp -o CMakeFiles/osggraph.dir/OsgMain.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/graphic/osggraph/OsgMain.cpp -o CMakeFiles/osggraph.dir/OsgMain.cpp.s
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.o.requires:
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.o.requires
@@ -810,7 +810,7 @@ lib64/games/speed-dreams-2/modules/graphic/osggraph.so: /usr/lib/x86_64-linux-gn
 lib64/games/speed-dreams-2/modules/graphic/osggraph.so: lib64/games/speed-dreams-2/lib/libportability.so
 lib64/games/speed-dreams-2/modules/graphic/osggraph.so: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/graphic/osggraph.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/osggraph.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/osggraph.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build: lib64/games/speed-dreams-2/modules/graphic/osggraph.so
@@ -847,10 +847,10 @@ src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/requires: src/modules/graph
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/requires
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph && $(CMAKE_COMMAND) -P CMakeFiles/osggraph.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/modules/graphic/osggraph && $(CMAKE_COMMAND) -P CMakeFiles/osggraph.dir/cmake_clean.cmake
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/clean
 
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/modules/graphic/osggraph /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/modules/graphic/osggraph /home/gaoyu/speed-dream/src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/depend
 

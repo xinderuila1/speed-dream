@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/ssggraph/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/modules/graphic/ssggraph/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule
 .PHONY : src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ ssggraph: src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule
 
 # fast build rule for target.
 ssggraph/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build
 .PHONY : ssggraph/fast
 
 grCloudLayer.o: grCloudLayer.cpp.o
@@ -178,7 +178,7 @@ grCloudLayer.o: grCloudLayer.cpp.o
 
 # target to build an object file
 grCloudLayer.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.o
 .PHONY : grCloudLayer.cpp.o
 
 grCloudLayer.i: grCloudLayer.cpp.i
@@ -186,7 +186,7 @@ grCloudLayer.i: grCloudLayer.cpp.i
 
 # target to preprocess a source file
 grCloudLayer.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.i
 .PHONY : grCloudLayer.cpp.i
 
 grCloudLayer.s: grCloudLayer.cpp.s
@@ -194,7 +194,7 @@ grCloudLayer.s: grCloudLayer.cpp.s
 
 # target to generate assembly for a file
 grCloudLayer.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.s
 .PHONY : grCloudLayer.cpp.s
 
 grMoon.o: grMoon.cpp.o
@@ -202,7 +202,7 @@ grMoon.o: grMoon.cpp.o
 
 # target to build an object file
 grMoon.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.o
 .PHONY : grMoon.cpp.o
 
 grMoon.i: grMoon.cpp.i
@@ -210,7 +210,7 @@ grMoon.i: grMoon.cpp.i
 
 # target to preprocess a source file
 grMoon.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.i
 .PHONY : grMoon.cpp.i
 
 grMoon.s: grMoon.cpp.s
@@ -218,7 +218,7 @@ grMoon.s: grMoon.cpp.s
 
 # target to generate assembly for a file
 grMoon.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.s
 .PHONY : grMoon.cpp.s
 
 grMoonpos.o: grMoonpos.cpp.o
@@ -226,7 +226,7 @@ grMoonpos.o: grMoonpos.cpp.o
 
 # target to build an object file
 grMoonpos.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.o
 .PHONY : grMoonpos.cpp.o
 
 grMoonpos.i: grMoonpos.cpp.i
@@ -234,7 +234,7 @@ grMoonpos.i: grMoonpos.cpp.i
 
 # target to preprocess a source file
 grMoonpos.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.i
 .PHONY : grMoonpos.cpp.i
 
 grMoonpos.s: grMoonpos.cpp.s
@@ -242,7 +242,7 @@ grMoonpos.s: grMoonpos.cpp.s
 
 # target to generate assembly for a file
 grMoonpos.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.s
 .PHONY : grMoonpos.cpp.s
 
 grSky.o: grSky.cpp.o
@@ -250,7 +250,7 @@ grSky.o: grSky.cpp.o
 
 # target to build an object file
 grSky.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.o
 .PHONY : grSky.cpp.o
 
 grSky.i: grSky.cpp.i
@@ -258,7 +258,7 @@ grSky.i: grSky.cpp.i
 
 # target to preprocess a source file
 grSky.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.i
 .PHONY : grSky.cpp.i
 
 grSky.s: grSky.cpp.s
@@ -266,7 +266,7 @@ grSky.s: grSky.cpp.s
 
 # target to generate assembly for a file
 grSky.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.s
 .PHONY : grSky.cpp.s
 
 grSkyDome.o: grSkyDome.cpp.o
@@ -274,7 +274,7 @@ grSkyDome.o: grSkyDome.cpp.o
 
 # target to build an object file
 grSkyDome.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.o
 .PHONY : grSkyDome.cpp.o
 
 grSkyDome.i: grSkyDome.cpp.i
@@ -282,7 +282,7 @@ grSkyDome.i: grSkyDome.cpp.i
 
 # target to preprocess a source file
 grSkyDome.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.i
 .PHONY : grSkyDome.cpp.i
 
 grSkyDome.s: grSkyDome.cpp.s
@@ -290,7 +290,7 @@ grSkyDome.s: grSkyDome.cpp.s
 
 # target to generate assembly for a file
 grSkyDome.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.s
 .PHONY : grSkyDome.cpp.s
 
 grSphere.o: grSphere.cpp.o
@@ -298,7 +298,7 @@ grSphere.o: grSphere.cpp.o
 
 # target to build an object file
 grSphere.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.o
 .PHONY : grSphere.cpp.o
 
 grSphere.i: grSphere.cpp.i
@@ -306,7 +306,7 @@ grSphere.i: grSphere.cpp.i
 
 # target to preprocess a source file
 grSphere.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.i
 .PHONY : grSphere.cpp.i
 
 grSphere.s: grSphere.cpp.s
@@ -314,7 +314,7 @@ grSphere.s: grSphere.cpp.s
 
 # target to generate assembly for a file
 grSphere.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.s
 .PHONY : grSphere.cpp.s
 
 grStars.o: grStars.cpp.o
@@ -322,7 +322,7 @@ grStars.o: grStars.cpp.o
 
 # target to build an object file
 grStars.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.o
 .PHONY : grStars.cpp.o
 
 grStars.i: grStars.cpp.i
@@ -330,7 +330,7 @@ grStars.i: grStars.cpp.i
 
 # target to preprocess a source file
 grStars.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.i
 .PHONY : grStars.cpp.i
 
 grStars.s: grStars.cpp.s
@@ -338,7 +338,7 @@ grStars.s: grStars.cpp.s
 
 # target to generate assembly for a file
 grStars.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.s
 .PHONY : grStars.cpp.s
 
 grSun.o: grSun.cpp.o
@@ -346,7 +346,7 @@ grSun.o: grSun.cpp.o
 
 # target to build an object file
 grSun.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.o
 .PHONY : grSun.cpp.o
 
 grSun.i: grSun.cpp.i
@@ -354,7 +354,7 @@ grSun.i: grSun.cpp.i
 
 # target to preprocess a source file
 grSun.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.i
 .PHONY : grSun.cpp.i
 
 grSun.s: grSun.cpp.s
@@ -362,7 +362,7 @@ grSun.s: grSun.cpp.s
 
 # target to generate assembly for a file
 grSun.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.s
 .PHONY : grSun.cpp.s
 
 grbackground.o: grbackground.cpp.o
@@ -370,7 +370,7 @@ grbackground.o: grbackground.cpp.o
 
 # target to build an object file
 grbackground.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.o
 .PHONY : grbackground.cpp.o
 
 grbackground.i: grbackground.cpp.i
@@ -378,7 +378,7 @@ grbackground.i: grbackground.cpp.i
 
 # target to preprocess a source file
 grbackground.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.i
 .PHONY : grbackground.cpp.i
 
 grbackground.s: grbackground.cpp.s
@@ -386,7 +386,7 @@ grbackground.s: grbackground.cpp.s
 
 # target to generate assembly for a file
 grbackground.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.s
 .PHONY : grbackground.cpp.s
 
 grboard.o: grboard.cpp.o
@@ -394,7 +394,7 @@ grboard.o: grboard.cpp.o
 
 # target to build an object file
 grboard.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.o
 .PHONY : grboard.cpp.o
 
 grboard.i: grboard.cpp.i
@@ -402,7 +402,7 @@ grboard.i: grboard.cpp.i
 
 # target to preprocess a source file
 grboard.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.i
 .PHONY : grboard.cpp.i
 
 grboard.s: grboard.cpp.s
@@ -410,7 +410,7 @@ grboard.s: grboard.cpp.s
 
 # target to generate assembly for a file
 grboard.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.s
 .PHONY : grboard.cpp.s
 
 grcam.o: grcam.cpp.o
@@ -418,7 +418,7 @@ grcam.o: grcam.cpp.o
 
 # target to build an object file
 grcam.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.o
 .PHONY : grcam.cpp.o
 
 grcam.i: grcam.cpp.i
@@ -426,7 +426,7 @@ grcam.i: grcam.cpp.i
 
 # target to preprocess a source file
 grcam.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.i
 .PHONY : grcam.cpp.i
 
 grcam.s: grcam.cpp.s
@@ -434,7 +434,7 @@ grcam.s: grcam.cpp.s
 
 # target to generate assembly for a file
 grcam.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.s
 .PHONY : grcam.cpp.s
 
 grcar.o: grcar.cpp.o
@@ -442,7 +442,7 @@ grcar.o: grcar.cpp.o
 
 # target to build an object file
 grcar.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.o
 .PHONY : grcar.cpp.o
 
 grcar.i: grcar.cpp.i
@@ -450,7 +450,7 @@ grcar.i: grcar.cpp.i
 
 # target to preprocess a source file
 grcar.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.i
 .PHONY : grcar.cpp.i
 
 grcar.s: grcar.cpp.s
@@ -458,7 +458,7 @@ grcar.s: grcar.cpp.s
 
 # target to generate assembly for a file
 grcar.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.s
 .PHONY : grcar.cpp.s
 
 grcarlight.o: grcarlight.cpp.o
@@ -466,7 +466,7 @@ grcarlight.o: grcarlight.cpp.o
 
 # target to build an object file
 grcarlight.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.o
 .PHONY : grcarlight.cpp.o
 
 grcarlight.i: grcarlight.cpp.i
@@ -474,7 +474,7 @@ grcarlight.i: grcarlight.cpp.i
 
 # target to preprocess a source file
 grcarlight.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.i
 .PHONY : grcarlight.cpp.i
 
 grcarlight.s: grcarlight.cpp.s
@@ -482,7 +482,7 @@ grcarlight.s: grcarlight.cpp.s
 
 # target to generate assembly for a file
 grcarlight.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.s
 .PHONY : grcarlight.cpp.s
 
 grloadac.o: grloadac.cpp.o
@@ -490,7 +490,7 @@ grloadac.o: grloadac.cpp.o
 
 # target to build an object file
 grloadac.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.o
 .PHONY : grloadac.cpp.o
 
 grloadac.i: grloadac.cpp.i
@@ -498,7 +498,7 @@ grloadac.i: grloadac.cpp.i
 
 # target to preprocess a source file
 grloadac.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.i
 .PHONY : grloadac.cpp.i
 
 grloadac.s: grloadac.cpp.s
@@ -506,7 +506,7 @@ grloadac.s: grloadac.cpp.s
 
 # target to generate assembly for a file
 grloadac.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.s
 .PHONY : grloadac.cpp.s
 
 grmain.o: grmain.cpp.o
@@ -514,7 +514,7 @@ grmain.o: grmain.cpp.o
 
 # target to build an object file
 grmain.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.o
 .PHONY : grmain.cpp.o
 
 grmain.i: grmain.cpp.i
@@ -522,7 +522,7 @@ grmain.i: grmain.cpp.i
 
 # target to preprocess a source file
 grmain.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.i
 .PHONY : grmain.cpp.i
 
 grmain.s: grmain.cpp.s
@@ -530,7 +530,7 @@ grmain.s: grmain.cpp.s
 
 # target to generate assembly for a file
 grmain.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.s
 .PHONY : grmain.cpp.s
 
 grmultitexstate.o: grmultitexstate.cpp.o
@@ -538,7 +538,7 @@ grmultitexstate.o: grmultitexstate.cpp.o
 
 # target to build an object file
 grmultitexstate.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.o
 .PHONY : grmultitexstate.cpp.o
 
 grmultitexstate.i: grmultitexstate.cpp.i
@@ -546,7 +546,7 @@ grmultitexstate.i: grmultitexstate.cpp.i
 
 # target to preprocess a source file
 grmultitexstate.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.i
 .PHONY : grmultitexstate.cpp.i
 
 grmultitexstate.s: grmultitexstate.cpp.s
@@ -554,7 +554,7 @@ grmultitexstate.s: grmultitexstate.cpp.s
 
 # target to generate assembly for a file
 grmultitexstate.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.s
 .PHONY : grmultitexstate.cpp.s
 
 grrain.o: grrain.cpp.o
@@ -562,7 +562,7 @@ grrain.o: grrain.cpp.o
 
 # target to build an object file
 grrain.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.o
 .PHONY : grrain.cpp.o
 
 grrain.i: grrain.cpp.i
@@ -570,7 +570,7 @@ grrain.i: grrain.cpp.i
 
 # target to preprocess a source file
 grrain.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.i
 .PHONY : grrain.cpp.i
 
 grrain.s: grrain.cpp.s
@@ -578,7 +578,7 @@ grrain.s: grrain.cpp.s
 
 # target to generate assembly for a file
 grrain.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.s
 .PHONY : grrain.cpp.s
 
 grscene.o: grscene.cpp.o
@@ -586,7 +586,7 @@ grscene.o: grscene.cpp.o
 
 # target to build an object file
 grscene.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.o
 .PHONY : grscene.cpp.o
 
 grscene.i: grscene.cpp.i
@@ -594,7 +594,7 @@ grscene.i: grscene.cpp.i
 
 # target to preprocess a source file
 grscene.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.i
 .PHONY : grscene.cpp.i
 
 grscene.s: grscene.cpp.s
@@ -602,7 +602,7 @@ grscene.s: grscene.cpp.s
 
 # target to generate assembly for a file
 grscene.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.s
 .PHONY : grscene.cpp.s
 
 grscreen.o: grscreen.cpp.o
@@ -610,7 +610,7 @@ grscreen.o: grscreen.cpp.o
 
 # target to build an object file
 grscreen.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.o
 .PHONY : grscreen.cpp.o
 
 grscreen.i: grscreen.cpp.i
@@ -618,7 +618,7 @@ grscreen.i: grscreen.cpp.i
 
 # target to preprocess a source file
 grscreen.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.i
 .PHONY : grscreen.cpp.i
 
 grscreen.s: grscreen.cpp.s
@@ -626,7 +626,7 @@ grscreen.s: grscreen.cpp.s
 
 # target to generate assembly for a file
 grscreen.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.s
 .PHONY : grscreen.cpp.s
 
 grshadow.o: grshadow.cpp.o
@@ -634,7 +634,7 @@ grshadow.o: grshadow.cpp.o
 
 # target to build an object file
 grshadow.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.o
 .PHONY : grshadow.cpp.o
 
 grshadow.i: grshadow.cpp.i
@@ -642,7 +642,7 @@ grshadow.i: grshadow.cpp.i
 
 # target to preprocess a source file
 grshadow.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.i
 .PHONY : grshadow.cpp.i
 
 grshadow.s: grshadow.cpp.s
@@ -650,7 +650,7 @@ grshadow.s: grshadow.cpp.s
 
 # target to generate assembly for a file
 grshadow.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.s
 .PHONY : grshadow.cpp.s
 
 grsimplestate.o: grsimplestate.cpp.o
@@ -658,7 +658,7 @@ grsimplestate.o: grsimplestate.cpp.o
 
 # target to build an object file
 grsimplestate.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.o
 .PHONY : grsimplestate.cpp.o
 
 grsimplestate.i: grsimplestate.cpp.i
@@ -666,7 +666,7 @@ grsimplestate.i: grsimplestate.cpp.i
 
 # target to preprocess a source file
 grsimplestate.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.i
 .PHONY : grsimplestate.cpp.i
 
 grsimplestate.s: grsimplestate.cpp.s
@@ -674,7 +674,7 @@ grsimplestate.s: grsimplestate.cpp.s
 
 # target to generate assembly for a file
 grsimplestate.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.s
 .PHONY : grsimplestate.cpp.s
 
 grskidmarks.o: grskidmarks.cpp.o
@@ -682,7 +682,7 @@ grskidmarks.o: grskidmarks.cpp.o
 
 # target to build an object file
 grskidmarks.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.o
 .PHONY : grskidmarks.cpp.o
 
 grskidmarks.i: grskidmarks.cpp.i
@@ -690,7 +690,7 @@ grskidmarks.i: grskidmarks.cpp.i
 
 # target to preprocess a source file
 grskidmarks.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.i
 .PHONY : grskidmarks.cpp.i
 
 grskidmarks.s: grskidmarks.cpp.s
@@ -698,7 +698,7 @@ grskidmarks.s: grskidmarks.cpp.s
 
 # target to generate assembly for a file
 grskidmarks.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.s
 .PHONY : grskidmarks.cpp.s
 
 grsmoke.o: grsmoke.cpp.o
@@ -706,7 +706,7 @@ grsmoke.o: grsmoke.cpp.o
 
 # target to build an object file
 grsmoke.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.o
 .PHONY : grsmoke.cpp.o
 
 grsmoke.i: grsmoke.cpp.i
@@ -714,7 +714,7 @@ grsmoke.i: grsmoke.cpp.i
 
 # target to preprocess a source file
 grsmoke.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.i
 .PHONY : grsmoke.cpp.i
 
 grsmoke.s: grsmoke.cpp.s
@@ -722,7 +722,7 @@ grsmoke.s: grsmoke.cpp.s
 
 # target to generate assembly for a file
 grsmoke.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.s
 .PHONY : grsmoke.cpp.s
 
 grtexture.o: grtexture.cpp.o
@@ -730,7 +730,7 @@ grtexture.o: grtexture.cpp.o
 
 # target to build an object file
 grtexture.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.o
 .PHONY : grtexture.cpp.o
 
 grtexture.i: grtexture.cpp.i
@@ -738,7 +738,7 @@ grtexture.i: grtexture.cpp.i
 
 # target to preprocess a source file
 grtexture.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.i
 .PHONY : grtexture.cpp.i
 
 grtexture.s: grtexture.cpp.s
@@ -746,7 +746,7 @@ grtexture.s: grtexture.cpp.s
 
 # target to generate assembly for a file
 grtexture.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.s
 .PHONY : grtexture.cpp.s
 
 grtracklight.o: grtracklight.cpp.o
@@ -754,7 +754,7 @@ grtracklight.o: grtracklight.cpp.o
 
 # target to build an object file
 grtracklight.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.o
 .PHONY : grtracklight.cpp.o
 
 grtracklight.i: grtracklight.cpp.i
@@ -762,7 +762,7 @@ grtracklight.i: grtracklight.cpp.i
 
 # target to preprocess a source file
 grtracklight.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.i
 .PHONY : grtracklight.cpp.i
 
 grtracklight.s: grtracklight.cpp.s
@@ -770,7 +770,7 @@ grtracklight.s: grtracklight.cpp.s
 
 # target to generate assembly for a file
 grtracklight.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.s
 .PHONY : grtracklight.cpp.s
 
 grtrackmap.o: grtrackmap.cpp.o
@@ -778,7 +778,7 @@ grtrackmap.o: grtrackmap.cpp.o
 
 # target to build an object file
 grtrackmap.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.o
 .PHONY : grtrackmap.cpp.o
 
 grtrackmap.i: grtrackmap.cpp.i
@@ -786,7 +786,7 @@ grtrackmap.i: grtrackmap.cpp.i
 
 # target to preprocess a source file
 grtrackmap.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.i
 .PHONY : grtrackmap.cpp.i
 
 grtrackmap.s: grtrackmap.cpp.s
@@ -794,7 +794,7 @@ grtrackmap.s: grtrackmap.cpp.s
 
 # target to generate assembly for a file
 grtrackmap.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.s
 .PHONY : grtrackmap.cpp.s
 
 grutil.o: grutil.cpp.o
@@ -802,7 +802,7 @@ grutil.o: grutil.cpp.o
 
 # target to build an object file
 grutil.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.o
 .PHONY : grutil.cpp.o
 
 grutil.i: grutil.cpp.i
@@ -810,7 +810,7 @@ grutil.i: grutil.cpp.i
 
 # target to preprocess a source file
 grutil.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.i
 .PHONY : grutil.cpp.i
 
 grutil.s: grutil.cpp.s
@@ -818,7 +818,7 @@ grutil.s: grutil.cpp.s
 
 # target to generate assembly for a file
 grutil.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.s
 .PHONY : grutil.cpp.s
 
 grvtxtable.o: grvtxtable.cpp.o
@@ -826,7 +826,7 @@ grvtxtable.o: grvtxtable.cpp.o
 
 # target to build an object file
 grvtxtable.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.o
 .PHONY : grvtxtable.cpp.o
 
 grvtxtable.i: grvtxtable.cpp.i
@@ -834,7 +834,7 @@ grvtxtable.i: grvtxtable.cpp.i
 
 # target to preprocess a source file
 grvtxtable.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.i
 .PHONY : grvtxtable.cpp.i
 
 grvtxtable.s: grvtxtable.cpp.s
@@ -842,7 +842,7 @@ grvtxtable.s: grvtxtable.cpp.s
 
 # target to generate assembly for a file
 grvtxtable.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.s
 .PHONY : grvtxtable.cpp.s
 
 ssggraph.o: ssggraph.cpp.o
@@ -850,7 +850,7 @@ ssggraph.o: ssggraph.cpp.o
 
 # target to build an object file
 ssggraph.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.o
 .PHONY : ssggraph.cpp.o
 
 ssggraph.i: ssggraph.cpp.i
@@ -858,7 +858,7 @@ ssggraph.i: ssggraph.cpp.i
 
 # target to preprocess a source file
 ssggraph.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.i
 .PHONY : ssggraph.cpp.i
 
 ssggraph.s: ssggraph.cpp.s
@@ -866,7 +866,7 @@ ssggraph.s: ssggraph.cpp.s
 
 # target to generate assembly for a file
 ssggraph.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.s
 .PHONY : ssggraph.cpp.s
 
 # Help Target
@@ -982,6 +982,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

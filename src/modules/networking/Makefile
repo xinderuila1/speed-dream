@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/networking/CMakeFiles/networking.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/CMakeFiles/networking.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/networking/CMakeFiles/networking.dir/rule
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ networking: src/modules/networking/CMakeFiles/networking.dir/rule
 
 # fast build rule for target.
 networking/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/build
 .PHONY : networking/fast
 
 client.o: client.cpp.o
@@ -178,7 +178,7 @@ client.o: client.cpp.o
 
 # target to build an object file
 client.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/client.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/client.cpp.o
 .PHONY : client.cpp.o
 
 client.i: client.cpp.i
@@ -186,7 +186,7 @@ client.i: client.cpp.i
 
 # target to preprocess a source file
 client.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/client.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/client.cpp.i
 .PHONY : client.cpp.i
 
 client.s: client.cpp.s
@@ -194,7 +194,7 @@ client.s: client.cpp.s
 
 # target to generate assembly for a file
 client.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/client.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/client.cpp.s
 .PHONY : client.cpp.s
 
 network.o: network.cpp.o
@@ -202,7 +202,7 @@ network.o: network.cpp.o
 
 # target to build an object file
 network.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/network.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/network.cpp.o
 .PHONY : network.cpp.o
 
 network.i: network.cpp.i
@@ -210,7 +210,7 @@ network.i: network.cpp.i
 
 # target to preprocess a source file
 network.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/network.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/network.cpp.i
 .PHONY : network.cpp.i
 
 network.s: network.cpp.s
@@ -218,7 +218,7 @@ network.s: network.cpp.s
 
 # target to generate assembly for a file
 network.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/network.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/network.cpp.s
 .PHONY : network.cpp.s
 
 pack.o: pack.cpp.o
@@ -226,7 +226,7 @@ pack.o: pack.cpp.o
 
 # target to build an object file
 pack.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o
 .PHONY : pack.cpp.o
 
 pack.i: pack.cpp.i
@@ -234,7 +234,7 @@ pack.i: pack.cpp.i
 
 # target to preprocess a source file
 pack.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/pack.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/pack.cpp.i
 .PHONY : pack.cpp.i
 
 pack.s: pack.cpp.s
@@ -242,7 +242,7 @@ pack.s: pack.cpp.s
 
 # target to generate assembly for a file
 pack.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/pack.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/pack.cpp.s
 .PHONY : pack.cpp.s
 
 robotxml.o: robotxml.cpp.o
@@ -250,7 +250,7 @@ robotxml.o: robotxml.cpp.o
 
 # target to build an object file
 robotxml.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o
 .PHONY : robotxml.cpp.o
 
 robotxml.i: robotxml.cpp.i
@@ -258,7 +258,7 @@ robotxml.i: robotxml.cpp.i
 
 # target to preprocess a source file
 robotxml.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.i
 .PHONY : robotxml.cpp.i
 
 robotxml.s: robotxml.cpp.s
@@ -266,7 +266,7 @@ robotxml.s: robotxml.cpp.s
 
 # target to generate assembly for a file
 robotxml.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.s
 .PHONY : robotxml.cpp.s
 
 server.o: server.cpp.o
@@ -274,7 +274,7 @@ server.o: server.cpp.o
 
 # target to build an object file
 server.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/server.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/server.cpp.o
 .PHONY : server.cpp.o
 
 server.i: server.cpp.i
@@ -282,7 +282,7 @@ server.i: server.cpp.i
 
 # target to preprocess a source file
 server.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/server.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/server.cpp.i
 .PHONY : server.cpp.i
 
 server.s: server.cpp.s
@@ -290,7 +290,7 @@ server.s: server.cpp.s
 
 # target to generate assembly for a file
 server.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/server.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/networking/CMakeFiles/networking.dir/build.make src/modules/networking/CMakeFiles/networking.dir/server.cpp.s
 .PHONY : server.cpp.s
 
 # Help Target
@@ -334,6 +334,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

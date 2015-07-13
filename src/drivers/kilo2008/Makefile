@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/drivers/kilo2008/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ kilo2008: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule
 
 # fast build rule for target.
 kilo2008/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build
 .PHONY : kilo2008/fast
 
 cardata.o: cardata.cpp.o
@@ -178,7 +178,7 @@ cardata.o: cardata.cpp.o
 
 # target to build an object file
 cardata.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.o
 .PHONY : cardata.cpp.o
 
 cardata.i: cardata.cpp.i
@@ -186,7 +186,7 @@ cardata.i: cardata.cpp.i
 
 # target to preprocess a source file
 cardata.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.i
 .PHONY : cardata.cpp.i
 
 cardata.s: cardata.cpp.s
@@ -194,7 +194,7 @@ cardata.s: cardata.cpp.s
 
 # target to generate assembly for a file
 cardata.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.s
 .PHONY : cardata.cpp.s
 
 kdriver.o: kdriver.cpp.o
@@ -202,7 +202,7 @@ kdriver.o: kdriver.cpp.o
 
 # target to build an object file
 kdriver.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.o
 .PHONY : kdriver.cpp.o
 
 kdriver.i: kdriver.cpp.i
@@ -210,7 +210,7 @@ kdriver.i: kdriver.cpp.i
 
 # target to preprocess a source file
 kdriver.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.i
 .PHONY : kdriver.cpp.i
 
 kdriver.s: kdriver.cpp.s
@@ -218,7 +218,7 @@ kdriver.s: kdriver.cpp.s
 
 # target to generate assembly for a file
 kdriver.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.s
 .PHONY : kdriver.cpp.s
 
 kilo2008.o: kilo2008.cpp.o
@@ -226,7 +226,7 @@ kilo2008.o: kilo2008.cpp.o
 
 # target to build an object file
 kilo2008.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.o
 .PHONY : kilo2008.cpp.o
 
 kilo2008.i: kilo2008.cpp.i
@@ -234,7 +234,7 @@ kilo2008.i: kilo2008.cpp.i
 
 # target to preprocess a source file
 kilo2008.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.i
 .PHONY : kilo2008.cpp.i
 
 kilo2008.s: kilo2008.cpp.s
@@ -242,7 +242,7 @@ kilo2008.s: kilo2008.cpp.s
 
 # target to generate assembly for a file
 kilo2008.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.s
 .PHONY : kilo2008.cpp.s
 
 opponent.o: opponent.cpp.o
@@ -250,7 +250,7 @@ opponent.o: opponent.cpp.o
 
 # target to build an object file
 opponent.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.o
 .PHONY : opponent.cpp.o
 
 opponent.i: opponent.cpp.i
@@ -258,7 +258,7 @@ opponent.i: opponent.cpp.i
 
 # target to preprocess a source file
 opponent.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.i
 .PHONY : opponent.cpp.i
 
 opponent.s: opponent.cpp.s
@@ -266,7 +266,7 @@ opponent.s: opponent.cpp.s
 
 # target to generate assembly for a file
 opponent.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.s
 .PHONY : opponent.cpp.s
 
 pit.o: pit.cpp.o
@@ -274,7 +274,7 @@ pit.o: pit.cpp.o
 
 # target to build an object file
 pit.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.o
 .PHONY : pit.cpp.o
 
 pit.i: pit.cpp.i
@@ -282,7 +282,7 @@ pit.i: pit.cpp.i
 
 # target to preprocess a source file
 pit.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.i
 .PHONY : pit.cpp.i
 
 pit.s: pit.cpp.s
@@ -290,7 +290,7 @@ pit.s: pit.cpp.s
 
 # target to generate assembly for a file
 pit.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.s
 .PHONY : pit.cpp.s
 
 raceline.o: raceline.cpp.o
@@ -298,7 +298,7 @@ raceline.o: raceline.cpp.o
 
 # target to build an object file
 raceline.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.o
 .PHONY : raceline.cpp.o
 
 raceline.i: raceline.cpp.i
@@ -306,7 +306,7 @@ raceline.i: raceline.cpp.i
 
 # target to preprocess a source file
 raceline.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.i
 .PHONY : raceline.cpp.i
 
 raceline.s: raceline.cpp.s
@@ -314,7 +314,7 @@ raceline.s: raceline.cpp.s
 
 # target to generate assembly for a file
 raceline.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.s
 .PHONY : raceline.cpp.s
 
 spline.o: spline.cpp.o
@@ -322,7 +322,7 @@ spline.o: spline.cpp.o
 
 # target to build an object file
 spline.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.o
 .PHONY : spline.cpp.o
 
 spline.i: spline.cpp.i
@@ -330,7 +330,7 @@ spline.i: spline.cpp.i
 
 # target to preprocess a source file
 spline.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.i
 .PHONY : spline.cpp.i
 
 spline.s: spline.cpp.s
@@ -338,7 +338,7 @@ spline.s: spline.cpp.s
 
 # target to generate assembly for a file
 spline.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.s
 .PHONY : spline.cpp.s
 
 strategy.o: strategy.cpp.o
@@ -346,7 +346,7 @@ strategy.o: strategy.cpp.o
 
 # target to build an object file
 strategy.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.o
 .PHONY : strategy.cpp.o
 
 strategy.i: strategy.cpp.i
@@ -354,7 +354,7 @@ strategy.i: strategy.cpp.i
 
 # target to preprocess a source file
 strategy.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.i
 .PHONY : strategy.cpp.i
 
 strategy.s: strategy.cpp.s
@@ -362,7 +362,7 @@ strategy.s: strategy.cpp.s
 
 # target to generate assembly for a file
 strategy.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.s
 .PHONY : strategy.cpp.s
 
 util.o: util.cpp.o
@@ -370,7 +370,7 @@ util.o: util.cpp.o
 
 # target to build an object file
 util.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.o
 .PHONY : util.cpp.o
 
 util.i: util.cpp.i
@@ -378,7 +378,7 @@ util.i: util.cpp.i
 
 # target to preprocess a source file
 util.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.i
 .PHONY : util.cpp.i
 
 util.s: util.cpp.s
@@ -386,7 +386,7 @@ util.s: util.cpp.s
 
 # target to generate assembly for a file
 util.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.s
 .PHONY : util.cpp.s
 
 # Help Target
@@ -442,6 +442,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/tools/menuview/CMakeFiles/sd2-menuview.dir/depend.make
@@ -51,17 +51,17 @@ include src/tools/menuview/CMakeFiles/sd2-menuview.dir/flags.make
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o: src/tools/menuview/CMakeFiles/sd2-menuview.dir/flags.make
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o: src/tools/menuview/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-menuview.dir/main.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/main.cpp
+	cd /home/gaoyu/speed-dream/src/tools/menuview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-menuview.dir/main.cpp.o -c /home/gaoyu/speed-dream/src/tools/menuview/main.cpp
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-menuview.dir/main.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/main.cpp > CMakeFiles/sd2-menuview.dir/main.cpp.i
+	cd /home/gaoyu/speed-dream/src/tools/menuview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/tools/menuview/main.cpp > CMakeFiles/sd2-menuview.dir/main.cpp.i
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-menuview.dir/main.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/main.cpp -o CMakeFiles/sd2-menuview.dir/main.cpp.s
+	cd /home/gaoyu/speed-dream/src/tools/menuview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/tools/menuview/main.cpp -o CMakeFiles/sd2-menuview.dir/main.cpp.s
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o.requires:
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o.requires
@@ -74,17 +74,17 @@ src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o.provides.build: src/to
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o: src/tools/menuview/CMakeFiles/sd2-menuview.dir/flags.make
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o: src/tools/menuview/previewmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/previewmenu.cpp
+	cd /home/gaoyu/speed-dream/src/tools/menuview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o -c /home/gaoyu/speed-dream/src/tools/menuview/previewmenu.cpp
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/previewmenu.cpp > CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/tools/menuview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/tools/menuview/previewmenu.cpp > CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/previewmenu.cpp -o CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/tools/menuview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/tools/menuview/previewmenu.cpp -o CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o.requires:
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o.requires
@@ -153,7 +153,7 @@ games/sd2-menuview: /usr/lib/libplibul.so
 games/sd2-menuview: /usr/lib/x86_64-linux-gnu/libdl.so
 games/sd2-menuview: src/tools/menuview/CMakeFiles/sd2-menuview.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../games/sd2-menuview"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sd2-menuview.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/tools/menuview && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sd2-menuview.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/build: games/sd2-menuview
@@ -164,10 +164,10 @@ src/tools/menuview/CMakeFiles/sd2-menuview.dir/requires: src/tools/menuview/CMak
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/requires
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview && $(CMAKE_COMMAND) -P CMakeFiles/sd2-menuview.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/tools/menuview && $(CMAKE_COMMAND) -P CMakeFiles/sd2-menuview.dir/cmake_clean.cmake
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/clean
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/CMakeFiles/sd2-menuview.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/tools/menuview /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/tools/menuview /home/gaoyu/speed-dream/src/tools/menuview/CMakeFiles/sd2-menuview.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/depend
 

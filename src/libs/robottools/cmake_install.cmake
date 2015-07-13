@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools
+# Install script for directory: /home/gaoyu/speed-dream/src/libs/robottools
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/lib/librobottools.so"
          RPATH "/usr/local/lib64/games/speed-dreams-2/lib")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/lib" TYPE SHARED_LIBRARY FILES "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/lib/librobottools.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/lib" TYPE SHARED_LIBRARY FILES "/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/lib/librobottools.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/lib/librobottools.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/lib/librobottools.so")
     FILE(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/lib/librobottools.so"
-         OLD_RPATH "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/lib:"
+         OLD_RPATH "/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/lib:"
          NEW_RPATH "/usr/local/lib64/games/speed-dreams-2/lib")
     IF(CMAKE_INSTALL_DO_STRIP)
       EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/lib/librobottools.so")
@@ -54,8 +54,8 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/speed-dreams-2" TYPE FILE FILES
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/robottools.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/teammanager.h"
+    "/home/gaoyu/speed-dream/src/libs/robottools/robottools.h"
+    "/home/gaoyu/speed-dream/src/libs/robottools/teammanager.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

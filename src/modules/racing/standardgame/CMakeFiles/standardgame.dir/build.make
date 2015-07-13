@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/modules/racing/standardgame/CMakeFiles/standardgame.dir/depend.make
@@ -51,17 +51,17 @@ include src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.o: src/modules/racing/standardgame/standardgame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/standardgame.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/standardgame.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/standardgame.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/standardgame.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/standardgame.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/standardgame.cpp > CMakeFiles/standardgame.dir/standardgame.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/standardgame.cpp > CMakeFiles/standardgame.dir/standardgame.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/standardgame.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/standardgame.cpp -o CMakeFiles/standardgame.dir/standardgame.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/standardgame.cpp -o CMakeFiles/standardgame.dir/standardgame.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.o.requires
@@ -74,17 +74,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.o.p
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.o: src/modules/racing/standardgame/racecareer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racecareer.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racecareer.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racecareer.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/racecareer.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racecareer.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racecareer.cpp > CMakeFiles/standardgame.dir/racecareer.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/racecareer.cpp > CMakeFiles/standardgame.dir/racecareer.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racecareer.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racecareer.cpp -o CMakeFiles/standardgame.dir/racecareer.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/racecareer.cpp -o CMakeFiles/standardgame.dir/racecareer.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.o.requires
@@ -97,17 +97,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.o.pro
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.o: src/modules/racing/standardgame/raceupdate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceupdate.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceupdate.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceupdate.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceupdate.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/raceupdate.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceupdate.cpp > CMakeFiles/standardgame.dir/raceupdate.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceupdate.cpp > CMakeFiles/standardgame.dir/raceupdate.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/raceupdate.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceupdate.cpp -o CMakeFiles/standardgame.dir/raceupdate.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceupdate.cpp -o CMakeFiles/standardgame.dir/raceupdate.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.o.requires
@@ -120,17 +120,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.o.pro
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.o: src/modules/racing/standardgame/racenetwork.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racenetwork.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racenetwork.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racenetwork.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/racenetwork.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racenetwork.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racenetwork.cpp > CMakeFiles/standardgame.dir/racenetwork.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/racenetwork.cpp > CMakeFiles/standardgame.dir/racenetwork.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racenetwork.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racenetwork.cpp -o CMakeFiles/standardgame.dir/racenetwork.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/racenetwork.cpp -o CMakeFiles/standardgame.dir/racenetwork.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.o.requires
@@ -143,17 +143,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.o.pr
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.o: src/modules/racing/standardgame/racecars.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racecars.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racecars.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racecars.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/racecars.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racecars.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racecars.cpp > CMakeFiles/standardgame.dir/racecars.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/racecars.cpp > CMakeFiles/standardgame.dir/racecars.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racecars.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racecars.cpp -o CMakeFiles/standardgame.dir/racecars.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/racecars.cpp -o CMakeFiles/standardgame.dir/racecars.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.o.requires
@@ -166,17 +166,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.o.provi
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.o: src/modules/racing/standardgame/raceinit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceinit.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceinit.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceinit.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceinit.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/raceinit.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceinit.cpp > CMakeFiles/standardgame.dir/raceinit.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceinit.cpp > CMakeFiles/standardgame.dir/raceinit.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/raceinit.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceinit.cpp -o CMakeFiles/standardgame.dir/raceinit.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceinit.cpp -o CMakeFiles/standardgame.dir/raceinit.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.o.requires
@@ -189,17 +189,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.o.provi
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.o: src/modules/racing/standardgame/racemain.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racemain.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racemain.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racemain.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/racemain.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racemain.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racemain.cpp > CMakeFiles/standardgame.dir/racemain.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/racemain.cpp > CMakeFiles/standardgame.dir/racemain.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racemain.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racemain.cpp -o CMakeFiles/standardgame.dir/racemain.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/racemain.cpp -o CMakeFiles/standardgame.dir/racemain.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.o.requires
@@ -212,17 +212,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.o.provi
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.o: src/modules/racing/standardgame/racetrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racetrack.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racetrack.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racetrack.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/racetrack.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racetrack.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racetrack.cpp > CMakeFiles/standardgame.dir/racetrack.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/racetrack.cpp > CMakeFiles/standardgame.dir/racetrack.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racetrack.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racetrack.cpp -o CMakeFiles/standardgame.dir/racetrack.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/racetrack.cpp -o CMakeFiles/standardgame.dir/racetrack.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.o.requires
@@ -235,17 +235,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.o.prov
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.o: src/modules/racing/standardgame/raceresults.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceresults.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceresults.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceresults.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceresults.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/raceresults.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceresults.cpp > CMakeFiles/standardgame.dir/raceresults.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceresults.cpp > CMakeFiles/standardgame.dir/raceresults.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/raceresults.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceresults.cpp -o CMakeFiles/standardgame.dir/raceresults.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceresults.cpp -o CMakeFiles/standardgame.dir/raceresults.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.o.requires
@@ -258,17 +258,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.o.pr
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.o: src/modules/racing/standardgame/racesimusimu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racesimusimu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racesimusimu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racesimusimu.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/racesimusimu.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racesimusimu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racesimusimu.cpp > CMakeFiles/standardgame.dir/racesimusimu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/racesimusimu.cpp > CMakeFiles/standardgame.dir/racesimusimu.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racesimusimu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racesimusimu.cpp -o CMakeFiles/standardgame.dir/racesimusimu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/racesimusimu.cpp -o CMakeFiles/standardgame.dir/racesimusimu.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.o.requires
@@ -281,17 +281,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.o.p
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.o: src/modules/racing/standardgame/racestate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racestate.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racestate.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racestate.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/racestate.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racestate.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racestate.cpp > CMakeFiles/standardgame.dir/racestate.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/racestate.cpp > CMakeFiles/standardgame.dir/racestate.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racestate.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racestate.cpp -o CMakeFiles/standardgame.dir/racestate.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/racestate.cpp -o CMakeFiles/standardgame.dir/racestate.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.o.requires
@@ -304,17 +304,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.o.prov
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.o: src/modules/racing/standardgame/racesituation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racesituation.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racesituation.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racesituation.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/racesituation.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racesituation.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racesituation.cpp > CMakeFiles/standardgame.dir/racesituation.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/racesituation.cpp > CMakeFiles/standardgame.dir/racesituation.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racesituation.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racesituation.cpp -o CMakeFiles/standardgame.dir/racesituation.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/racesituation.cpp -o CMakeFiles/standardgame.dir/racesituation.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.o.requires
@@ -327,17 +327,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.o.
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.o: src/modules/racing/standardgame/racemessage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racemessage.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racemessage.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racemessage.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/racemessage.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racemessage.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racemessage.cpp > CMakeFiles/standardgame.dir/racemessage.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/racemessage.cpp > CMakeFiles/standardgame.dir/racemessage.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racemessage.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/racemessage.cpp -o CMakeFiles/standardgame.dir/racemessage.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/racemessage.cpp -o CMakeFiles/standardgame.dir/racemessage.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.o.requires
@@ -350,17 +350,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.o.pr
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.o: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.o: src/modules/racing/standardgame/raceutil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceutil.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceutil.cpp
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceutil.cpp.o -c /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceutil.cpp
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/raceutil.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceutil.cpp > CMakeFiles/standardgame.dir/raceutil.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceutil.cpp > CMakeFiles/standardgame.dir/raceutil.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/raceutil.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/raceutil.cpp -o CMakeFiles/standardgame.dir/raceutil.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/racing/standardgame/raceutil.cpp -o CMakeFiles/standardgame.dir/raceutil.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.o.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.o.requires
@@ -449,7 +449,7 @@ lib64/games/speed-dreams-2/modules/racing/standardgame.so: /usr/lib/x86_64-linux
 lib64/games/speed-dreams-2/modules/racing/standardgame.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/modules/racing/standardgame.so: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/racing/standardgame.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/standardgame.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/standardgame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build: lib64/games/speed-dreams-2/modules/racing/standardgame.so
@@ -472,10 +472,10 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/requires: src/module
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/requires
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame && $(CMAKE_COMMAND) -P CMakeFiles/standardgame.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/modules/racing/standardgame && $(CMAKE_COMMAND) -P CMakeFiles/standardgame.dir/cmake_clean.cmake
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/clean
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/modules/racing/standardgame /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/modules/racing/standardgame /home/gaoyu/speed-dream/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/depend
 

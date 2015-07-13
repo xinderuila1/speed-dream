@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/SOLID
+# Install script for directory: /home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/SOLID
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +33,6 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/speed-dreams-2/SOLID" TYPE FILE FILES "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/SOLID/solid.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/speed-dreams-2/SOLID" TYPE FILE FILES "/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/SOLID/solid.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

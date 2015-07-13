@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/depend.make
@@ -51,17 +51,17 @@ include src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.mak
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o: src/modules/userinterface/legacymenu/mainscreens/splash.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/splash.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/splash.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/splash.cpp > CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/splash.cpp > CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/splash.cpp -o CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/splash.cpp -o CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o.requires
@@ -74,17 +74,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splas
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o: src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp > CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp > CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp -o CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp -o CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o.requires
@@ -97,17 +97,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainm
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o: src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp > CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp > CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp -o CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp -o CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o.requires
@@ -120,17 +120,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optio
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o: src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp > CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp > CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp -o CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp -o CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o.requires
@@ -143,17 +143,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/credi
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o: src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp > CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp > CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp -o CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp -o CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o.requires
@@ -166,17 +166,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitm
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o.requires
@@ -189,17 +189,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playe
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o.requires
@@ -212,17 +212,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/contr
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o.requires
@@ -235,17 +235,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joyst
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o.requires
@@ -258,17 +258,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouse
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o.requires
@@ -281,17 +281,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2b
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o.requires
@@ -304,17 +304,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displ
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o.requires
@@ -327,17 +327,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graph
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o.requires
@@ -350,17 +350,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openg
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o.requires
@@ -373,17 +373,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monit
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o.requires
@@ -396,17 +396,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advan
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o.requires
@@ -419,17 +419,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuc
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o.requires
@@ -442,17 +442,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/sound
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o: src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp > CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp -o CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o.requires
@@ -465,17 +465,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aicon
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o: src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp > CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp > CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp -o CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp -o CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o.requires
@@ -488,17 +488,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carse
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o: src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp > CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp > CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp -o CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp -o CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o.requires
@@ -511,17 +511,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hosts
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o.requires
@@ -534,17 +534,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/races
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o.requires
@@ -557,17 +557,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racem
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o: src/modules/userinterface/legacymenu/racescreens/fileselect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp > CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp > CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp -o CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp -o CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o.requires
@@ -580,17 +580,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/files
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o.requires
@@ -603,17 +603,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/netwo
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o: src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp > CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp > CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o.requires
@@ -626,17 +626,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racec
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o: src/modules/userinterface/legacymenu/racescreens/trackselect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp > CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp > CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp -o CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp -o CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o.requires
@@ -649,17 +649,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/track
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o: src/modules/userinterface/legacymenu/racescreens/driverselect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp > CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp > CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp -o CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp -o CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o.requires
@@ -672,17 +672,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/drive
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp > CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp > CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o.requires
@@ -695,17 +695,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garag
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o.requires
@@ -718,17 +718,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racep
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o.requires
@@ -741,17 +741,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racel
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o: src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp > CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp > CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp -o CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp -o CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o.requires
@@ -764,17 +764,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racer
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/raceoptimizationmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceoptimizationmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceoptimizationmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceoptimizationmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceoptimizationmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceoptimizationmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceoptimizationmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.o.requires
@@ -787,17 +787,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceo
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o.requires
@@ -810,17 +810,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/races
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o.requires
@@ -833,17 +833,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/races
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o.requires
@@ -856,17 +856,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racep
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o: src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp > CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp > CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp -o CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o.requires
@@ -879,17 +879,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racer
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o: src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp > CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp -o CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o.requires
@@ -902,17 +902,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racen
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.o: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.o: src/modules/userinterface/legacymenu/legacymenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/legacymenu.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/legacymenu.cpp
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/legacymenu.cpp.o -c /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/legacymenu.cpp
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/legacymenu.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/legacymenu.cpp > CMakeFiles/legacymenu.dir/legacymenu.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/legacymenu.cpp > CMakeFiles/legacymenu.dir/legacymenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/legacymenu.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/legacymenu.cpp -o CMakeFiles/legacymenu.dir/legacymenu.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/legacymenu.cpp -o CMakeFiles/legacymenu.dir/legacymenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.o.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.o.requires
@@ -1047,7 +1047,7 @@ lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: /usr/lib/libplib
 lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: /usr/lib/libplibsg.so
 lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/legacymenu.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/legacymenu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build: lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so
@@ -1094,10 +1094,10 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/requires: src/mod
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/requires
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu && $(CMAKE_COMMAND) -P CMakeFiles/legacymenu.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu && $(CMAKE_COMMAND) -P CMakeFiles/legacymenu.dir/cmake_clean.cmake
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/clean
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/depend
 

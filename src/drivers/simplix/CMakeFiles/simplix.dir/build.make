@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/drivers/simplix/CMakeFiles/simplix.dir/depend.make
@@ -51,17 +51,17 @@ include src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.o: src/drivers/simplix/src/unitcarparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcarparam.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcarparam.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcarparam.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcarparam.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcarparam.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcarparam.cpp > CMakeFiles/simplix.dir/src/unitcarparam.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcarparam.cpp > CMakeFiles/simplix.dir/src/unitcarparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcarparam.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcarparam.cpp -o CMakeFiles/simplix.dir/src/unitcarparam.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcarparam.cpp -o CMakeFiles/simplix.dir/src/unitcarparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.o.requires
@@ -74,17 +74,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.o.provides.build
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.o: src/drivers/simplix/src/unitcharacteristic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcharacteristic.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcharacteristic.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcharacteristic.cpp > CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcharacteristic.cpp > CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcharacteristic.cpp -o CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcharacteristic.cpp -o CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.o.requires
@@ -97,17 +97,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.o.provides
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.o: src/drivers/simplix/src/unitclothoid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitclothoid.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitclothoid.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitclothoid.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitclothoid.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitclothoid.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitclothoid.cpp > CMakeFiles/simplix.dir/src/unitclothoid.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitclothoid.cpp > CMakeFiles/simplix.dir/src/unitclothoid.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitclothoid.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitclothoid.cpp -o CMakeFiles/simplix.dir/src/unitclothoid.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitclothoid.cpp -o CMakeFiles/simplix.dir/src/unitclothoid.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.o.requires
@@ -120,17 +120,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.o.provides.build
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.o: src/drivers/simplix/src/unitcollision.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcollision.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcollision.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcollision.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcollision.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcollision.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcollision.cpp > CMakeFiles/simplix.dir/src/unitcollision.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcollision.cpp > CMakeFiles/simplix.dir/src/unitcollision.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcollision.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcollision.cpp -o CMakeFiles/simplix.dir/src/unitcollision.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcollision.cpp -o CMakeFiles/simplix.dir/src/unitcollision.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.o.requires
@@ -143,17 +143,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.o.provides.buil
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.o: src/drivers/simplix/src/unitcommon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcommon.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcommon.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcommon.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcommon.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcommon.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcommon.cpp > CMakeFiles/simplix.dir/src/unitcommon.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcommon.cpp > CMakeFiles/simplix.dir/src/unitcommon.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcommon.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcommon.cpp -o CMakeFiles/simplix.dir/src/unitcommon.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcommon.cpp -o CMakeFiles/simplix.dir/src/unitcommon.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.o.requires
@@ -166,17 +166,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.o.provides.build: 
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.o: src/drivers/simplix/src/unitcommondata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcommondata.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcommondata.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcommondata.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcommondata.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcommondata.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcommondata.cpp > CMakeFiles/simplix.dir/src/unitcommondata.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcommondata.cpp > CMakeFiles/simplix.dir/src/unitcommondata.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcommondata.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcommondata.cpp -o CMakeFiles/simplix.dir/src/unitcommondata.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcommondata.cpp -o CMakeFiles/simplix.dir/src/unitcommondata.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.o.requires
@@ -189,17 +189,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.o.provides.bui
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.o: src/drivers/simplix/src/unitcubic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcubic.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcubic.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcubic.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcubic.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcubic.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcubic.cpp > CMakeFiles/simplix.dir/src/unitcubic.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcubic.cpp > CMakeFiles/simplix.dir/src/unitcubic.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcubic.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcubic.cpp -o CMakeFiles/simplix.dir/src/unitcubic.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcubic.cpp -o CMakeFiles/simplix.dir/src/unitcubic.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.o.requires
@@ -212,17 +212,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.o.provides.build: s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.o: src/drivers/simplix/src/unitcubicspline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcubicspline.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcubicspline.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcubicspline.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcubicspline.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcubicspline.cpp > CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcubicspline.cpp > CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitcubicspline.cpp -o CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitcubicspline.cpp -o CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.o.requires
@@ -235,17 +235,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.o.provides.bu
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.o: src/drivers/simplix/src/unitdriver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitdriver.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitdriver.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitdriver.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitdriver.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitdriver.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitdriver.cpp > CMakeFiles/simplix.dir/src/unitdriver.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitdriver.cpp > CMakeFiles/simplix.dir/src/unitdriver.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitdriver.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitdriver.cpp -o CMakeFiles/simplix.dir/src/unitdriver.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitdriver.cpp -o CMakeFiles/simplix.dir/src/unitdriver.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.o.requires
@@ -258,17 +258,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.o.provides.build: 
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.o: src/drivers/simplix/src/unitfixcarparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitfixcarparam.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitfixcarparam.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitfixcarparam.cpp > CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitfixcarparam.cpp > CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitfixcarparam.cpp -o CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitfixcarparam.cpp -o CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.o.requires
@@ -281,17 +281,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.o.provides.bu
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.o: src/drivers/simplix/src/unitlane.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlane.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlane.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlane.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlane.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitlane.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlane.cpp > CMakeFiles/simplix.dir/src/unitlane.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlane.cpp > CMakeFiles/simplix.dir/src/unitlane.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitlane.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlane.cpp -o CMakeFiles/simplix.dir/src/unitlane.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlane.cpp -o CMakeFiles/simplix.dir/src/unitlane.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.o.requires
@@ -304,17 +304,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.o.provides.build: sr
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.o: src/drivers/simplix/src/unitlanepoint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlanepoint.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlanepoint.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlanepoint.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlanepoint.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlanepoint.cpp > CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlanepoint.cpp > CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlanepoint.cpp -o CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlanepoint.cpp -o CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.o.requires
@@ -327,17 +327,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.o.provides.buil
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.o: src/drivers/simplix/src/unitlinalg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlinalg.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlinalg.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlinalg.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlinalg.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitlinalg.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlinalg.cpp > CMakeFiles/simplix.dir/src/unitlinalg.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlinalg.cpp > CMakeFiles/simplix.dir/src/unitlinalg.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitlinalg.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlinalg.cpp -o CMakeFiles/simplix.dir/src/unitlinalg.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlinalg.cpp -o CMakeFiles/simplix.dir/src/unitlinalg.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.o.requires
@@ -350,17 +350,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.o.provides.build: 
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.o: src/drivers/simplix/src/unitlinreg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlinreg.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlinreg.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlinreg.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlinreg.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitlinreg.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlinreg.cpp > CMakeFiles/simplix.dir/src/unitlinreg.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlinreg.cpp > CMakeFiles/simplix.dir/src/unitlinreg.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitlinreg.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitlinreg.cpp -o CMakeFiles/simplix.dir/src/unitlinreg.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitlinreg.cpp -o CMakeFiles/simplix.dir/src/unitlinreg.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.o.requires
@@ -373,17 +373,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.o.provides.build: 
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.o: src/drivers/simplix/src/unitmain.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitmain.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitmain.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitmain.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitmain.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitmain.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitmain.cpp > CMakeFiles/simplix.dir/src/unitmain.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitmain.cpp > CMakeFiles/simplix.dir/src/unitmain.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitmain.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitmain.cpp -o CMakeFiles/simplix.dir/src/unitmain.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitmain.cpp -o CMakeFiles/simplix.dir/src/unitmain.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.o.requires
@@ -396,17 +396,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.o.provides.build: sr
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.o: src/drivers/simplix/src/unitopponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitopponent.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitopponent.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitopponent.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitopponent.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitopponent.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitopponent.cpp > CMakeFiles/simplix.dir/src/unitopponent.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitopponent.cpp > CMakeFiles/simplix.dir/src/unitopponent.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitopponent.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitopponent.cpp -o CMakeFiles/simplix.dir/src/unitopponent.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitopponent.cpp -o CMakeFiles/simplix.dir/src/unitopponent.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.o.requires
@@ -419,17 +419,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.o.provides.build
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.o: src/drivers/simplix/src/unitparabel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitparabel.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitparabel.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitparabel.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitparabel.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitparabel.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitparabel.cpp > CMakeFiles/simplix.dir/src/unitparabel.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitparabel.cpp > CMakeFiles/simplix.dir/src/unitparabel.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitparabel.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitparabel.cpp -o CMakeFiles/simplix.dir/src/unitparabel.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitparabel.cpp -o CMakeFiles/simplix.dir/src/unitparabel.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.o.requires
@@ -442,17 +442,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.o.provides.build:
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.o: src/drivers/simplix/src/unitparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitparam.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitparam.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitparam.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitparam.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitparam.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitparam.cpp > CMakeFiles/simplix.dir/src/unitparam.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitparam.cpp > CMakeFiles/simplix.dir/src/unitparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitparam.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitparam.cpp -o CMakeFiles/simplix.dir/src/unitparam.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitparam.cpp -o CMakeFiles/simplix.dir/src/unitparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.o.requires
@@ -465,17 +465,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.o.provides.build: s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.o: src/drivers/simplix/src/unitpidctrl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpidctrl.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitpidctrl.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpidctrl.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitpidctrl.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitpidctrl.cpp > CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitpidctrl.cpp > CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitpidctrl.cpp -o CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitpidctrl.cpp -o CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.o.requires
@@ -488,17 +488,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.o.provides.build:
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.o: src/drivers/simplix/src/unitpit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpit.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitpit.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpit.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitpit.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitpit.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitpit.cpp > CMakeFiles/simplix.dir/src/unitpit.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitpit.cpp > CMakeFiles/simplix.dir/src/unitpit.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitpit.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitpit.cpp -o CMakeFiles/simplix.dir/src/unitpit.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitpit.cpp -o CMakeFiles/simplix.dir/src/unitpit.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.o.requires
@@ -511,17 +511,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.o.provides.build: src
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.o: src/drivers/simplix/src/unitpitparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpitparam.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitpitparam.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpitparam.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitpitparam.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitpitparam.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitpitparam.cpp > CMakeFiles/simplix.dir/src/unitpitparam.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitpitparam.cpp > CMakeFiles/simplix.dir/src/unitpitparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitpitparam.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitpitparam.cpp -o CMakeFiles/simplix.dir/src/unitpitparam.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitpitparam.cpp -o CMakeFiles/simplix.dir/src/unitpitparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.o.requires
@@ -534,17 +534,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.o.provides.build
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.o: src/drivers/simplix/src/unitsection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitsection.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitsection.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitsection.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitsection.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitsection.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitsection.cpp > CMakeFiles/simplix.dir/src/unitsection.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitsection.cpp > CMakeFiles/simplix.dir/src/unitsection.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitsection.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitsection.cpp -o CMakeFiles/simplix.dir/src/unitsection.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitsection.cpp -o CMakeFiles/simplix.dir/src/unitsection.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.o.requires
@@ -557,17 +557,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.o.provides.build:
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.o: src/drivers/simplix/src/unitstrategy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitstrategy.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitstrategy.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitstrategy.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitstrategy.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitstrategy.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitstrategy.cpp > CMakeFiles/simplix.dir/src/unitstrategy.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitstrategy.cpp > CMakeFiles/simplix.dir/src/unitstrategy.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitstrategy.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitstrategy.cpp -o CMakeFiles/simplix.dir/src/unitstrategy.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitstrategy.cpp -o CMakeFiles/simplix.dir/src/unitstrategy.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.o.requires
@@ -580,17 +580,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.o.provides.build
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.o: src/drivers/simplix/src/unitsysfoo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitsysfoo.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitsysfoo.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitsysfoo.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitsysfoo.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitsysfoo.cpp > CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitsysfoo.cpp > CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitsysfoo.cpp -o CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitsysfoo.cpp -o CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.o.requires
@@ -603,17 +603,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.o.provides.build: 
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.o: src/drivers/simplix/src/unittmpcarparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unittmpcarparam.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unittmpcarparam.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unittmpcarparam.cpp > CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unittmpcarparam.cpp > CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unittmpcarparam.cpp -o CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unittmpcarparam.cpp -o CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.o.requires
@@ -626,17 +626,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.o.provides.bu
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.o: src/drivers/simplix/src/unittrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unittrack.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unittrack.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unittrack.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unittrack.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unittrack.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unittrack.cpp > CMakeFiles/simplix.dir/src/unittrack.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unittrack.cpp > CMakeFiles/simplix.dir/src/unittrack.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unittrack.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unittrack.cpp -o CMakeFiles/simplix.dir/src/unittrack.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unittrack.cpp -o CMakeFiles/simplix.dir/src/unittrack.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.o.requires
@@ -649,17 +649,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.o.provides.build: s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.o: src/drivers/simplix/src/unitvec2d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitvec2d.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitvec2d.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitvec2d.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitvec2d.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitvec2d.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitvec2d.cpp > CMakeFiles/simplix.dir/src/unitvec2d.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitvec2d.cpp > CMakeFiles/simplix.dir/src/unitvec2d.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitvec2d.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitvec2d.cpp -o CMakeFiles/simplix.dir/src/unitvec2d.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitvec2d.cpp -o CMakeFiles/simplix.dir/src/unitvec2d.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.o.requires
@@ -672,17 +672,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.o.provides.build: s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.o: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.o: src/drivers/simplix/src/unitvec3d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitvec3d.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitvec3d.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitvec3d.cpp.o -c /home/gaoyu/speed-dream/src/drivers/simplix/src/unitvec3d.cpp
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitvec3d.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitvec3d.cpp > CMakeFiles/simplix.dir/src/unitvec3d.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/simplix/src/unitvec3d.cpp > CMakeFiles/simplix.dir/src/unitvec3d.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitvec3d.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/src/unitvec3d.cpp -o CMakeFiles/simplix.dir/src/unitvec3d.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/simplix/src/unitvec3d.cpp -o CMakeFiles/simplix.dir/src/unitvec3d.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.o.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.o.requires
@@ -798,47 +798,47 @@ lib64/games/speed-dreams-2/drivers/simplix/simplix.so: /usr/lib/x86_64-linux-gnu
 lib64/games/speed-dreams-2/drivers/simplix/simplix.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/drivers/simplix/simplix.so: src/drivers/simplix/CMakeFiles/simplix.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/simplix/simplix.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simplix.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_36GP
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_36GP
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_36GP/simplix_36GP.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_36GP/simplix_36GP.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_sc
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_sc
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_sc/simplix_sc.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_sc/simplix_sc.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_srw
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_srw
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_srw/simplix_srw.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_srw/simplix_srw.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_trb1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_trb1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_trb1/simplix_trb1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_trb1/simplix_trb1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ls1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ls1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ls1/simplix_ls1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ls1/simplix_ls1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ls2
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ls2
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ls2/simplix_ls2.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ls2/simplix_ls2.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_mp5
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_mp5
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_mp5/simplix_mp5.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_mp5/simplix_mp5.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_mpa1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_mpa1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_mpa1/simplix_mpa1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_mpa1/simplix_mpa1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_lp1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_lp1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_lp1/simplix_lp1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_lp1/simplix_lp1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ref
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ref
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ref/simplix_ref.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/simplix_ref/simplix_ref.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simplix.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_36GP
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_36GP
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_36GP/simplix_36GP.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_36GP/simplix_36GP.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_sc
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_sc
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_sc/simplix_sc.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_sc/simplix_sc.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_srw
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_srw
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_srw/simplix_srw.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_srw/simplix_srw.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_trb1
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_trb1
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_trb1/simplix_trb1.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_trb1/simplix_trb1.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ls1
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ls1
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ls1/simplix_ls1.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ls1/simplix_ls1.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ls2
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ls2
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ls2/simplix_ls2.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ls2/simplix_ls2.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_mp5
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_mp5
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_mp5/simplix_mp5.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_mp5/simplix_mp5.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_mpa1
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_mpa1
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_mpa1/simplix_mpa1.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_mpa1/simplix_mpa1.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_lp1
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_lp1
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_lp1/simplix_lp1.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_lp1/simplix_lp1.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ref
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ref
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E echo Cloning\ simplix.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ref/simplix_ref.so
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix/simplix.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/simplix_ref/simplix_ref.so
 
 # Rule to build all files generated by this target.
 src/drivers/simplix/CMakeFiles/simplix.dir/build: lib64/games/speed-dreams-2/drivers/simplix/simplix.so
@@ -875,10 +875,10 @@ src/drivers/simplix/CMakeFiles/simplix.dir/requires: src/drivers/simplix/CMakeFi
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/requires
 
 src/drivers/simplix/CMakeFiles/simplix.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix && $(CMAKE_COMMAND) -P CMakeFiles/simplix.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/drivers/simplix && $(CMAKE_COMMAND) -P CMakeFiles/simplix.dir/cmake_clean.cmake
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/clean
 
 src/drivers/simplix/CMakeFiles/simplix.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/simplix/CMakeFiles/simplix.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/drivers/simplix /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/drivers/simplix /home/gaoyu/speed-dream/src/drivers/simplix/CMakeFiles/simplix.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/depend
 

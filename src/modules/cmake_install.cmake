@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules
+# Install script for directory: /home/gaoyu/speed-dream/src/modules
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,14 +34,14 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/track/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/telemetry/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/graphic/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/sound/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/simu/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/track/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/userinterface/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/racing/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/telemetry/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/networking/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

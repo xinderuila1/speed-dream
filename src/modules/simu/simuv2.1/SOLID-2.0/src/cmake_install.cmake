@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/src
+# Install script for directory: /home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

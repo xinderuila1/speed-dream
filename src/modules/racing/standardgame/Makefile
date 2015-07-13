@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/racing/standardgame/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/modules/racing/standardgame/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ standardgame: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule
 
 # fast build rule for target.
 standardgame/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build
 .PHONY : standardgame/fast
 
 racecareer.o: racecareer.cpp.o
@@ -178,7 +178,7 @@ racecareer.o: racecareer.cpp.o
 
 # target to build an object file
 racecareer.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.o
 .PHONY : racecareer.cpp.o
 
 racecareer.i: racecareer.cpp.i
@@ -186,7 +186,7 @@ racecareer.i: racecareer.cpp.i
 
 # target to preprocess a source file
 racecareer.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.i
 .PHONY : racecareer.cpp.i
 
 racecareer.s: racecareer.cpp.s
@@ -194,7 +194,7 @@ racecareer.s: racecareer.cpp.s
 
 # target to generate assembly for a file
 racecareer.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.s
 .PHONY : racecareer.cpp.s
 
 racecars.o: racecars.cpp.o
@@ -202,7 +202,7 @@ racecars.o: racecars.cpp.o
 
 # target to build an object file
 racecars.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.o
 .PHONY : racecars.cpp.o
 
 racecars.i: racecars.cpp.i
@@ -210,7 +210,7 @@ racecars.i: racecars.cpp.i
 
 # target to preprocess a source file
 racecars.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.i
 .PHONY : racecars.cpp.i
 
 racecars.s: racecars.cpp.s
@@ -218,7 +218,7 @@ racecars.s: racecars.cpp.s
 
 # target to generate assembly for a file
 racecars.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.s
 .PHONY : racecars.cpp.s
 
 raceinit.o: raceinit.cpp.o
@@ -226,7 +226,7 @@ raceinit.o: raceinit.cpp.o
 
 # target to build an object file
 raceinit.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.o
 .PHONY : raceinit.cpp.o
 
 raceinit.i: raceinit.cpp.i
@@ -234,7 +234,7 @@ raceinit.i: raceinit.cpp.i
 
 # target to preprocess a source file
 raceinit.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.i
 .PHONY : raceinit.cpp.i
 
 raceinit.s: raceinit.cpp.s
@@ -242,7 +242,7 @@ raceinit.s: raceinit.cpp.s
 
 # target to generate assembly for a file
 raceinit.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.s
 .PHONY : raceinit.cpp.s
 
 racemain.o: racemain.cpp.o
@@ -250,7 +250,7 @@ racemain.o: racemain.cpp.o
 
 # target to build an object file
 racemain.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.o
 .PHONY : racemain.cpp.o
 
 racemain.i: racemain.cpp.i
@@ -258,7 +258,7 @@ racemain.i: racemain.cpp.i
 
 # target to preprocess a source file
 racemain.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.i
 .PHONY : racemain.cpp.i
 
 racemain.s: racemain.cpp.s
@@ -266,7 +266,7 @@ racemain.s: racemain.cpp.s
 
 # target to generate assembly for a file
 racemain.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.s
 .PHONY : racemain.cpp.s
 
 racemessage.o: racemessage.cpp.o
@@ -274,7 +274,7 @@ racemessage.o: racemessage.cpp.o
 
 # target to build an object file
 racemessage.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.o
 .PHONY : racemessage.cpp.o
 
 racemessage.i: racemessage.cpp.i
@@ -282,7 +282,7 @@ racemessage.i: racemessage.cpp.i
 
 # target to preprocess a source file
 racemessage.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.i
 .PHONY : racemessage.cpp.i
 
 racemessage.s: racemessage.cpp.s
@@ -290,7 +290,7 @@ racemessage.s: racemessage.cpp.s
 
 # target to generate assembly for a file
 racemessage.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.s
 .PHONY : racemessage.cpp.s
 
 racenetwork.o: racenetwork.cpp.o
@@ -298,7 +298,7 @@ racenetwork.o: racenetwork.cpp.o
 
 # target to build an object file
 racenetwork.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.o
 .PHONY : racenetwork.cpp.o
 
 racenetwork.i: racenetwork.cpp.i
@@ -306,7 +306,7 @@ racenetwork.i: racenetwork.cpp.i
 
 # target to preprocess a source file
 racenetwork.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.i
 .PHONY : racenetwork.cpp.i
 
 racenetwork.s: racenetwork.cpp.s
@@ -314,7 +314,7 @@ racenetwork.s: racenetwork.cpp.s
 
 # target to generate assembly for a file
 racenetwork.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.s
 .PHONY : racenetwork.cpp.s
 
 raceresults.o: raceresults.cpp.o
@@ -322,7 +322,7 @@ raceresults.o: raceresults.cpp.o
 
 # target to build an object file
 raceresults.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.o
 .PHONY : raceresults.cpp.o
 
 raceresults.i: raceresults.cpp.i
@@ -330,7 +330,7 @@ raceresults.i: raceresults.cpp.i
 
 # target to preprocess a source file
 raceresults.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.i
 .PHONY : raceresults.cpp.i
 
 raceresults.s: raceresults.cpp.s
@@ -338,7 +338,7 @@ raceresults.s: raceresults.cpp.s
 
 # target to generate assembly for a file
 raceresults.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.s
 .PHONY : raceresults.cpp.s
 
 racesimusimu.o: racesimusimu.cpp.o
@@ -346,7 +346,7 @@ racesimusimu.o: racesimusimu.cpp.o
 
 # target to build an object file
 racesimusimu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.o
 .PHONY : racesimusimu.cpp.o
 
 racesimusimu.i: racesimusimu.cpp.i
@@ -354,7 +354,7 @@ racesimusimu.i: racesimusimu.cpp.i
 
 # target to preprocess a source file
 racesimusimu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.i
 .PHONY : racesimusimu.cpp.i
 
 racesimusimu.s: racesimusimu.cpp.s
@@ -362,7 +362,7 @@ racesimusimu.s: racesimusimu.cpp.s
 
 # target to generate assembly for a file
 racesimusimu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.s
 .PHONY : racesimusimu.cpp.s
 
 racesituation.o: racesituation.cpp.o
@@ -370,7 +370,7 @@ racesituation.o: racesituation.cpp.o
 
 # target to build an object file
 racesituation.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.o
 .PHONY : racesituation.cpp.o
 
 racesituation.i: racesituation.cpp.i
@@ -378,7 +378,7 @@ racesituation.i: racesituation.cpp.i
 
 # target to preprocess a source file
 racesituation.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.i
 .PHONY : racesituation.cpp.i
 
 racesituation.s: racesituation.cpp.s
@@ -386,7 +386,7 @@ racesituation.s: racesituation.cpp.s
 
 # target to generate assembly for a file
 racesituation.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.s
 .PHONY : racesituation.cpp.s
 
 racestate.o: racestate.cpp.o
@@ -394,7 +394,7 @@ racestate.o: racestate.cpp.o
 
 # target to build an object file
 racestate.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.o
 .PHONY : racestate.cpp.o
 
 racestate.i: racestate.cpp.i
@@ -402,7 +402,7 @@ racestate.i: racestate.cpp.i
 
 # target to preprocess a source file
 racestate.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.i
 .PHONY : racestate.cpp.i
 
 racestate.s: racestate.cpp.s
@@ -410,7 +410,7 @@ racestate.s: racestate.cpp.s
 
 # target to generate assembly for a file
 racestate.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.s
 .PHONY : racestate.cpp.s
 
 racetrack.o: racetrack.cpp.o
@@ -418,7 +418,7 @@ racetrack.o: racetrack.cpp.o
 
 # target to build an object file
 racetrack.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.o
 .PHONY : racetrack.cpp.o
 
 racetrack.i: racetrack.cpp.i
@@ -426,7 +426,7 @@ racetrack.i: racetrack.cpp.i
 
 # target to preprocess a source file
 racetrack.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.i
 .PHONY : racetrack.cpp.i
 
 racetrack.s: racetrack.cpp.s
@@ -434,7 +434,7 @@ racetrack.s: racetrack.cpp.s
 
 # target to generate assembly for a file
 racetrack.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.s
 .PHONY : racetrack.cpp.s
 
 raceupdate.o: raceupdate.cpp.o
@@ -442,7 +442,7 @@ raceupdate.o: raceupdate.cpp.o
 
 # target to build an object file
 raceupdate.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.o
 .PHONY : raceupdate.cpp.o
 
 raceupdate.i: raceupdate.cpp.i
@@ -450,7 +450,7 @@ raceupdate.i: raceupdate.cpp.i
 
 # target to preprocess a source file
 raceupdate.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.i
 .PHONY : raceupdate.cpp.i
 
 raceupdate.s: raceupdate.cpp.s
@@ -458,7 +458,7 @@ raceupdate.s: raceupdate.cpp.s
 
 # target to generate assembly for a file
 raceupdate.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.s
 .PHONY : raceupdate.cpp.s
 
 raceutil.o: raceutil.cpp.o
@@ -466,7 +466,7 @@ raceutil.o: raceutil.cpp.o
 
 # target to build an object file
 raceutil.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.o
 .PHONY : raceutil.cpp.o
 
 raceutil.i: raceutil.cpp.i
@@ -474,7 +474,7 @@ raceutil.i: raceutil.cpp.i
 
 # target to preprocess a source file
 raceutil.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.i
 .PHONY : raceutil.cpp.i
 
 raceutil.s: raceutil.cpp.s
@@ -482,7 +482,7 @@ raceutil.s: raceutil.cpp.s
 
 # target to generate assembly for a file
 raceutil.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.s
 .PHONY : raceutil.cpp.s
 
 standardgame.o: standardgame.cpp.o
@@ -490,7 +490,7 @@ standardgame.o: standardgame.cpp.o
 
 # target to build an object file
 standardgame.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.o
 .PHONY : standardgame.cpp.o
 
 standardgame.i: standardgame.cpp.i
@@ -498,7 +498,7 @@ standardgame.i: standardgame.cpp.i
 
 # target to preprocess a source file
 standardgame.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.i
 .PHONY : standardgame.cpp.i
 
 standardgame.s: standardgame.cpp.s
@@ -506,7 +506,7 @@ standardgame.s: standardgame.cpp.s
 
 # target to generate assembly for a file
 standardgame.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.s
 .PHONY : standardgame.cpp.s
 
 # Help Target
@@ -577,6 +577,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

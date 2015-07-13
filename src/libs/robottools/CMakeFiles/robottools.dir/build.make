@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/libs/robottools/CMakeFiles/robottools.dir/depend.make
@@ -51,17 +51,17 @@ include src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.o: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.o: src/libs/robottools/rtteammanager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rtteammanager.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rtteammanager.cpp
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rtteammanager.cpp.o -c /home/gaoyu/speed-dream/src/libs/robottools/rtteammanager.cpp
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rtteammanager.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rtteammanager.cpp > CMakeFiles/robottools.dir/rtteammanager.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/robottools/rtteammanager.cpp > CMakeFiles/robottools.dir/rtteammanager.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rtteammanager.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rtteammanager.cpp -o CMakeFiles/robottools.dir/rtteammanager.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/robottools/rtteammanager.cpp -o CMakeFiles/robottools.dir/rtteammanager.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.o.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.o.requires
@@ -74,17 +74,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.o.provides.build
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.o: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.o: src/libs/robottools/rttelem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttelem.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttelem.cpp
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttelem.cpp.o -c /home/gaoyu/speed-dream/src/libs/robottools/rttelem.cpp
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rttelem.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttelem.cpp > CMakeFiles/robottools.dir/rttelem.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/robottools/rttelem.cpp > CMakeFiles/robottools.dir/rttelem.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rttelem.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttelem.cpp -o CMakeFiles/robottools.dir/rttelem.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/robottools/rttelem.cpp -o CMakeFiles/robottools.dir/rttelem.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.o.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.o.requires
@@ -97,17 +97,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.o.provides.build: src/
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.o: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.o: src/libs/robottools/rttimeanalysis.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttimeanalysis.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttimeanalysis.cpp
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttimeanalysis.cpp.o -c /home/gaoyu/speed-dream/src/libs/robottools/rttimeanalysis.cpp
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rttimeanalysis.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttimeanalysis.cpp > CMakeFiles/robottools.dir/rttimeanalysis.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/robottools/rttimeanalysis.cpp > CMakeFiles/robottools.dir/rttimeanalysis.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rttimeanalysis.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttimeanalysis.cpp -o CMakeFiles/robottools.dir/rttimeanalysis.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/robottools/rttimeanalysis.cpp -o CMakeFiles/robottools.dir/rttimeanalysis.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.o.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.o.requires
@@ -120,17 +120,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.o.provides.buil
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.o: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.o: src/libs/robottools/rttrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttrack.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttrack.cpp
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttrack.cpp.o -c /home/gaoyu/speed-dream/src/libs/robottools/rttrack.cpp
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rttrack.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttrack.cpp > CMakeFiles/robottools.dir/rttrack.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/robottools/rttrack.cpp > CMakeFiles/robottools.dir/rttrack.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rttrack.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttrack.cpp -o CMakeFiles/robottools.dir/rttrack.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/robottools/rttrack.cpp -o CMakeFiles/robottools.dir/rttrack.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.o.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.o.requires
@@ -143,17 +143,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.o.provides.build: src/
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.o: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.o: src/libs/robottools/rtutil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rtutil.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rtutil.cpp
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rtutil.cpp.o -c /home/gaoyu/speed-dream/src/libs/robottools/rtutil.cpp
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rtutil.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rtutil.cpp > CMakeFiles/robottools.dir/rtutil.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/robottools/rtutil.cpp > CMakeFiles/robottools.dir/rtutil.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rtutil.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rtutil.cpp -o CMakeFiles/robottools.dir/rtutil.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/robottools/rtutil.cpp -o CMakeFiles/robottools.dir/rtutil.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.o.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.o.requires
@@ -166,17 +166,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.o.provides.build: src/l
 
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.o: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.o: src/libs/robottools/rthumandriver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rthumandriver.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rthumandriver.cpp
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rthumandriver.cpp.o -c /home/gaoyu/speed-dream/src/libs/robottools/rthumandriver.cpp
 
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rthumandriver.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rthumandriver.cpp > CMakeFiles/robottools.dir/rthumandriver.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/robottools/rthumandriver.cpp > CMakeFiles/robottools.dir/rthumandriver.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rthumandriver.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rthumandriver.cpp -o CMakeFiles/robottools.dir/rthumandriver.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/robottools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/robottools/rthumandriver.cpp -o CMakeFiles/robottools.dir/rthumandriver.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.o.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.o.requires
@@ -248,7 +248,7 @@ lib64/games/speed-dreams-2/lib/librobottools.so: /usr/lib/x86_64-linux-gnu/libSD
 lib64/games/speed-dreams-2/lib/librobottools.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/lib/librobottools.so: src/libs/robottools/CMakeFiles/robottools.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/librobottools.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robottools.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/libs/robottools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robottools.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libs/robottools/CMakeFiles/robottools.dir/build: lib64/games/speed-dreams-2/lib/librobottools.so
@@ -263,10 +263,10 @@ src/libs/robottools/CMakeFiles/robottools.dir/requires: src/libs/robottools/CMak
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/requires
 
 src/libs/robottools/CMakeFiles/robottools.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools && $(CMAKE_COMMAND) -P CMakeFiles/robottools.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/libs/robottools && $(CMAKE_COMMAND) -P CMakeFiles/robottools.dir/cmake_clean.cmake
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/clean
 
 src/libs/robottools/CMakeFiles/robottools.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/robottools /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/robottools /home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/depend
 

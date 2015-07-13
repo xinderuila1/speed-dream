@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/portability.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/portability.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/portability/portability.cpp" "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/portability.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

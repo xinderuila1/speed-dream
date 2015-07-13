@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs
+# Install script for directory: /home/gaoyu/speed-dream/src/libs
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,14 +34,14 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgf/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfclient/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/libs/tgf/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/libs/tgfclient/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/libs/tgfdata/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/libs/robottools/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/libs/learning/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/libs/math/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/libs/portability/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/libs/ephemeris/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

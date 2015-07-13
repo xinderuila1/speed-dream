@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math
+# Install script for directory: /home/gaoyu/speed-dream/src/libs/math
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,29 +34,29 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/speed-dreams-2/tmath" TYPE FILE FILES
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/constants.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/linalg_t.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/straight2_t.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/v2_t.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/v3_t.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/v4_t.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/point3d.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGCMath.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGGeoc.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGGeod.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/sg_geodesy.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGGeodesy.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGLimits.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGMath.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGMathFwd.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGMatrix.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGMisc.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGQuat.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/sg_random.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/sg_types.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGVec3.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/SGVec4.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/vector.h"
+    "/home/gaoyu/speed-dream/src/libs/math/constants.h"
+    "/home/gaoyu/speed-dream/src/libs/math/linalg_t.h"
+    "/home/gaoyu/speed-dream/src/libs/math/straight2_t.h"
+    "/home/gaoyu/speed-dream/src/libs/math/v2_t.h"
+    "/home/gaoyu/speed-dream/src/libs/math/v3_t.h"
+    "/home/gaoyu/speed-dream/src/libs/math/v4_t.h"
+    "/home/gaoyu/speed-dream/src/libs/math/point3d.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGCMath.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGGeoc.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGGeod.h"
+    "/home/gaoyu/speed-dream/src/libs/math/sg_geodesy.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGGeodesy.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGLimits.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGMath.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGMathFwd.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGMatrix.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGMisc.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGQuat.h"
+    "/home/gaoyu/speed-dream/src/libs/math/sg_random.h"
+    "/home/gaoyu/speed-dream/src/libs/math/sg_types.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGVec3.h"
+    "/home/gaoyu/speed-dream/src/libs/math/SGVec4.h"
+    "/home/gaoyu/speed-dream/src/libs/math/vector.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

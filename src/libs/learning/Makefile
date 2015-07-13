@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/libs/learning/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/learning/CMakeFiles/learning.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/CMakeFiles/learning.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/CMakeFiles/learning.dir/rule
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ learning: src/libs/learning/CMakeFiles/learning.dir/rule
 
 # fast build rule for target.
 learning/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/build
 .PHONY : learning/fast
 
 ANN.o: ANN.cpp.o
@@ -178,7 +178,7 @@ ANN.o: ANN.cpp.o
 
 # target to build an object file
 ANN.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.o
 .PHONY : ANN.cpp.o
 
 ANN.i: ANN.cpp.i
@@ -186,7 +186,7 @@ ANN.i: ANN.cpp.i
 
 # target to preprocess a source file
 ANN.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.i
 .PHONY : ANN.cpp.i
 
 ANN.s: ANN.cpp.s
@@ -194,7 +194,7 @@ ANN.s: ANN.cpp.s
 
 # target to generate assembly for a file
 ANN.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.s
 .PHONY : ANN.cpp.s
 
 Distribution.o: Distribution.cpp.o
@@ -202,7 +202,7 @@ Distribution.o: Distribution.cpp.o
 
 # target to build an object file
 Distribution.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.o
 .PHONY : Distribution.cpp.o
 
 Distribution.i: Distribution.cpp.i
@@ -210,7 +210,7 @@ Distribution.i: Distribution.cpp.i
 
 # target to preprocess a source file
 Distribution.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.i
 .PHONY : Distribution.cpp.i
 
 Distribution.s: Distribution.cpp.s
@@ -218,7 +218,7 @@ Distribution.s: Distribution.cpp.s
 
 # target to generate assembly for a file
 Distribution.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.s
 .PHONY : Distribution.cpp.s
 
 List.o: List.cpp.o
@@ -226,7 +226,7 @@ List.o: List.cpp.o
 
 # target to build an object file
 List.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.o
 .PHONY : List.cpp.o
 
 List.i: List.cpp.i
@@ -234,7 +234,7 @@ List.i: List.cpp.i
 
 # target to preprocess a source file
 List.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.i
 .PHONY : List.cpp.i
 
 List.s: List.cpp.s
@@ -242,7 +242,7 @@ List.s: List.cpp.s
 
 # target to generate assembly for a file
 List.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.s
 .PHONY : List.cpp.s
 
 MathFunctions.o: MathFunctions.cpp.o
@@ -250,7 +250,7 @@ MathFunctions.o: MathFunctions.cpp.o
 
 # target to build an object file
 MathFunctions.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.o
 .PHONY : MathFunctions.cpp.o
 
 MathFunctions.i: MathFunctions.cpp.i
@@ -258,7 +258,7 @@ MathFunctions.i: MathFunctions.cpp.i
 
 # target to preprocess a source file
 MathFunctions.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.i
 .PHONY : MathFunctions.cpp.i
 
 MathFunctions.s: MathFunctions.cpp.s
@@ -266,7 +266,7 @@ MathFunctions.s: MathFunctions.cpp.s
 
 # target to generate assembly for a file
 MathFunctions.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.s
 .PHONY : MathFunctions.cpp.s
 
 ann_policy.o: ann_policy.cpp.o
@@ -274,7 +274,7 @@ ann_policy.o: ann_policy.cpp.o
 
 # target to build an object file
 ann_policy.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.o
 .PHONY : ann_policy.cpp.o
 
 ann_policy.i: ann_policy.cpp.i
@@ -282,7 +282,7 @@ ann_policy.i: ann_policy.cpp.i
 
 # target to preprocess a source file
 ann_policy.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.i
 .PHONY : ann_policy.cpp.i
 
 ann_policy.s: ann_policy.cpp.s
@@ -290,7 +290,7 @@ ann_policy.s: ann_policy.cpp.s
 
 # target to generate assembly for a file
 ann_policy.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.s
 .PHONY : ann_policy.cpp.s
 
 policy.o: policy.cpp.o
@@ -298,7 +298,7 @@ policy.o: policy.cpp.o
 
 # target to build an object file
 policy.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.o
 .PHONY : policy.cpp.o
 
 policy.i: policy.cpp.i
@@ -306,7 +306,7 @@ policy.i: policy.cpp.i
 
 # target to preprocess a source file
 policy.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.i
 .PHONY : policy.cpp.i
 
 policy.s: policy.cpp.s
@@ -314,7 +314,7 @@ policy.s: policy.cpp.s
 
 # target to generate assembly for a file
 policy.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.s
 .PHONY : policy.cpp.s
 
 string_utils.o: string_utils.cpp.o
@@ -322,7 +322,7 @@ string_utils.o: string_utils.cpp.o
 
 # target to build an object file
 string_utils.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.o
 .PHONY : string_utils.cpp.o
 
 string_utils.i: string_utils.cpp.i
@@ -330,7 +330,7 @@ string_utils.i: string_utils.cpp.i
 
 # target to preprocess a source file
 string_utils.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.i
 .PHONY : string_utils.cpp.i
 
 string_utils.s: string_utils.cpp.s
@@ -338,7 +338,7 @@ string_utils.s: string_utils.cpp.s
 
 # target to generate assembly for a file
 string_utils.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.s
 .PHONY : string_utils.cpp.s
 
 # Help Target
@@ -388,6 +388,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfclient/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/libs/tgfclient/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ tgfclient: src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule
 
 # fast build rule for target.
 tgfclient/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/build
 .PHONY : tgfclient/fast
 
 control.o: control.cpp.o
@@ -178,7 +178,7 @@ control.o: control.cpp.o
 
 # target to build an object file
 control.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.o
 .PHONY : control.cpp.o
 
 control.i: control.cpp.i
@@ -186,7 +186,7 @@ control.i: control.cpp.i
 
 # target to preprocess a source file
 control.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.i
 .PHONY : control.cpp.i
 
 control.s: control.cpp.s
@@ -194,7 +194,7 @@ control.s: control.cpp.s
 
 # target to generate assembly for a file
 control.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.s
 .PHONY : control.cpp.s
 
 glfeatures.o: glfeatures.cpp.o
@@ -202,7 +202,7 @@ glfeatures.o: glfeatures.cpp.o
 
 # target to build an object file
 glfeatures.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.o
 .PHONY : glfeatures.cpp.o
 
 glfeatures.i: glfeatures.cpp.i
@@ -210,7 +210,7 @@ glfeatures.i: glfeatures.cpp.i
 
 # target to preprocess a source file
 glfeatures.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.i
 .PHONY : glfeatures.cpp.i
 
 glfeatures.s: glfeatures.cpp.s
@@ -218,7 +218,7 @@ glfeatures.s: glfeatures.cpp.s
 
 # target to generate assembly for a file
 glfeatures.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.s
 .PHONY : glfeatures.cpp.s
 
 gui.o: gui.cpp.o
@@ -226,7 +226,7 @@ gui.o: gui.cpp.o
 
 # target to build an object file
 gui.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.o
 .PHONY : gui.cpp.o
 
 gui.i: gui.cpp.i
@@ -234,7 +234,7 @@ gui.i: gui.cpp.i
 
 # target to preprocess a source file
 gui.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.i
 .PHONY : gui.cpp.i
 
 gui.s: gui.cpp.s
@@ -242,7 +242,7 @@ gui.s: gui.cpp.s
 
 # target to generate assembly for a file
 gui.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.s
 .PHONY : gui.cpp.s
 
 guiapplication.o: guiapplication.cpp.o
@@ -250,7 +250,7 @@ guiapplication.o: guiapplication.cpp.o
 
 # target to build an object file
 guiapplication.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.o
 .PHONY : guiapplication.cpp.o
 
 guiapplication.i: guiapplication.cpp.i
@@ -258,7 +258,7 @@ guiapplication.i: guiapplication.cpp.i
 
 # target to preprocess a source file
 guiapplication.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.i
 .PHONY : guiapplication.cpp.i
 
 guiapplication.s: guiapplication.cpp.s
@@ -266,7 +266,7 @@ guiapplication.s: guiapplication.cpp.s
 
 # target to generate assembly for a file
 guiapplication.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.s
 .PHONY : guiapplication.cpp.s
 
 guibutton.o: guibutton.cpp.o
@@ -274,7 +274,7 @@ guibutton.o: guibutton.cpp.o
 
 # target to build an object file
 guibutton.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.o
 .PHONY : guibutton.cpp.o
 
 guibutton.i: guibutton.cpp.i
@@ -282,7 +282,7 @@ guibutton.i: guibutton.cpp.i
 
 # target to preprocess a source file
 guibutton.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.i
 .PHONY : guibutton.cpp.i
 
 guibutton.s: guibutton.cpp.s
@@ -290,7 +290,7 @@ guibutton.s: guibutton.cpp.s
 
 # target to generate assembly for a file
 guibutton.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.s
 .PHONY : guibutton.cpp.s
 
 guicheckbox.o: guicheckbox.cpp.o
@@ -298,7 +298,7 @@ guicheckbox.o: guicheckbox.cpp.o
 
 # target to build an object file
 guicheckbox.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.o
 .PHONY : guicheckbox.cpp.o
 
 guicheckbox.i: guicheckbox.cpp.i
@@ -306,7 +306,7 @@ guicheckbox.i: guicheckbox.cpp.i
 
 # target to preprocess a source file
 guicheckbox.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.i
 .PHONY : guicheckbox.cpp.i
 
 guicheckbox.s: guicheckbox.cpp.s
@@ -314,7 +314,7 @@ guicheckbox.s: guicheckbox.cpp.s
 
 # target to generate assembly for a file
 guicheckbox.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.s
 .PHONY : guicheckbox.cpp.s
 
 guicombobox.o: guicombobox.cpp.o
@@ -322,7 +322,7 @@ guicombobox.o: guicombobox.cpp.o
 
 # target to build an object file
 guicombobox.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.o
 .PHONY : guicombobox.cpp.o
 
 guicombobox.i: guicombobox.cpp.i
@@ -330,7 +330,7 @@ guicombobox.i: guicombobox.cpp.i
 
 # target to preprocess a source file
 guicombobox.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.i
 .PHONY : guicombobox.cpp.i
 
 guicombobox.s: guicombobox.cpp.s
@@ -338,7 +338,7 @@ guicombobox.s: guicombobox.cpp.s
 
 # target to generate assembly for a file
 guicombobox.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.s
 .PHONY : guicombobox.cpp.s
 
 guiedit.o: guiedit.cpp.o
@@ -346,7 +346,7 @@ guiedit.o: guiedit.cpp.o
 
 # target to build an object file
 guiedit.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.o
 .PHONY : guiedit.cpp.o
 
 guiedit.i: guiedit.cpp.i
@@ -354,7 +354,7 @@ guiedit.i: guiedit.cpp.i
 
 # target to preprocess a source file
 guiedit.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.i
 .PHONY : guiedit.cpp.i
 
 guiedit.s: guiedit.cpp.s
@@ -362,7 +362,7 @@ guiedit.s: guiedit.cpp.s
 
 # target to generate assembly for a file
 guiedit.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.s
 .PHONY : guiedit.cpp.s
 
 guieventloop.o: guieventloop.cpp.o
@@ -370,7 +370,7 @@ guieventloop.o: guieventloop.cpp.o
 
 # target to build an object file
 guieventloop.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.o
 .PHONY : guieventloop.cpp.o
 
 guieventloop.i: guieventloop.cpp.i
@@ -378,7 +378,7 @@ guieventloop.i: guieventloop.cpp.i
 
 # target to preprocess a source file
 guieventloop.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.i
 .PHONY : guieventloop.cpp.i
 
 guieventloop.s: guieventloop.cpp.s
@@ -386,7 +386,7 @@ guieventloop.s: guieventloop.cpp.s
 
 # target to generate assembly for a file
 guieventloop.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.s
 .PHONY : guieventloop.cpp.s
 
 guifont.o: guifont.cpp.o
@@ -394,7 +394,7 @@ guifont.o: guifont.cpp.o
 
 # target to build an object file
 guifont.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.o
 .PHONY : guifont.cpp.o
 
 guifont.i: guifont.cpp.i
@@ -402,7 +402,7 @@ guifont.i: guifont.cpp.i
 
 # target to preprocess a source file
 guifont.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.i
 .PHONY : guifont.cpp.i
 
 guifont.s: guifont.cpp.s
@@ -410,7 +410,7 @@ guifont.s: guifont.cpp.s
 
 # target to generate assembly for a file
 guifont.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.s
 .PHONY : guifont.cpp.s
 
 guihelp.o: guihelp.cpp.o
@@ -418,7 +418,7 @@ guihelp.o: guihelp.cpp.o
 
 # target to build an object file
 guihelp.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.o
 .PHONY : guihelp.cpp.o
 
 guihelp.i: guihelp.cpp.i
@@ -426,7 +426,7 @@ guihelp.i: guihelp.cpp.i
 
 # target to preprocess a source file
 guihelp.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.i
 .PHONY : guihelp.cpp.i
 
 guihelp.s: guihelp.cpp.s
@@ -434,7 +434,7 @@ guihelp.s: guihelp.cpp.s
 
 # target to generate assembly for a file
 guihelp.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.s
 .PHONY : guihelp.cpp.s
 
 guiimage.o: guiimage.cpp.o
@@ -442,7 +442,7 @@ guiimage.o: guiimage.cpp.o
 
 # target to build an object file
 guiimage.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.o
 .PHONY : guiimage.cpp.o
 
 guiimage.i: guiimage.cpp.i
@@ -450,7 +450,7 @@ guiimage.i: guiimage.cpp.i
 
 # target to preprocess a source file
 guiimage.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.i
 .PHONY : guiimage.cpp.i
 
 guiimage.s: guiimage.cpp.s
@@ -458,7 +458,7 @@ guiimage.s: guiimage.cpp.s
 
 # target to generate assembly for a file
 guiimage.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.s
 .PHONY : guiimage.cpp.s
 
 guilabel.o: guilabel.cpp.o
@@ -466,7 +466,7 @@ guilabel.o: guilabel.cpp.o
 
 # target to build an object file
 guilabel.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.o
 .PHONY : guilabel.cpp.o
 
 guilabel.i: guilabel.cpp.i
@@ -474,7 +474,7 @@ guilabel.i: guilabel.cpp.i
 
 # target to preprocess a source file
 guilabel.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.i
 .PHONY : guilabel.cpp.i
 
 guilabel.s: guilabel.cpp.s
@@ -482,7 +482,7 @@ guilabel.s: guilabel.cpp.s
 
 # target to generate assembly for a file
 guilabel.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.s
 .PHONY : guilabel.cpp.s
 
 guimenu.o: guimenu.cpp.o
@@ -490,7 +490,7 @@ guimenu.o: guimenu.cpp.o
 
 # target to build an object file
 guimenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.o
 .PHONY : guimenu.cpp.o
 
 guimenu.i: guimenu.cpp.i
@@ -498,7 +498,7 @@ guimenu.i: guimenu.cpp.i
 
 # target to preprocess a source file
 guimenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.i
 .PHONY : guimenu.cpp.i
 
 guimenu.s: guimenu.cpp.s
@@ -506,7 +506,7 @@ guimenu.s: guimenu.cpp.s
 
 # target to generate assembly for a file
 guimenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.s
 .PHONY : guimenu.cpp.s
 
 guiobject.o: guiobject.cpp.o
@@ -514,7 +514,7 @@ guiobject.o: guiobject.cpp.o
 
 # target to build an object file
 guiobject.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.o
 .PHONY : guiobject.cpp.o
 
 guiobject.i: guiobject.cpp.i
@@ -522,7 +522,7 @@ guiobject.i: guiobject.cpp.i
 
 # target to preprocess a source file
 guiobject.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.i
 .PHONY : guiobject.cpp.i
 
 guiobject.s: guiobject.cpp.s
@@ -530,7 +530,7 @@ guiobject.s: guiobject.cpp.s
 
 # target to generate assembly for a file
 guiobject.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.s
 .PHONY : guiobject.cpp.s
 
 guiprogresbar.o: guiprogresbar.cpp.o
@@ -538,7 +538,7 @@ guiprogresbar.o: guiprogresbar.cpp.o
 
 # target to build an object file
 guiprogresbar.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.o
 .PHONY : guiprogresbar.cpp.o
 
 guiprogresbar.i: guiprogresbar.cpp.i
@@ -546,7 +546,7 @@ guiprogresbar.i: guiprogresbar.cpp.i
 
 # target to preprocess a source file
 guiprogresbar.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.i
 .PHONY : guiprogresbar.cpp.i
 
 guiprogresbar.s: guiprogresbar.cpp.s
@@ -554,7 +554,7 @@ guiprogresbar.s: guiprogresbar.cpp.s
 
 # target to generate assembly for a file
 guiprogresbar.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.s
 .PHONY : guiprogresbar.cpp.s
 
 guiscreen.o: guiscreen.cpp.o
@@ -562,7 +562,7 @@ guiscreen.o: guiscreen.cpp.o
 
 # target to build an object file
 guiscreen.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.o
 .PHONY : guiscreen.cpp.o
 
 guiscreen.i: guiscreen.cpp.i
@@ -570,7 +570,7 @@ guiscreen.i: guiscreen.cpp.i
 
 # target to preprocess a source file
 guiscreen.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.i
 .PHONY : guiscreen.cpp.i
 
 guiscreen.s: guiscreen.cpp.s
@@ -578,7 +578,7 @@ guiscreen.s: guiscreen.cpp.s
 
 # target to generate assembly for a file
 guiscreen.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.s
 .PHONY : guiscreen.cpp.s
 
 guiscrollbar.o: guiscrollbar.cpp.o
@@ -586,7 +586,7 @@ guiscrollbar.o: guiscrollbar.cpp.o
 
 # target to build an object file
 guiscrollbar.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.o
 .PHONY : guiscrollbar.cpp.o
 
 guiscrollbar.i: guiscrollbar.cpp.i
@@ -594,7 +594,7 @@ guiscrollbar.i: guiscrollbar.cpp.i
 
 # target to preprocess a source file
 guiscrollbar.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.i
 .PHONY : guiscrollbar.cpp.i
 
 guiscrollbar.s: guiscrollbar.cpp.s
@@ -602,7 +602,7 @@ guiscrollbar.s: guiscrollbar.cpp.s
 
 # target to generate assembly for a file
 guiscrollbar.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.s
 .PHONY : guiscrollbar.cpp.s
 
 guiscrollist.o: guiscrollist.cpp.o
@@ -610,7 +610,7 @@ guiscrollist.o: guiscrollist.cpp.o
 
 # target to build an object file
 guiscrollist.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.o
 .PHONY : guiscrollist.cpp.o
 
 guiscrollist.i: guiscrollist.cpp.i
@@ -618,7 +618,7 @@ guiscrollist.i: guiscrollist.cpp.i
 
 # target to preprocess a source file
 guiscrollist.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.i
 .PHONY : guiscrollist.cpp.i
 
 guiscrollist.s: guiscrollist.cpp.s
@@ -626,7 +626,7 @@ guiscrollist.s: guiscrollist.cpp.s
 
 # target to generate assembly for a file
 guiscrollist.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.s
 .PHONY : guiscrollist.cpp.s
 
 guitexture.o: guitexture.cpp.o
@@ -634,7 +634,7 @@ guitexture.o: guitexture.cpp.o
 
 # target to build an object file
 guitexture.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.o
 .PHONY : guitexture.cpp.o
 
 guitexture.i: guitexture.cpp.i
@@ -642,7 +642,7 @@ guitexture.i: guitexture.cpp.i
 
 # target to preprocess a source file
 guitexture.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.i
 .PHONY : guitexture.cpp.i
 
 guitexture.s: guitexture.cpp.s
@@ -650,7 +650,7 @@ guitexture.s: guitexture.cpp.s
 
 # target to generate assembly for a file
 guitexture.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.s
 .PHONY : guitexture.cpp.s
 
 musicplayer.o: musicplayer.cpp.o
@@ -658,7 +658,7 @@ musicplayer.o: musicplayer.cpp.o
 
 # target to build an object file
 musicplayer.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.o
 .PHONY : musicplayer.cpp.o
 
 musicplayer.i: musicplayer.cpp.i
@@ -666,7 +666,7 @@ musicplayer.i: musicplayer.cpp.i
 
 # target to preprocess a source file
 musicplayer.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.i
 .PHONY : musicplayer.cpp.i
 
 musicplayer.s: musicplayer.cpp.s
@@ -674,7 +674,7 @@ musicplayer.s: musicplayer.cpp.s
 
 # target to generate assembly for a file
 musicplayer.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.s
 .PHONY : musicplayer.cpp.s
 
 oggsoundstream.o: oggsoundstream.cpp.o
@@ -682,7 +682,7 @@ oggsoundstream.o: oggsoundstream.cpp.o
 
 # target to build an object file
 oggsoundstream.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.o
 .PHONY : oggsoundstream.cpp.o
 
 oggsoundstream.i: oggsoundstream.cpp.i
@@ -690,7 +690,7 @@ oggsoundstream.i: oggsoundstream.cpp.i
 
 # target to preprocess a source file
 oggsoundstream.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.i
 .PHONY : oggsoundstream.cpp.i
 
 oggsoundstream.s: oggsoundstream.cpp.s
@@ -698,7 +698,7 @@ oggsoundstream.s: oggsoundstream.cpp.s
 
 # target to generate assembly for a file
 oggsoundstream.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.s
 .PHONY : oggsoundstream.cpp.s
 
 openalmusicplayer.o: openalmusicplayer.cpp.o
@@ -706,7 +706,7 @@ openalmusicplayer.o: openalmusicplayer.cpp.o
 
 # target to build an object file
 openalmusicplayer.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.o
 .PHONY : openalmusicplayer.cpp.o
 
 openalmusicplayer.i: openalmusicplayer.cpp.i
@@ -714,7 +714,7 @@ openalmusicplayer.i: openalmusicplayer.cpp.i
 
 # target to preprocess a source file
 openalmusicplayer.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.i
 .PHONY : openalmusicplayer.cpp.i
 
 openalmusicplayer.s: openalmusicplayer.cpp.s
@@ -722,7 +722,7 @@ openalmusicplayer.s: openalmusicplayer.cpp.s
 
 # target to generate assembly for a file
 openalmusicplayer.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.s
 .PHONY : openalmusicplayer.cpp.s
 
 soundstream.o: soundstream.cpp.o
@@ -730,7 +730,7 @@ soundstream.o: soundstream.cpp.o
 
 # target to build an object file
 soundstream.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.o
 .PHONY : soundstream.cpp.o
 
 soundstream.i: soundstream.cpp.i
@@ -738,7 +738,7 @@ soundstream.i: soundstream.cpp.i
 
 # target to preprocess a source file
 soundstream.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.i
 .PHONY : soundstream.cpp.i
 
 soundstream.s: soundstream.cpp.s
@@ -746,7 +746,7 @@ soundstream.s: soundstream.cpp.s
 
 # target to generate assembly for a file
 soundstream.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.s
 .PHONY : soundstream.cpp.s
 
 tgfclient.o: tgfclient.cpp.o
@@ -754,7 +754,7 @@ tgfclient.o: tgfclient.cpp.o
 
 # target to build an object file
 tgfclient.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.o
 .PHONY : tgfclient.cpp.o
 
 tgfclient.i: tgfclient.cpp.i
@@ -762,7 +762,7 @@ tgfclient.i: tgfclient.cpp.i
 
 # target to preprocess a source file
 tgfclient.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.i
 .PHONY : tgfclient.cpp.i
 
 tgfclient.s: tgfclient.cpp.s
@@ -770,7 +770,7 @@ tgfclient.s: tgfclient.cpp.s
 
 # target to generate assembly for a file
 tgfclient.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.s
 .PHONY : tgfclient.cpp.s
 
 # Help Target
@@ -874,6 +874,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

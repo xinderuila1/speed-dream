@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/client.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/client.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/network.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/network.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/pack.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/robotxml.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/server.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/server.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/networking/client.cpp" "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/client.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/networking/network.cpp" "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/network.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/networking/pack.cpp" "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/networking/robotxml.cpp" "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/networking/server.cpp" "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/server.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -30,8 +30,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

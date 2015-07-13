@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/libs/ephemeris/CMakeFiles/ephemeris.dir/depend.make
@@ -51,17 +51,17 @@ include src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o: src/libs/ephemeris/celestialbody.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/celestialbody.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/celestialbody.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/celestialbody.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/celestialbody.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/celestialbody.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/celestialbody.cpp > CMakeFiles/ephemeris.dir/celestialbody.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/celestialbody.cpp > CMakeFiles/ephemeris.dir/celestialbody.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/celestialbody.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/celestialbody.cpp -o CMakeFiles/ephemeris.dir/celestialbody.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/celestialbody.cpp -o CMakeFiles/ephemeris.dir/celestialbody.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o.requires
@@ -74,17 +74,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o.provides.build: 
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o: src/libs/ephemeris/ephemeris.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/ephemeris.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/ephemeris.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/ephemeris.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/ephemeris.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/ephemeris.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/ephemeris.cpp > CMakeFiles/ephemeris.dir/ephemeris.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/ephemeris.cpp > CMakeFiles/ephemeris.dir/ephemeris.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/ephemeris.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/ephemeris.cpp -o CMakeFiles/ephemeris.dir/ephemeris.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/ephemeris.cpp -o CMakeFiles/ephemeris.dir/ephemeris.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o.requires
@@ -97,17 +97,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o.provides.build: src/
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o: src/libs/ephemeris/jupiter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/jupiter.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/jupiter.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/jupiter.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/jupiter.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/jupiter.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/jupiter.cpp > CMakeFiles/ephemeris.dir/jupiter.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/jupiter.cpp > CMakeFiles/ephemeris.dir/jupiter.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/jupiter.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/jupiter.cpp -o CMakeFiles/ephemeris.dir/jupiter.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/jupiter.cpp -o CMakeFiles/ephemeris.dir/jupiter.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o.requires
@@ -120,17 +120,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o.provides.build: src/li
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o: src/libs/ephemeris/mars.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/mars.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/mars.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/mars.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/mars.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/mars.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/mars.cpp > CMakeFiles/ephemeris.dir/mars.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/mars.cpp > CMakeFiles/ephemeris.dir/mars.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/mars.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/mars.cpp -o CMakeFiles/ephemeris.dir/mars.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/mars.cpp -o CMakeFiles/ephemeris.dir/mars.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o.requires
@@ -143,17 +143,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o.provides.build: src/libs/
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o: src/libs/ephemeris/mercury.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/mercury.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/mercury.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/mercury.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/mercury.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/mercury.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/mercury.cpp > CMakeFiles/ephemeris.dir/mercury.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/mercury.cpp > CMakeFiles/ephemeris.dir/mercury.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/mercury.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/mercury.cpp -o CMakeFiles/ephemeris.dir/mercury.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/mercury.cpp -o CMakeFiles/ephemeris.dir/mercury.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o.requires
@@ -166,17 +166,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o.provides.build: src/li
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o: src/libs/ephemeris/moonpos.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/moonpos.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/moonpos.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/moonpos.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/moonpos.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/moonpos.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/moonpos.cpp > CMakeFiles/ephemeris.dir/moonpos.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/moonpos.cpp > CMakeFiles/ephemeris.dir/moonpos.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/moonpos.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/moonpos.cpp -o CMakeFiles/ephemeris.dir/moonpos.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/moonpos.cpp -o CMakeFiles/ephemeris.dir/moonpos.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o.requires
@@ -189,17 +189,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o.provides.build: src/li
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o: src/libs/ephemeris/neptune.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/neptune.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/neptune.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/neptune.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/neptune.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/neptune.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/neptune.cpp > CMakeFiles/ephemeris.dir/neptune.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/neptune.cpp > CMakeFiles/ephemeris.dir/neptune.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/neptune.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/neptune.cpp -o CMakeFiles/ephemeris.dir/neptune.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/neptune.cpp -o CMakeFiles/ephemeris.dir/neptune.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o.requires
@@ -212,17 +212,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o.provides.build: src/li
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o: src/libs/ephemeris/saturn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/saturn.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/saturn.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/saturn.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/saturn.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/saturn.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/saturn.cpp > CMakeFiles/ephemeris.dir/saturn.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/saturn.cpp > CMakeFiles/ephemeris.dir/saturn.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/saturn.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/saturn.cpp -o CMakeFiles/ephemeris.dir/saturn.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/saturn.cpp -o CMakeFiles/ephemeris.dir/saturn.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o.requires
@@ -235,17 +235,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o.provides.build: src/lib
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o: src/libs/ephemeris/star.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/star.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/star.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/star.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/star.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/star.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/star.cpp > CMakeFiles/ephemeris.dir/star.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/star.cpp > CMakeFiles/ephemeris.dir/star.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/star.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/star.cpp -o CMakeFiles/ephemeris.dir/star.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/star.cpp -o CMakeFiles/ephemeris.dir/star.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o.requires
@@ -258,17 +258,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o.provides.build: src/libs/
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o: src/libs/ephemeris/stardata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/stardata.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/stardata.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/stardata.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/stardata.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/stardata.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/stardata.cpp > CMakeFiles/ephemeris.dir/stardata.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/stardata.cpp > CMakeFiles/ephemeris.dir/stardata.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/stardata.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/stardata.cpp -o CMakeFiles/ephemeris.dir/stardata.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/stardata.cpp -o CMakeFiles/ephemeris.dir/stardata.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o.requires
@@ -281,17 +281,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o.provides.build: src/l
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o: src/libs/ephemeris/uranus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/uranus.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/uranus.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/uranus.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/uranus.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/uranus.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/uranus.cpp > CMakeFiles/ephemeris.dir/uranus.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/uranus.cpp > CMakeFiles/ephemeris.dir/uranus.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/uranus.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/uranus.cpp -o CMakeFiles/ephemeris.dir/uranus.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/uranus.cpp -o CMakeFiles/ephemeris.dir/uranus.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o.requires
@@ -304,17 +304,17 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o.provides.build: src/lib
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o: src/libs/ephemeris/CMakeFiles/ephemeris.dir/flags.make
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o: src/libs/ephemeris/venus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/venus.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/venus.cpp
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ephemeris.dir/venus.cpp.o -c /home/gaoyu/speed-dream/src/libs/ephemeris/venus.cpp
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ephemeris.dir/venus.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/venus.cpp > CMakeFiles/ephemeris.dir/venus.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/ephemeris/venus.cpp > CMakeFiles/ephemeris.dir/venus.cpp.i
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ephemeris.dir/venus.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/venus.cpp -o CMakeFiles/ephemeris.dir/venus.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/ephemeris/venus.cpp -o CMakeFiles/ephemeris.dir/venus.cpp.s
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o.requires:
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o.requires
@@ -361,7 +361,7 @@ lib64/games/speed-dreams-2/lib/libephemeris.so: /usr/lib/libplibsg.so
 lib64/games/speed-dreams-2/lib/libephemeris.so: lib64/games/speed-dreams-2/lib/libportability.so
 lib64/games/speed-dreams-2/lib/libephemeris.so: src/libs/ephemeris/CMakeFiles/ephemeris.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/libephemeris.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ephemeris.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ephemeris.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/build: lib64/games/speed-dreams-2/lib/libephemeris.so
@@ -382,10 +382,10 @@ src/libs/ephemeris/CMakeFiles/ephemeris.dir/requires: src/libs/ephemeris/CMakeFi
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/requires
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris && $(CMAKE_COMMAND) -P CMakeFiles/ephemeris.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/libs/ephemeris && $(CMAKE_COMMAND) -P CMakeFiles/ephemeris.dir/cmake_clean.cmake
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/clean
 
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/ephemeris /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/ephemeris /home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/depend
 

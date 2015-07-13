@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/graphic/osggraph/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/modules/graphic/osggraph/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/rule
 .PHONY : src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ osggraph: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/rule
 
 # fast build rule for target.
 osggraph/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build
 .PHONY : osggraph/fast
 
 Car/OsgBrake.o: Car/OsgBrake.cpp.o
@@ -178,7 +178,7 @@ Car/OsgBrake.o: Car/OsgBrake.cpp.o
 
 # target to build an object file
 Car/OsgBrake.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.o
 .PHONY : Car/OsgBrake.cpp.o
 
 Car/OsgBrake.i: Car/OsgBrake.cpp.i
@@ -186,7 +186,7 @@ Car/OsgBrake.i: Car/OsgBrake.cpp.i
 
 # target to preprocess a source file
 Car/OsgBrake.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.i
 .PHONY : Car/OsgBrake.cpp.i
 
 Car/OsgBrake.s: Car/OsgBrake.cpp.s
@@ -194,7 +194,7 @@ Car/OsgBrake.s: Car/OsgBrake.cpp.s
 
 # target to generate assembly for a file
 Car/OsgBrake.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgBrake.cpp.s
 .PHONY : Car/OsgBrake.cpp.s
 
 Car/OsgCar.o: Car/OsgCar.cpp.o
@@ -202,7 +202,7 @@ Car/OsgCar.o: Car/OsgCar.cpp.o
 
 # target to build an object file
 Car/OsgCar.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.o
 .PHONY : Car/OsgCar.cpp.o
 
 Car/OsgCar.i: Car/OsgCar.cpp.i
@@ -210,7 +210,7 @@ Car/OsgCar.i: Car/OsgCar.cpp.i
 
 # target to preprocess a source file
 Car/OsgCar.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.i
 .PHONY : Car/OsgCar.cpp.i
 
 Car/OsgCar.s: Car/OsgCar.cpp.s
@@ -218,7 +218,7 @@ Car/OsgCar.s: Car/OsgCar.cpp.s
 
 # target to generate assembly for a file
 Car/OsgCar.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgCar.cpp.s
 .PHONY : Car/OsgCar.cpp.s
 
 Car/OsgWheel.o: Car/OsgWheel.cpp.o
@@ -226,7 +226,7 @@ Car/OsgWheel.o: Car/OsgWheel.cpp.o
 
 # target to build an object file
 Car/OsgWheel.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.o
 .PHONY : Car/OsgWheel.cpp.o
 
 Car/OsgWheel.i: Car/OsgWheel.cpp.i
@@ -234,7 +234,7 @@ Car/OsgWheel.i: Car/OsgWheel.cpp.i
 
 # target to preprocess a source file
 Car/OsgWheel.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.i
 .PHONY : Car/OsgWheel.cpp.i
 
 Car/OsgWheel.s: Car/OsgWheel.cpp.s
@@ -242,7 +242,7 @@ Car/OsgWheel.s: Car/OsgWheel.cpp.s
 
 # target to generate assembly for a file
 Car/OsgWheel.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Car/OsgWheel.cpp.s
 .PHONY : Car/OsgWheel.cpp.s
 
 Loader/AccException.o: Loader/AccException.cpp.o
@@ -250,7 +250,7 @@ Loader/AccException.o: Loader/AccException.cpp.o
 
 # target to build an object file
 Loader/AccException.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.o
 .PHONY : Loader/AccException.cpp.o
 
 Loader/AccException.i: Loader/AccException.cpp.i
@@ -258,7 +258,7 @@ Loader/AccException.i: Loader/AccException.cpp.i
 
 # target to preprocess a source file
 Loader/AccException.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.i
 .PHONY : Loader/AccException.cpp.i
 
 Loader/AccException.s: Loader/AccException.cpp.s
@@ -266,7 +266,7 @@ Loader/AccException.s: Loader/AccException.cpp.s
 
 # target to generate assembly for a file
 Loader/AccException.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccException.cpp.s
 .PHONY : Loader/AccException.cpp.s
 
 Loader/AccGeode.o: Loader/AccGeode.cpp.o
@@ -274,7 +274,7 @@ Loader/AccGeode.o: Loader/AccGeode.cpp.o
 
 # target to build an object file
 Loader/AccGeode.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.o
 .PHONY : Loader/AccGeode.cpp.o
 
 Loader/AccGeode.i: Loader/AccGeode.cpp.i
@@ -282,7 +282,7 @@ Loader/AccGeode.i: Loader/AccGeode.cpp.i
 
 # target to preprocess a source file
 Loader/AccGeode.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.i
 .PHONY : Loader/AccGeode.cpp.i
 
 Loader/AccGeode.s: Loader/AccGeode.cpp.s
@@ -290,7 +290,7 @@ Loader/AccGeode.s: Loader/AccGeode.cpp.s
 
 # target to generate assembly for a file
 Loader/AccGeode.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/AccGeode.cpp.s
 .PHONY : Loader/AccGeode.cpp.s
 
 Loader/OsgLoader.o: Loader/OsgLoader.cpp.o
@@ -298,7 +298,7 @@ Loader/OsgLoader.o: Loader/OsgLoader.cpp.o
 
 # target to build an object file
 Loader/OsgLoader.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.o
 .PHONY : Loader/OsgLoader.cpp.o
 
 Loader/OsgLoader.i: Loader/OsgLoader.cpp.i
@@ -306,7 +306,7 @@ Loader/OsgLoader.i: Loader/OsgLoader.cpp.i
 
 # target to preprocess a source file
 Loader/OsgLoader.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.i
 .PHONY : Loader/OsgLoader.cpp.i
 
 Loader/OsgLoader.s: Loader/OsgLoader.cpp.s
@@ -314,7 +314,7 @@ Loader/OsgLoader.s: Loader/OsgLoader.cpp.s
 
 # target to generate assembly for a file
 Loader/OsgLoader.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/OsgLoader.cpp.s
 .PHONY : Loader/OsgLoader.cpp.s
 
 Loader/ReaderWriterACC.o: Loader/ReaderWriterACC.cpp.o
@@ -322,7 +322,7 @@ Loader/ReaderWriterACC.o: Loader/ReaderWriterACC.cpp.o
 
 # target to build an object file
 Loader/ReaderWriterACC.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.o
 .PHONY : Loader/ReaderWriterACC.cpp.o
 
 Loader/ReaderWriterACC.i: Loader/ReaderWriterACC.cpp.i
@@ -330,7 +330,7 @@ Loader/ReaderWriterACC.i: Loader/ReaderWriterACC.cpp.i
 
 # target to preprocess a source file
 Loader/ReaderWriterACC.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.i
 .PHONY : Loader/ReaderWriterACC.cpp.i
 
 Loader/ReaderWriterACC.s: Loader/ReaderWriterACC.cpp.s
@@ -338,7 +338,7 @@ Loader/ReaderWriterACC.s: Loader/ReaderWriterACC.cpp.s
 
 # target to generate assembly for a file
 Loader/ReaderWriterACC.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Loader/ReaderWriterACC.cpp.s
 .PHONY : Loader/ReaderWriterACC.cpp.s
 
 OsgGraph.o: OsgGraph.cpp.o
@@ -346,7 +346,7 @@ OsgGraph.o: OsgGraph.cpp.o
 
 # target to build an object file
 OsgGraph.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.o
 .PHONY : OsgGraph.cpp.o
 
 OsgGraph.i: OsgGraph.cpp.i
@@ -354,7 +354,7 @@ OsgGraph.i: OsgGraph.cpp.i
 
 # target to preprocess a source file
 OsgGraph.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.i
 .PHONY : OsgGraph.cpp.i
 
 OsgGraph.s: OsgGraph.cpp.s
@@ -362,7 +362,7 @@ OsgGraph.s: OsgGraph.cpp.s
 
 # target to generate assembly for a file
 OsgGraph.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgGraph.cpp.s
 .PHONY : OsgGraph.cpp.s
 
 OsgMain.o: OsgMain.cpp.o
@@ -370,7 +370,7 @@ OsgMain.o: OsgMain.cpp.o
 
 # target to build an object file
 OsgMain.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.o
 .PHONY : OsgMain.cpp.o
 
 OsgMain.i: OsgMain.cpp.i
@@ -378,7 +378,7 @@ OsgMain.i: OsgMain.cpp.i
 
 # target to preprocess a source file
 OsgMain.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.i
 .PHONY : OsgMain.cpp.i
 
 OsgMain.s: OsgMain.cpp.s
@@ -386,7 +386,7 @@ OsgMain.s: OsgMain.cpp.s
 
 # target to generate assembly for a file
 OsgMain.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/OsgMain.cpp.s
 .PHONY : OsgMain.cpp.s
 
 Render/OsgReflectionMapping.o: Render/OsgReflectionMapping.cpp.o
@@ -394,7 +394,7 @@ Render/OsgReflectionMapping.o: Render/OsgReflectionMapping.cpp.o
 
 # target to build an object file
 Render/OsgReflectionMapping.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.o
 .PHONY : Render/OsgReflectionMapping.cpp.o
 
 Render/OsgReflectionMapping.i: Render/OsgReflectionMapping.cpp.i
@@ -402,7 +402,7 @@ Render/OsgReflectionMapping.i: Render/OsgReflectionMapping.cpp.i
 
 # target to preprocess a source file
 Render/OsgReflectionMapping.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.i
 .PHONY : Render/OsgReflectionMapping.cpp.i
 
 Render/OsgReflectionMapping.s: Render/OsgReflectionMapping.cpp.s
@@ -410,7 +410,7 @@ Render/OsgReflectionMapping.s: Render/OsgReflectionMapping.cpp.s
 
 # target to generate assembly for a file
 Render/OsgReflectionMapping.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgReflectionMapping.cpp.s
 .PHONY : Render/OsgReflectionMapping.cpp.s
 
 Render/OsgRender.o: Render/OsgRender.cpp.o
@@ -418,7 +418,7 @@ Render/OsgRender.o: Render/OsgRender.cpp.o
 
 # target to build an object file
 Render/OsgRender.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.o
 .PHONY : Render/OsgRender.cpp.o
 
 Render/OsgRender.i: Render/OsgRender.cpp.i
@@ -426,7 +426,7 @@ Render/OsgRender.i: Render/OsgRender.cpp.i
 
 # target to preprocess a source file
 Render/OsgRender.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.i
 .PHONY : Render/OsgRender.cpp.i
 
 Render/OsgRender.s: Render/OsgRender.cpp.s
@@ -434,7 +434,7 @@ Render/OsgRender.s: Render/OsgRender.cpp.s
 
 # target to generate assembly for a file
 Render/OsgRender.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgRender.cpp.s
 .PHONY : Render/OsgRender.cpp.s
 
 Render/OsgShader.o: Render/OsgShader.cpp.o
@@ -442,7 +442,7 @@ Render/OsgShader.o: Render/OsgShader.cpp.o
 
 # target to build an object file
 Render/OsgShader.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.o
 .PHONY : Render/OsgShader.cpp.o
 
 Render/OsgShader.i: Render/OsgShader.cpp.i
@@ -450,7 +450,7 @@ Render/OsgShader.i: Render/OsgShader.cpp.i
 
 # target to preprocess a source file
 Render/OsgShader.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.i
 .PHONY : Render/OsgShader.cpp.i
 
 Render/OsgShader.s: Render/OsgShader.cpp.s
@@ -458,7 +458,7 @@ Render/OsgShader.s: Render/OsgShader.cpp.s
 
 # target to generate assembly for a file
 Render/OsgShader.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Render/OsgShader.cpp.s
 .PHONY : Render/OsgShader.cpp.s
 
 Scenery/OsgBackground.o: Scenery/OsgBackground.cpp.o
@@ -466,7 +466,7 @@ Scenery/OsgBackground.o: Scenery/OsgBackground.cpp.o
 
 # target to build an object file
 Scenery/OsgBackground.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.o
 .PHONY : Scenery/OsgBackground.cpp.o
 
 Scenery/OsgBackground.i: Scenery/OsgBackground.cpp.i
@@ -474,7 +474,7 @@ Scenery/OsgBackground.i: Scenery/OsgBackground.cpp.i
 
 # target to preprocess a source file
 Scenery/OsgBackground.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.i
 .PHONY : Scenery/OsgBackground.cpp.i
 
 Scenery/OsgBackground.s: Scenery/OsgBackground.cpp.s
@@ -482,7 +482,7 @@ Scenery/OsgBackground.s: Scenery/OsgBackground.cpp.s
 
 # target to generate assembly for a file
 Scenery/OsgBackground.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgBackground.cpp.s
 .PHONY : Scenery/OsgBackground.cpp.s
 
 Scenery/OsgPit.o: Scenery/OsgPit.cpp.o
@@ -490,7 +490,7 @@ Scenery/OsgPit.o: Scenery/OsgPit.cpp.o
 
 # target to build an object file
 Scenery/OsgPit.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.o
 .PHONY : Scenery/OsgPit.cpp.o
 
 Scenery/OsgPit.i: Scenery/OsgPit.cpp.i
@@ -498,7 +498,7 @@ Scenery/OsgPit.i: Scenery/OsgPit.cpp.i
 
 # target to preprocess a source file
 Scenery/OsgPit.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.i
 .PHONY : Scenery/OsgPit.cpp.i
 
 Scenery/OsgPit.s: Scenery/OsgPit.cpp.s
@@ -506,7 +506,7 @@ Scenery/OsgPit.s: Scenery/OsgPit.cpp.s
 
 # target to generate assembly for a file
 Scenery/OsgPit.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgPit.cpp.s
 .PHONY : Scenery/OsgPit.cpp.s
 
 Scenery/OsgScenery.o: Scenery/OsgScenery.cpp.o
@@ -514,7 +514,7 @@ Scenery/OsgScenery.o: Scenery/OsgScenery.cpp.o
 
 # target to build an object file
 Scenery/OsgScenery.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.o
 .PHONY : Scenery/OsgScenery.cpp.o
 
 Scenery/OsgScenery.i: Scenery/OsgScenery.cpp.i
@@ -522,7 +522,7 @@ Scenery/OsgScenery.i: Scenery/OsgScenery.cpp.i
 
 # target to preprocess a source file
 Scenery/OsgScenery.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.i
 .PHONY : Scenery/OsgScenery.cpp.i
 
 Scenery/OsgScenery.s: Scenery/OsgScenery.cpp.s
@@ -530,7 +530,7 @@ Scenery/OsgScenery.s: Scenery/OsgScenery.cpp.s
 
 # target to generate assembly for a file
 Scenery/OsgScenery.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Scenery/OsgScenery.cpp.s
 .PHONY : Scenery/OsgScenery.cpp.s
 
 Sky/OsgCloud.o: Sky/OsgCloud.cpp.o
@@ -538,7 +538,7 @@ Sky/OsgCloud.o: Sky/OsgCloud.cpp.o
 
 # target to build an object file
 Sky/OsgCloud.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.o
 .PHONY : Sky/OsgCloud.cpp.o
 
 Sky/OsgCloud.i: Sky/OsgCloud.cpp.i
@@ -546,7 +546,7 @@ Sky/OsgCloud.i: Sky/OsgCloud.cpp.i
 
 # target to preprocess a source file
 Sky/OsgCloud.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.i
 .PHONY : Sky/OsgCloud.cpp.i
 
 Sky/OsgCloud.s: Sky/OsgCloud.cpp.s
@@ -554,7 +554,7 @@ Sky/OsgCloud.s: Sky/OsgCloud.cpp.s
 
 # target to generate assembly for a file
 Sky/OsgCloud.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgCloud.cpp.s
 .PHONY : Sky/OsgCloud.cpp.s
 
 Sky/OsgDome.o: Sky/OsgDome.cpp.o
@@ -562,7 +562,7 @@ Sky/OsgDome.o: Sky/OsgDome.cpp.o
 
 # target to build an object file
 Sky/OsgDome.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.o
 .PHONY : Sky/OsgDome.cpp.o
 
 Sky/OsgDome.i: Sky/OsgDome.cpp.i
@@ -570,7 +570,7 @@ Sky/OsgDome.i: Sky/OsgDome.cpp.i
 
 # target to preprocess a source file
 Sky/OsgDome.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.i
 .PHONY : Sky/OsgDome.cpp.i
 
 Sky/OsgDome.s: Sky/OsgDome.cpp.s
@@ -578,7 +578,7 @@ Sky/OsgDome.s: Sky/OsgDome.cpp.s
 
 # target to generate assembly for a file
 Sky/OsgDome.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgDome.cpp.s
 .PHONY : Sky/OsgDome.cpp.s
 
 Sky/OsgMoon.o: Sky/OsgMoon.cpp.o
@@ -586,7 +586,7 @@ Sky/OsgMoon.o: Sky/OsgMoon.cpp.o
 
 # target to build an object file
 Sky/OsgMoon.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.o
 .PHONY : Sky/OsgMoon.cpp.o
 
 Sky/OsgMoon.i: Sky/OsgMoon.cpp.i
@@ -594,7 +594,7 @@ Sky/OsgMoon.i: Sky/OsgMoon.cpp.i
 
 # target to preprocess a source file
 Sky/OsgMoon.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.i
 .PHONY : Sky/OsgMoon.cpp.i
 
 Sky/OsgMoon.s: Sky/OsgMoon.cpp.s
@@ -602,7 +602,7 @@ Sky/OsgMoon.s: Sky/OsgMoon.cpp.s
 
 # target to generate assembly for a file
 Sky/OsgMoon.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgMoon.cpp.s
 .PHONY : Sky/OsgMoon.cpp.s
 
 Sky/OsgSky.o: Sky/OsgSky.cpp.o
@@ -610,7 +610,7 @@ Sky/OsgSky.o: Sky/OsgSky.cpp.o
 
 # target to build an object file
 Sky/OsgSky.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.o
 .PHONY : Sky/OsgSky.cpp.o
 
 Sky/OsgSky.i: Sky/OsgSky.cpp.i
@@ -618,7 +618,7 @@ Sky/OsgSky.i: Sky/OsgSky.cpp.i
 
 # target to preprocess a source file
 Sky/OsgSky.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.i
 .PHONY : Sky/OsgSky.cpp.i
 
 Sky/OsgSky.s: Sky/OsgSky.cpp.s
@@ -626,7 +626,7 @@ Sky/OsgSky.s: Sky/OsgSky.cpp.s
 
 # target to generate assembly for a file
 Sky/OsgSky.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSky.cpp.s
 .PHONY : Sky/OsgSky.cpp.s
 
 Sky/OsgSphere.o: Sky/OsgSphere.cpp.o
@@ -634,7 +634,7 @@ Sky/OsgSphere.o: Sky/OsgSphere.cpp.o
 
 # target to build an object file
 Sky/OsgSphere.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.o
 .PHONY : Sky/OsgSphere.cpp.o
 
 Sky/OsgSphere.i: Sky/OsgSphere.cpp.i
@@ -642,7 +642,7 @@ Sky/OsgSphere.i: Sky/OsgSphere.cpp.i
 
 # target to preprocess a source file
 Sky/OsgSphere.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.i
 .PHONY : Sky/OsgSphere.cpp.i
 
 Sky/OsgSphere.s: Sky/OsgSphere.cpp.s
@@ -650,7 +650,7 @@ Sky/OsgSphere.s: Sky/OsgSphere.cpp.s
 
 # target to generate assembly for a file
 Sky/OsgSphere.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSphere.cpp.s
 .PHONY : Sky/OsgSphere.cpp.s
 
 Sky/OsgStars.o: Sky/OsgStars.cpp.o
@@ -658,7 +658,7 @@ Sky/OsgStars.o: Sky/OsgStars.cpp.o
 
 # target to build an object file
 Sky/OsgStars.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.o
 .PHONY : Sky/OsgStars.cpp.o
 
 Sky/OsgStars.i: Sky/OsgStars.cpp.i
@@ -666,7 +666,7 @@ Sky/OsgStars.i: Sky/OsgStars.cpp.i
 
 # target to preprocess a source file
 Sky/OsgStars.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.i
 .PHONY : Sky/OsgStars.cpp.i
 
 Sky/OsgStars.s: Sky/OsgStars.cpp.s
@@ -674,7 +674,7 @@ Sky/OsgStars.s: Sky/OsgStars.cpp.s
 
 # target to generate assembly for a file
 Sky/OsgStars.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgStars.cpp.s
 .PHONY : Sky/OsgStars.cpp.s
 
 Sky/OsgSun.o: Sky/OsgSun.cpp.o
@@ -682,7 +682,7 @@ Sky/OsgSun.o: Sky/OsgSun.cpp.o
 
 # target to build an object file
 Sky/OsgSun.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.o
 .PHONY : Sky/OsgSun.cpp.o
 
 Sky/OsgSun.i: Sky/OsgSun.cpp.i
@@ -690,7 +690,7 @@ Sky/OsgSun.i: Sky/OsgSun.cpp.i
 
 # target to preprocess a source file
 Sky/OsgSun.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.i
 .PHONY : Sky/OsgSun.cpp.i
 
 Sky/OsgSun.s: Sky/OsgSun.cpp.s
@@ -698,7 +698,7 @@ Sky/OsgSun.s: Sky/OsgSun.cpp.s
 
 # target to generate assembly for a file
 Sky/OsgSun.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Sky/OsgSun.cpp.s
 .PHONY : Sky/OsgSun.cpp.s
 
 Utils/OsgMath.o: Utils/OsgMath.cpp.o
@@ -706,7 +706,7 @@ Utils/OsgMath.o: Utils/OsgMath.cpp.o
 
 # target to build an object file
 Utils/OsgMath.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.o
 .PHONY : Utils/OsgMath.cpp.o
 
 Utils/OsgMath.i: Utils/OsgMath.cpp.i
@@ -714,7 +714,7 @@ Utils/OsgMath.i: Utils/OsgMath.cpp.i
 
 # target to preprocess a source file
 Utils/OsgMath.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.i
 .PHONY : Utils/OsgMath.cpp.i
 
 Utils/OsgMath.s: Utils/OsgMath.cpp.s
@@ -722,7 +722,7 @@ Utils/OsgMath.s: Utils/OsgMath.cpp.s
 
 # target to generate assembly for a file
 Utils/OsgMath.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Utils/OsgMath.cpp.s
 .PHONY : Utils/OsgMath.cpp.s
 
 Viewer/OsgCamera.o: Viewer/OsgCamera.cpp.o
@@ -730,7 +730,7 @@ Viewer/OsgCamera.o: Viewer/OsgCamera.cpp.o
 
 # target to build an object file
 Viewer/OsgCamera.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.o
 .PHONY : Viewer/OsgCamera.cpp.o
 
 Viewer/OsgCamera.i: Viewer/OsgCamera.cpp.i
@@ -738,7 +738,7 @@ Viewer/OsgCamera.i: Viewer/OsgCamera.cpp.i
 
 # target to preprocess a source file
 Viewer/OsgCamera.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.i
 .PHONY : Viewer/OsgCamera.cpp.i
 
 Viewer/OsgCamera.s: Viewer/OsgCamera.cpp.s
@@ -746,7 +746,7 @@ Viewer/OsgCamera.s: Viewer/OsgCamera.cpp.s
 
 # target to generate assembly for a file
 Viewer/OsgCamera.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgCamera.cpp.s
 .PHONY : Viewer/OsgCamera.cpp.s
 
 Viewer/OsgDebugHUD.o: Viewer/OsgDebugHUD.cpp.o
@@ -754,7 +754,7 @@ Viewer/OsgDebugHUD.o: Viewer/OsgDebugHUD.cpp.o
 
 # target to build an object file
 Viewer/OsgDebugHUD.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.o
 .PHONY : Viewer/OsgDebugHUD.cpp.o
 
 Viewer/OsgDebugHUD.i: Viewer/OsgDebugHUD.cpp.i
@@ -762,7 +762,7 @@ Viewer/OsgDebugHUD.i: Viewer/OsgDebugHUD.cpp.i
 
 # target to preprocess a source file
 Viewer/OsgDebugHUD.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.i
 .PHONY : Viewer/OsgDebugHUD.cpp.i
 
 Viewer/OsgDebugHUD.s: Viewer/OsgDebugHUD.cpp.s
@@ -770,7 +770,7 @@ Viewer/OsgDebugHUD.s: Viewer/OsgDebugHUD.cpp.s
 
 # target to generate assembly for a file
 Viewer/OsgDebugHUD.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgDebugHUD.cpp.s
 .PHONY : Viewer/OsgDebugHUD.cpp.s
 
 Viewer/OsgHUD.o: Viewer/OsgHUD.cpp.o
@@ -778,7 +778,7 @@ Viewer/OsgHUD.o: Viewer/OsgHUD.cpp.o
 
 # target to build an object file
 Viewer/OsgHUD.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.o
 .PHONY : Viewer/OsgHUD.cpp.o
 
 Viewer/OsgHUD.i: Viewer/OsgHUD.cpp.i
@@ -786,7 +786,7 @@ Viewer/OsgHUD.i: Viewer/OsgHUD.cpp.i
 
 # target to preprocess a source file
 Viewer/OsgHUD.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.i
 .PHONY : Viewer/OsgHUD.cpp.i
 
 Viewer/OsgHUD.s: Viewer/OsgHUD.cpp.s
@@ -794,7 +794,7 @@ Viewer/OsgHUD.s: Viewer/OsgHUD.cpp.s
 
 # target to generate assembly for a file
 Viewer/OsgHUD.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgHUD.cpp.s
 .PHONY : Viewer/OsgHUD.cpp.s
 
 Viewer/OsgScreens.o: Viewer/OsgScreens.cpp.o
@@ -802,7 +802,7 @@ Viewer/OsgScreens.o: Viewer/OsgScreens.cpp.o
 
 # target to build an object file
 Viewer/OsgScreens.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.o
 .PHONY : Viewer/OsgScreens.cpp.o
 
 Viewer/OsgScreens.i: Viewer/OsgScreens.cpp.i
@@ -810,7 +810,7 @@ Viewer/OsgScreens.i: Viewer/OsgScreens.cpp.i
 
 # target to preprocess a source file
 Viewer/OsgScreens.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.i
 .PHONY : Viewer/OsgScreens.cpp.i
 
 Viewer/OsgScreens.s: Viewer/OsgScreens.cpp.s
@@ -818,7 +818,7 @@ Viewer/OsgScreens.s: Viewer/OsgScreens.cpp.s
 
 # target to generate assembly for a file
 Viewer/OsgScreens.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgScreens.cpp.s
 .PHONY : Viewer/OsgScreens.cpp.s
 
 Viewer/OsgView.o: Viewer/OsgView.cpp.o
@@ -826,7 +826,7 @@ Viewer/OsgView.o: Viewer/OsgView.cpp.o
 
 # target to build an object file
 Viewer/OsgView.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.o
 .PHONY : Viewer/OsgView.cpp.o
 
 Viewer/OsgView.i: Viewer/OsgView.cpp.i
@@ -834,7 +834,7 @@ Viewer/OsgView.i: Viewer/OsgView.cpp.i
 
 # target to preprocess a source file
 Viewer/OsgView.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.i
 .PHONY : Viewer/OsgView.cpp.i
 
 Viewer/OsgView.s: Viewer/OsgView.cpp.s
@@ -842,7 +842,7 @@ Viewer/OsgView.s: Viewer/OsgView.cpp.s
 
 # target to generate assembly for a file
 Viewer/OsgView.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/build.make src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/Viewer/OsgView.cpp.s
 .PHONY : Viewer/OsgView.cpp.s
 
 # Help Target
@@ -955,6 +955,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

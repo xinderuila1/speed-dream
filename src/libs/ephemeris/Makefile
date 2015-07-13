@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/ephemeris/CMakeFiles/ephemeris.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/CMakeFiles/ephemeris.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/libs/ephemeris/CMakeFiles/ephemeris.dir/rule
 .PHONY : src/libs/ephemeris/CMakeFiles/ephemeris.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ ephemeris: src/libs/ephemeris/CMakeFiles/ephemeris.dir/rule
 
 # fast build rule for target.
 ephemeris/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/build
 .PHONY : ephemeris/fast
 
 celestialbody.o: celestialbody.cpp.o
@@ -178,7 +178,7 @@ celestialbody.o: celestialbody.cpp.o
 
 # target to build an object file
 celestialbody.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o
 .PHONY : celestialbody.cpp.o
 
 celestialbody.i: celestialbody.cpp.i
@@ -186,7 +186,7 @@ celestialbody.i: celestialbody.cpp.i
 
 # target to preprocess a source file
 celestialbody.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.i
 .PHONY : celestialbody.cpp.i
 
 celestialbody.s: celestialbody.cpp.s
@@ -194,7 +194,7 @@ celestialbody.s: celestialbody.cpp.s
 
 # target to generate assembly for a file
 celestialbody.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.s
 .PHONY : celestialbody.cpp.s
 
 ephemeris.o: ephemeris.cpp.o
@@ -202,7 +202,7 @@ ephemeris.o: ephemeris.cpp.o
 
 # target to build an object file
 ephemeris.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o
 .PHONY : ephemeris.cpp.o
 
 ephemeris.i: ephemeris.cpp.i
@@ -210,7 +210,7 @@ ephemeris.i: ephemeris.cpp.i
 
 # target to preprocess a source file
 ephemeris.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.i
 .PHONY : ephemeris.cpp.i
 
 ephemeris.s: ephemeris.cpp.s
@@ -218,7 +218,7 @@ ephemeris.s: ephemeris.cpp.s
 
 # target to generate assembly for a file
 ephemeris.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.s
 .PHONY : ephemeris.cpp.s
 
 jupiter.o: jupiter.cpp.o
@@ -226,7 +226,7 @@ jupiter.o: jupiter.cpp.o
 
 # target to build an object file
 jupiter.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o
 .PHONY : jupiter.cpp.o
 
 jupiter.i: jupiter.cpp.i
@@ -234,7 +234,7 @@ jupiter.i: jupiter.cpp.i
 
 # target to preprocess a source file
 jupiter.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.i
 .PHONY : jupiter.cpp.i
 
 jupiter.s: jupiter.cpp.s
@@ -242,7 +242,7 @@ jupiter.s: jupiter.cpp.s
 
 # target to generate assembly for a file
 jupiter.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.s
 .PHONY : jupiter.cpp.s
 
 mars.o: mars.cpp.o
@@ -250,7 +250,7 @@ mars.o: mars.cpp.o
 
 # target to build an object file
 mars.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o
 .PHONY : mars.cpp.o
 
 mars.i: mars.cpp.i
@@ -258,7 +258,7 @@ mars.i: mars.cpp.i
 
 # target to preprocess a source file
 mars.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.i
 .PHONY : mars.cpp.i
 
 mars.s: mars.cpp.s
@@ -266,7 +266,7 @@ mars.s: mars.cpp.s
 
 # target to generate assembly for a file
 mars.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.s
 .PHONY : mars.cpp.s
 
 mercury.o: mercury.cpp.o
@@ -274,7 +274,7 @@ mercury.o: mercury.cpp.o
 
 # target to build an object file
 mercury.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o
 .PHONY : mercury.cpp.o
 
 mercury.i: mercury.cpp.i
@@ -282,7 +282,7 @@ mercury.i: mercury.cpp.i
 
 # target to preprocess a source file
 mercury.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.i
 .PHONY : mercury.cpp.i
 
 mercury.s: mercury.cpp.s
@@ -290,7 +290,7 @@ mercury.s: mercury.cpp.s
 
 # target to generate assembly for a file
 mercury.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.s
 .PHONY : mercury.cpp.s
 
 moonpos.o: moonpos.cpp.o
@@ -298,7 +298,7 @@ moonpos.o: moonpos.cpp.o
 
 # target to build an object file
 moonpos.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o
 .PHONY : moonpos.cpp.o
 
 moonpos.i: moonpos.cpp.i
@@ -306,7 +306,7 @@ moonpos.i: moonpos.cpp.i
 
 # target to preprocess a source file
 moonpos.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.i
 .PHONY : moonpos.cpp.i
 
 moonpos.s: moonpos.cpp.s
@@ -314,7 +314,7 @@ moonpos.s: moonpos.cpp.s
 
 # target to generate assembly for a file
 moonpos.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.s
 .PHONY : moonpos.cpp.s
 
 neptune.o: neptune.cpp.o
@@ -322,7 +322,7 @@ neptune.o: neptune.cpp.o
 
 # target to build an object file
 neptune.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o
 .PHONY : neptune.cpp.o
 
 neptune.i: neptune.cpp.i
@@ -330,7 +330,7 @@ neptune.i: neptune.cpp.i
 
 # target to preprocess a source file
 neptune.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.i
 .PHONY : neptune.cpp.i
 
 neptune.s: neptune.cpp.s
@@ -338,7 +338,7 @@ neptune.s: neptune.cpp.s
 
 # target to generate assembly for a file
 neptune.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.s
 .PHONY : neptune.cpp.s
 
 saturn.o: saturn.cpp.o
@@ -346,7 +346,7 @@ saturn.o: saturn.cpp.o
 
 # target to build an object file
 saturn.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o
 .PHONY : saturn.cpp.o
 
 saturn.i: saturn.cpp.i
@@ -354,7 +354,7 @@ saturn.i: saturn.cpp.i
 
 # target to preprocess a source file
 saturn.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.i
 .PHONY : saturn.cpp.i
 
 saturn.s: saturn.cpp.s
@@ -362,7 +362,7 @@ saturn.s: saturn.cpp.s
 
 # target to generate assembly for a file
 saturn.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.s
 .PHONY : saturn.cpp.s
 
 star.o: star.cpp.o
@@ -370,7 +370,7 @@ star.o: star.cpp.o
 
 # target to build an object file
 star.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o
 .PHONY : star.cpp.o
 
 star.i: star.cpp.i
@@ -378,7 +378,7 @@ star.i: star.cpp.i
 
 # target to preprocess a source file
 star.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.i
 .PHONY : star.cpp.i
 
 star.s: star.cpp.s
@@ -386,7 +386,7 @@ star.s: star.cpp.s
 
 # target to generate assembly for a file
 star.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.s
 .PHONY : star.cpp.s
 
 stardata.o: stardata.cpp.o
@@ -394,7 +394,7 @@ stardata.o: stardata.cpp.o
 
 # target to build an object file
 stardata.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o
 .PHONY : stardata.cpp.o
 
 stardata.i: stardata.cpp.i
@@ -402,7 +402,7 @@ stardata.i: stardata.cpp.i
 
 # target to preprocess a source file
 stardata.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.i
 .PHONY : stardata.cpp.i
 
 stardata.s: stardata.cpp.s
@@ -410,7 +410,7 @@ stardata.s: stardata.cpp.s
 
 # target to generate assembly for a file
 stardata.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.s
 .PHONY : stardata.cpp.s
 
 uranus.o: uranus.cpp.o
@@ -418,7 +418,7 @@ uranus.o: uranus.cpp.o
 
 # target to build an object file
 uranus.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o
 .PHONY : uranus.cpp.o
 
 uranus.i: uranus.cpp.i
@@ -426,7 +426,7 @@ uranus.i: uranus.cpp.i
 
 # target to preprocess a source file
 uranus.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.i
 .PHONY : uranus.cpp.i
 
 uranus.s: uranus.cpp.s
@@ -434,7 +434,7 @@ uranus.s: uranus.cpp.s
 
 # target to generate assembly for a file
 uranus.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.s
 .PHONY : uranus.cpp.s
 
 venus.o: venus.cpp.o
@@ -442,7 +442,7 @@ venus.o: venus.cpp.o
 
 # target to build an object file
 venus.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o
 .PHONY : venus.cpp.o
 
 venus.i: venus.cpp.i
@@ -450,7 +450,7 @@ venus.i: venus.cpp.i
 
 # target to preprocess a source file
 venus.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.i
 .PHONY : venus.cpp.i
 
 venus.s: venus.cpp.s
@@ -458,7 +458,7 @@ venus.s: venus.cpp.s
 
 # target to generate assembly for a file
 venus.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/libs/ephemeris/CMakeFiles/ephemeris.dir/build.make src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.s
 .PHONY : venus.cpp.s
 
 # Help Target
@@ -523,6 +523,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

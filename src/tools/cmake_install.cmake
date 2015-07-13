@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools
+# Install script for directory: /home/gaoyu/speed-dream/src/tools
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/nfs2ac/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/nfsperf/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/xmlversion/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/tools/accc/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/tools/nfs2ac/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/tools/nfsperf/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/tools/trackgen/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/tools/xmlversion/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/tools/menuview/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

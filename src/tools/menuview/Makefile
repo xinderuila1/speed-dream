@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/tools/menuview/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/CMakeFiles/sd2-menuview.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/tools/menuview/CMakeFiles/sd2-menuview.dir/rule
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ sd2-menuview: src/tools/menuview/CMakeFiles/sd2-menuview.dir/rule
 
 # fast build rule for target.
 sd2-menuview/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/build
 .PHONY : sd2-menuview/fast
 
 main.o: main.cpp.o
@@ -178,7 +178,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -186,7 +186,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -194,7 +194,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 previewmenu.o: previewmenu.cpp.o
@@ -202,7 +202,7 @@ previewmenu.o: previewmenu.cpp.o
 
 # target to build an object file
 previewmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o
 .PHONY : previewmenu.cpp.o
 
 previewmenu.i: previewmenu.cpp.i
@@ -210,7 +210,7 @@ previewmenu.i: previewmenu.cpp.i
 
 # target to preprocess a source file
 previewmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i
 .PHONY : previewmenu.cpp.i
 
 previewmenu.s: previewmenu.cpp.s
@@ -218,7 +218,7 @@ previewmenu.s: previewmenu.cpp.s
 
 # target to generate assembly for a file
 previewmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/tools/menuview/CMakeFiles/sd2-menuview.dir/build.make src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s
 .PHONY : previewmenu.cpp.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

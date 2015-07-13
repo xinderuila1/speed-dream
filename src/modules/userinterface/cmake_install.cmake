@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface
+# Install script for directory: /home/gaoyu/speed-dream/src/modules/userinterface
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/textonly/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/userinterface/textonly/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

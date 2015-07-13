@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+# Install script for directory: /home/gaoyu/speed-dream
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/games/speed-dreams-2" TYPE FILE FILES
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/CHANGES.txt"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/COPYING.txt"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/INSTALL.txt"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/README.txt"
+    "/home/gaoyu/speed-dream/CHANGES.txt"
+    "/home/gaoyu/speed-dream/COPYING.txt"
+    "/home/gaoyu/speed-dream/INSTALL.txt"
+    "/home/gaoyu/speed-dream/README.txt"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
@@ -50,7 +50,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/games/speed-dreams-2" TYPE FILE FILES "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/games/version.xml")
+FILE(INSTALL DESTINATION "/usr/local/share/games/speed-dreams-2" TYPE FILE FILES "/home/gaoyu/speed-dream/games/version.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -68,15 +68,15 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
             SET(SD_BINDIR_ABS \"/usr/local/games\")
             SET(SD_INCLUDEDIR_ABS \"/usr/local/include/speed-dreams-2\")
                SET(IN_SOURCETREE FALSE)\n\n")
-         FILE(READ "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/cmake/macros.cmake" SD_MACRO_CONTENT)
+         FILE(READ "/home/gaoyu/speed-dream/cmake/macros.cmake" SD_MACRO_CONTENT)
          FILE(APPEND "${CUR_DESTDIR_CORR}/usr/local/share/games/speed-dreams-2/cmake/speed-dreams.cmake" ${SD_MACRO_CONTENT})
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/data/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/cmake/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/data/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/cmake/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -86,7 +86,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/gaoyu/speed-dream/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/gaoyu/speed-dream/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

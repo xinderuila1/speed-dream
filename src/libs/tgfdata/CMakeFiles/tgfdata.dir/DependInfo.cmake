@@ -4,12 +4,12 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/cars.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/drivers.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/race.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/racemanagers.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/tgfdata.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/tracks.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/tgfdata/cars.cpp" "/home/gaoyu/speed-dream/src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/tgfdata/drivers.cpp" "/home/gaoyu/speed-dream/src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/tgfdata/race.cpp" "/home/gaoyu/speed-dream/src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/tgfdata/racemanagers.cpp" "/home/gaoyu/speed-dream/src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/tgfdata/tgfdata.cpp" "/home/gaoyu/speed-dream/src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/tgfdata/tracks.cpp" "/home/gaoyu/speed-dream/src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,8 +31,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

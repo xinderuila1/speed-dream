@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/drivers/usr/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/drivers/usr/CMakeFiles/usr.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/CMakeFiles/usr.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/usr/CMakeFiles/usr.dir/rule
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ usr: src/drivers/usr/CMakeFiles/usr.dir/rule
 
 # fast build rule for target.
 usr/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/build
 .PHONY : usr/fast
 
 src/cardata.o: src/cardata.cpp.o
@@ -178,7 +178,7 @@ src/cardata.o: src/cardata.cpp.o
 
 # target to build an object file
 src/cardata.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.o
 .PHONY : src/cardata.cpp.o
 
 src/cardata.i: src/cardata.cpp.i
@@ -186,7 +186,7 @@ src/cardata.i: src/cardata.cpp.i
 
 # target to preprocess a source file
 src/cardata.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.i
 .PHONY : src/cardata.cpp.i
 
 src/cardata.s: src/cardata.cpp.s
@@ -194,7 +194,7 @@ src/cardata.s: src/cardata.cpp.s
 
 # target to generate assembly for a file
 src/cardata.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.s
 .PHONY : src/cardata.cpp.s
 
 src/driver.o: src/driver.cpp.o
@@ -202,7 +202,7 @@ src/driver.o: src/driver.cpp.o
 
 # target to build an object file
 src/driver.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.o
 .PHONY : src/driver.cpp.o
 
 src/driver.i: src/driver.cpp.i
@@ -210,7 +210,7 @@ src/driver.i: src/driver.cpp.i
 
 # target to preprocess a source file
 src/driver.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.i
 .PHONY : src/driver.cpp.i
 
 src/driver.s: src/driver.cpp.s
@@ -218,7 +218,7 @@ src/driver.s: src/driver.cpp.s
 
 # target to generate assembly for a file
 src/driver.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.s
 .PHONY : src/driver.cpp.s
 
 src/mod.o: src/mod.cpp.o
@@ -226,7 +226,7 @@ src/mod.o: src/mod.cpp.o
 
 # target to build an object file
 src/mod.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.o
 .PHONY : src/mod.cpp.o
 
 src/mod.i: src/mod.cpp.i
@@ -234,7 +234,7 @@ src/mod.i: src/mod.cpp.i
 
 # target to preprocess a source file
 src/mod.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.i
 .PHONY : src/mod.cpp.i
 
 src/mod.s: src/mod.cpp.s
@@ -242,7 +242,7 @@ src/mod.s: src/mod.cpp.s
 
 # target to generate assembly for a file
 src/mod.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.s
 .PHONY : src/mod.cpp.s
 
 src/opponent.o: src/opponent.cpp.o
@@ -250,7 +250,7 @@ src/opponent.o: src/opponent.cpp.o
 
 # target to build an object file
 src/opponent.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.o
 .PHONY : src/opponent.cpp.o
 
 src/opponent.i: src/opponent.cpp.i
@@ -258,7 +258,7 @@ src/opponent.i: src/opponent.cpp.i
 
 # target to preprocess a source file
 src/opponent.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.i
 .PHONY : src/opponent.cpp.i
 
 src/opponent.s: src/opponent.cpp.s
@@ -266,7 +266,7 @@ src/opponent.s: src/opponent.cpp.s
 
 # target to generate assembly for a file
 src/opponent.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.s
 .PHONY : src/opponent.cpp.s
 
 src/pit.o: src/pit.cpp.o
@@ -274,7 +274,7 @@ src/pit.o: src/pit.cpp.o
 
 # target to build an object file
 src/pit.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.o
 .PHONY : src/pit.cpp.o
 
 src/pit.i: src/pit.cpp.i
@@ -282,7 +282,7 @@ src/pit.i: src/pit.cpp.i
 
 # target to preprocess a source file
 src/pit.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.i
 .PHONY : src/pit.cpp.i
 
 src/pit.s: src/pit.cpp.s
@@ -290,7 +290,7 @@ src/pit.s: src/pit.cpp.s
 
 # target to generate assembly for a file
 src/pit.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.s
 .PHONY : src/pit.cpp.s
 
 src/raceline.o: src/raceline.cpp.o
@@ -298,7 +298,7 @@ src/raceline.o: src/raceline.cpp.o
 
 # target to build an object file
 src/raceline.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.o
 .PHONY : src/raceline.cpp.o
 
 src/raceline.i: src/raceline.cpp.i
@@ -306,7 +306,7 @@ src/raceline.i: src/raceline.cpp.i
 
 # target to preprocess a source file
 src/raceline.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.i
 .PHONY : src/raceline.cpp.i
 
 src/raceline.s: src/raceline.cpp.s
@@ -314,7 +314,7 @@ src/raceline.s: src/raceline.cpp.s
 
 # target to generate assembly for a file
 src/raceline.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.s
 .PHONY : src/raceline.cpp.s
 
 src/spline.o: src/spline.cpp.o
@@ -322,7 +322,7 @@ src/spline.o: src/spline.cpp.o
 
 # target to build an object file
 src/spline.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.o
 .PHONY : src/spline.cpp.o
 
 src/spline.i: src/spline.cpp.i
@@ -330,7 +330,7 @@ src/spline.i: src/spline.cpp.i
 
 # target to preprocess a source file
 src/spline.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.i
 .PHONY : src/spline.cpp.i
 
 src/spline.s: src/spline.cpp.s
@@ -338,7 +338,7 @@ src/spline.s: src/spline.cpp.s
 
 # target to generate assembly for a file
 src/spline.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.s
 .PHONY : src/spline.cpp.s
 
 src/strategy.o: src/strategy.cpp.o
@@ -346,7 +346,7 @@ src/strategy.o: src/strategy.cpp.o
 
 # target to build an object file
 src/strategy.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.o
 .PHONY : src/strategy.cpp.o
 
 src/strategy.i: src/strategy.cpp.i
@@ -354,7 +354,7 @@ src/strategy.i: src/strategy.cpp.i
 
 # target to preprocess a source file
 src/strategy.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.i
 .PHONY : src/strategy.cpp.i
 
 src/strategy.s: src/strategy.cpp.s
@@ -362,7 +362,7 @@ src/strategy.s: src/strategy.cpp.s
 
 # target to generate assembly for a file
 src/strategy.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.s
 .PHONY : src/strategy.cpp.s
 
 src/usr.o: src/usr.cpp.o
@@ -370,7 +370,7 @@ src/usr.o: src/usr.cpp.o
 
 # target to build an object file
 src/usr.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.o
 .PHONY : src/usr.cpp.o
 
 src/usr.i: src/usr.cpp.i
@@ -378,7 +378,7 @@ src/usr.i: src/usr.cpp.i
 
 # target to preprocess a source file
 src/usr.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.i
 .PHONY : src/usr.cpp.i
 
 src/usr.s: src/usr.cpp.s
@@ -386,7 +386,7 @@ src/usr.s: src/usr.cpp.s
 
 # target to generate assembly for a file
 src/usr.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/usr/CMakeFiles/usr.dir/build.make src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.s
 .PHONY : src/usr.cpp.s
 
 # Help Target
@@ -442,6 +442,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

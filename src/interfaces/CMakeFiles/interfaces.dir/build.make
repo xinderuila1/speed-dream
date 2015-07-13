@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Utility rule file for interfaces.
 
@@ -56,10 +56,10 @@ src/interfaces/CMakeFiles/interfaces.dir/build: interfaces
 .PHONY : src/interfaces/CMakeFiles/interfaces.dir/build
 
 src/interfaces/CMakeFiles/interfaces.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces && $(CMAKE_COMMAND) -P CMakeFiles/interfaces.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/interfaces && $(CMAKE_COMMAND) -P CMakeFiles/interfaces.dir/cmake_clean.cmake
 .PHONY : src/interfaces/CMakeFiles/interfaces.dir/clean
 
 src/interfaces/CMakeFiles/interfaces.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/CMakeFiles/interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/interfaces /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/interfaces /home/gaoyu/speed-dream/src/interfaces/CMakeFiles/interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/interfaces/CMakeFiles/interfaces.dir/depend
 

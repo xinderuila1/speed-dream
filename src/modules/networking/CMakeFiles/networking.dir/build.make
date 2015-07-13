@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/modules/networking/CMakeFiles/networking.dir/depend.make
@@ -51,17 +51,17 @@ include src/modules/networking/CMakeFiles/networking.dir/flags.make
 
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.o: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.o: src/modules/networking/network.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/network.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/network.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/network.cpp
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/network.cpp.o -c /home/gaoyu/speed-dream/src/modules/networking/network.cpp
 
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/network.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/network.cpp > CMakeFiles/networking.dir/network.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/networking/network.cpp > CMakeFiles/networking.dir/network.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/network.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/network.cpp -o CMakeFiles/networking.dir/network.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/networking/network.cpp -o CMakeFiles/networking.dir/network.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.o.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/network.cpp.o.requires
@@ -74,17 +74,17 @@ src/modules/networking/CMakeFiles/networking.dir/network.cpp.o.provides.build: s
 
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.o: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.o: src/modules/networking/server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/server.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/server.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/server.cpp
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/server.cpp.o -c /home/gaoyu/speed-dream/src/modules/networking/server.cpp
 
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/server.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/server.cpp > CMakeFiles/networking.dir/server.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/networking/server.cpp > CMakeFiles/networking.dir/server.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/server.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/server.cpp -o CMakeFiles/networking.dir/server.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/networking/server.cpp -o CMakeFiles/networking.dir/server.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.o.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/server.cpp.o.requires
@@ -97,17 +97,17 @@ src/modules/networking/CMakeFiles/networking.dir/server.cpp.o.provides.build: sr
 
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.o: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.o: src/modules/networking/client.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/client.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/client.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/client.cpp
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/client.cpp.o -c /home/gaoyu/speed-dream/src/modules/networking/client.cpp
 
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/client.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/client.cpp > CMakeFiles/networking.dir/client.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/networking/client.cpp > CMakeFiles/networking.dir/client.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/client.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/client.cpp -o CMakeFiles/networking.dir/client.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/networking/client.cpp -o CMakeFiles/networking.dir/client.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.o.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/client.cpp.o.requires
@@ -120,17 +120,17 @@ src/modules/networking/CMakeFiles/networking.dir/client.cpp.o.provides.build: sr
 
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o: src/modules/networking/robotxml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/robotxml.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/robotxml.cpp
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/robotxml.cpp.o -c /home/gaoyu/speed-dream/src/modules/networking/robotxml.cpp
 
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/robotxml.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/robotxml.cpp > CMakeFiles/networking.dir/robotxml.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/networking/robotxml.cpp > CMakeFiles/networking.dir/robotxml.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/robotxml.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/robotxml.cpp -o CMakeFiles/networking.dir/robotxml.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/networking/robotxml.cpp -o CMakeFiles/networking.dir/robotxml.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o.requires
@@ -143,17 +143,17 @@ src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o.provides.build: 
 
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o: src/modules/networking/pack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/pack.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/pack.cpp
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/pack.cpp.o -c /home/gaoyu/speed-dream/src/modules/networking/pack.cpp
 
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/pack.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/pack.cpp > CMakeFiles/networking.dir/pack.cpp.i
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/modules/networking/pack.cpp > CMakeFiles/networking.dir/pack.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/pack.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/pack.cpp -o CMakeFiles/networking.dir/pack.cpp.s
+	cd /home/gaoyu/speed-dream/src/modules/networking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/modules/networking/pack.cpp -o CMakeFiles/networking.dir/pack.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o.requires
@@ -196,7 +196,7 @@ lib64/games/speed-dreams-2/lib/libnetworking.so: /usr/lib/x86_64-linux-gnu/libSD
 lib64/games/speed-dreams-2/lib/libnetworking.so: /usr/lib/x86_64-linux-gnu/libexpat.so
 lib64/games/speed-dreams-2/lib/libnetworking.so: src/modules/networking/CMakeFiles/networking.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/libnetworking.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/networking.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/modules/networking && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/networking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/networking/CMakeFiles/networking.dir/build: lib64/games/speed-dreams-2/lib/libnetworking.so
@@ -210,10 +210,10 @@ src/modules/networking/CMakeFiles/networking.dir/requires: src/modules/networkin
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/requires
 
 src/modules/networking/CMakeFiles/networking.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking && $(CMAKE_COMMAND) -P CMakeFiles/networking.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/modules/networking && $(CMAKE_COMMAND) -P CMakeFiles/networking.dir/cmake_clean.cmake
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/clean
 
 src/modules/networking/CMakeFiles/networking.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/modules/networking /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/modules/networking /home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/depend
 

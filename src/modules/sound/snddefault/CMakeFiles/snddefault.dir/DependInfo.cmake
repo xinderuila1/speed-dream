@@ -4,15 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CarSoundData.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/OpenalSound.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/OpenalSoundInterface.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/PlibSound.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/PlibSoundInterface.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/Sound.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/SoundInterface.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/grsound.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/snddefault.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CarSoundData.cpp" "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/sound/snddefault/OpenalSound.cpp" "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/sound/snddefault/OpenalSoundInterface.cpp" "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/sound/snddefault/PlibSound.cpp" "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/sound/snddefault/PlibSoundInterface.cpp" "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/sound/snddefault/Sound.cpp" "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/sound/snddefault/SoundInterface.cpp" "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/sound/snddefault/grsound.cpp" "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.o"
+  "/home/gaoyu/speed-dream/src/modules/sound/snddefault/snddefault.cpp" "/home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -34,11 +34,11 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

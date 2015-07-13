@@ -4,18 +4,18 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/ClothoidPath.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/LinePath.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/MyTrack.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/Utils.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/cubic.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/dandroid.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/danpath.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/driver.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/opponent.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/pidcontroller.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/pit.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/spline.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/ClothoidPath.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/LinePath.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/MyTrack.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/Utils.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/cubic.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/dandroid.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/danpath.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/driver.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/opponent.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/pidcontroller.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/pit.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o"
+  "/home/gaoyu/speed-dream/src/drivers/dandroid/src/spline.cpp" "/home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -37,11 +37,11 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

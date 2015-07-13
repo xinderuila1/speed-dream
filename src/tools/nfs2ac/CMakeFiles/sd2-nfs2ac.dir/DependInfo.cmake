@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/nfs2ac/mainnfs2ac.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/nfs2ac/mainnfs2ac.cpp" "/home/gaoyu/speed-dream/src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

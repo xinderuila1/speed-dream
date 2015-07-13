@@ -1,10 +1,10 @@
 # CMake script behind the 'uninstall' target.
 
-IF(NOT EXISTS "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/install_manifest.txt")
-	MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/gaoyu/桌面/speed-dreams-code-6039-trunk/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/install_manifest.txt")
+IF(NOT EXISTS "/home/gaoyu/speed-dream/install_manifest.txt")
+	MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/gaoyu/speed-dream/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/home/gaoyu/speed-dream/install_manifest.txt")
 
-FILE(READ "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/install_manifest.txt" FILES_TO_REMOVE)
+FILE(READ "/home/gaoyu/speed-dream/install_manifest.txt" FILES_TO_REMOVE)
 STRING(REGEX REPLACE "\n" ";" FILES_TO_REMOVE "${FILES_TO_REMOVE}")
 FOREACH(FILE_TO_REMOVE ${FILES_TO_REMOVE})
 	MESSAGE(STATUS "Uninstalling: $ENV{DESTDIR}${FILE_TO_REMOVE}")

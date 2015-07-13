@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Utility rule file for math.
 
@@ -56,10 +56,10 @@ src/libs/math/CMakeFiles/math.dir/build: math
 .PHONY : src/libs/math/CMakeFiles/math.dir/build
 
 src/libs/math/CMakeFiles/math.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/libs/math && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean.cmake
 .PHONY : src/libs/math/CMakeFiles/math.dir/clean
 
 src/libs/math/CMakeFiles/math.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/math/CMakeFiles/math.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/math /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/math /home/gaoyu/speed-dream/src/libs/math/CMakeFiles/math.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libs/math/CMakeFiles/math.dir/depend
 

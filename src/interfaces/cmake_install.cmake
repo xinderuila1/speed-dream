@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces
+# Install script for directory: /home/gaoyu/speed-dream/src/interfaces
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/speed-dreams-2" TYPE FILE FILES
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/car.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/graphic.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/playerpref.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/raceman.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/replay.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/robot.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/telemetry.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/track.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/iraceengine.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/iuserinterface.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/igraphicsengine.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/iphysicsengine.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/itrackloader.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/isoundengine.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/interfaces/camera.h"
+    "/home/gaoyu/speed-dream/src/interfaces/car.h"
+    "/home/gaoyu/speed-dream/src/interfaces/graphic.h"
+    "/home/gaoyu/speed-dream/src/interfaces/playerpref.h"
+    "/home/gaoyu/speed-dream/src/interfaces/raceman.h"
+    "/home/gaoyu/speed-dream/src/interfaces/replay.h"
+    "/home/gaoyu/speed-dream/src/interfaces/robot.h"
+    "/home/gaoyu/speed-dream/src/interfaces/telemetry.h"
+    "/home/gaoyu/speed-dream/src/interfaces/track.h"
+    "/home/gaoyu/speed-dream/src/interfaces/iraceengine.h"
+    "/home/gaoyu/speed-dream/src/interfaces/iuserinterface.h"
+    "/home/gaoyu/speed-dream/src/interfaces/igraphicsengine.h"
+    "/home/gaoyu/speed-dream/src/interfaces/iphysicsengine.h"
+    "/home/gaoyu/speed-dream/src/interfaces/itrackloader.h"
+    "/home/gaoyu/speed-dream/src/interfaces/isoundengine.h"
+    "/home/gaoyu/speed-dream/src/interfaces/camera.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid
+# Install script for directory: /home/gaoyu/speed-dream/src/drivers/dandroid
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so"
          RPATH "/usr/local/lib64/games/speed-dreams-2/lib")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/drivers/dandroid" TYPE MODULE FILES "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/drivers/dandroid" TYPE MODULE FILES "/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so")
     FILE(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so"
-         OLD_RPATH "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/lib:"
+         OLD_RPATH "/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/lib:"
          NEW_RPATH "/usr/local/lib64/games/speed-dreams-2/lib")
     IF(CMAKE_INSTALL_DO_STRIP)
       EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so")
@@ -53,6 +53,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/drivers/dandroid_36GP" TYPE FILE FILES "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/dandroid_36GP/dandroid_36GP.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/games/speed-dreams-2/drivers/dandroid_36GP" TYPE FILE FILES "/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/dandroid_36GP/dandroid_36GP.so")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

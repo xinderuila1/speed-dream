@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/main.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/previewmenu.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/menuview/main.cpp" "/home/gaoyu/speed-dream/src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/menuview/previewmenu.cpp" "/home/gaoyu/speed-dream/src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,11 +27,11 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

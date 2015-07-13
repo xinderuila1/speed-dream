@@ -4,12 +4,12 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rthumandriver.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rtteammanager.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttelem.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttimeanalysis.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rttrack.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/rtutil.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/robottools/rthumandriver.cpp" "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/robottools/rtteammanager.cpp" "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/robottools/rttelem.cpp" "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/robottools/rttimeanalysis.cpp" "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/robottools/rttrack.cpp" "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/robottools/rtutil.cpp" "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,10 +31,10 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

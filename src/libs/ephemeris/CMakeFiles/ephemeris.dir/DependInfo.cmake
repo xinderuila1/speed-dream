@@ -4,18 +4,18 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/celestialbody.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/ephemeris.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/jupiter.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/mars.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/mercury.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/moonpos.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/neptune.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/saturn.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/star.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/stardata.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/uranus.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/venus.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/celestialbody.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/ephemeris.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/jupiter.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/mars.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/mercury.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/moonpos.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/neptune.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/saturn.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/star.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/stardata.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/uranus.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o"
+  "/home/gaoyu/speed-dream/src/libs/ephemeris/venus.cpp" "/home/gaoyu/speed-dream/src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -37,7 +37,7 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

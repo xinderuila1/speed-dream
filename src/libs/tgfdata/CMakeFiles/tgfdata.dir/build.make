@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/libs/tgfdata/CMakeFiles/tgfdata.dir/depend.make
@@ -51,17 +51,17 @@ include src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.o: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.o: src/libs/tgfdata/tgfdata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/tgfdata.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/tgfdata.cpp
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/tgfdata.cpp.o -c /home/gaoyu/speed-dream/src/libs/tgfdata/tgfdata.cpp
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/tgfdata.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/tgfdata.cpp > CMakeFiles/tgfdata.dir/tgfdata.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/tgfdata/tgfdata.cpp > CMakeFiles/tgfdata.dir/tgfdata.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/tgfdata.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/tgfdata.cpp -o CMakeFiles/tgfdata.dir/tgfdata.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/tgfdata/tgfdata.cpp -o CMakeFiles/tgfdata.dir/tgfdata.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.o.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.o.requires
@@ -74,17 +74,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.o.provides.build: src/libs/t
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.o: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.o: src/libs/tgfdata/cars.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/cars.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/cars.cpp
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/cars.cpp.o -c /home/gaoyu/speed-dream/src/libs/tgfdata/cars.cpp
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/cars.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/cars.cpp > CMakeFiles/tgfdata.dir/cars.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/tgfdata/cars.cpp > CMakeFiles/tgfdata.dir/cars.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/cars.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/cars.cpp -o CMakeFiles/tgfdata.dir/cars.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/tgfdata/cars.cpp -o CMakeFiles/tgfdata.dir/cars.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.o.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.o.requires
@@ -97,17 +97,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.o.provides.build: src/libs/tgfd
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.o: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.o: src/libs/tgfdata/tracks.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/tracks.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/tracks.cpp
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/tracks.cpp.o -c /home/gaoyu/speed-dream/src/libs/tgfdata/tracks.cpp
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/tracks.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/tracks.cpp > CMakeFiles/tgfdata.dir/tracks.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/tgfdata/tracks.cpp > CMakeFiles/tgfdata.dir/tracks.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/tracks.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/tracks.cpp -o CMakeFiles/tgfdata.dir/tracks.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/tgfdata/tracks.cpp -o CMakeFiles/tgfdata.dir/tracks.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.o.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.o.requires
@@ -120,17 +120,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.o.provides.build: src/libs/tg
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.o: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.o: src/libs/tgfdata/racemanagers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/racemanagers.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/racemanagers.cpp
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/racemanagers.cpp.o -c /home/gaoyu/speed-dream/src/libs/tgfdata/racemanagers.cpp
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/racemanagers.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/racemanagers.cpp > CMakeFiles/tgfdata.dir/racemanagers.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/tgfdata/racemanagers.cpp > CMakeFiles/tgfdata.dir/racemanagers.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/racemanagers.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/racemanagers.cpp -o CMakeFiles/tgfdata.dir/racemanagers.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/tgfdata/racemanagers.cpp -o CMakeFiles/tgfdata.dir/racemanagers.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.o.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.o.requires
@@ -143,17 +143,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.o.provides.build: src/l
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.o: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.o: src/libs/tgfdata/race.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/race.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/race.cpp
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/race.cpp.o -c /home/gaoyu/speed-dream/src/libs/tgfdata/race.cpp
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/race.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/race.cpp > CMakeFiles/tgfdata.dir/race.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/tgfdata/race.cpp > CMakeFiles/tgfdata.dir/race.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/race.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/race.cpp -o CMakeFiles/tgfdata.dir/race.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/tgfdata/race.cpp -o CMakeFiles/tgfdata.dir/race.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.o.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.o.requires
@@ -166,17 +166,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.o.provides.build: src/libs/tgfd
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.o: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.o: src/libs/tgfdata/drivers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/drivers.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/drivers.cpp
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/drivers.cpp.o -c /home/gaoyu/speed-dream/src/libs/tgfdata/drivers.cpp
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/drivers.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/drivers.cpp > CMakeFiles/tgfdata.dir/drivers.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/tgfdata/drivers.cpp > CMakeFiles/tgfdata.dir/drivers.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/drivers.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/drivers.cpp -o CMakeFiles/tgfdata.dir/drivers.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/tgfdata/drivers.cpp -o CMakeFiles/tgfdata.dir/drivers.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.o.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.o.requires
@@ -217,7 +217,7 @@ lib64/games/speed-dreams-2/lib/libtgfdata.so: /usr/lib/x86_64-linux-gnu/libSDL.s
 lib64/games/speed-dreams-2/lib/libtgfdata.so: /usr/lib/x86_64-linux-gnu/libexpat.so
 lib64/games/speed-dreams-2/lib/libtgfdata.so: src/libs/tgfdata/CMakeFiles/tgfdata.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/libtgfdata.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tgfdata.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tgfdata.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/build: lib64/games/speed-dreams-2/lib/libtgfdata.so
@@ -232,10 +232,10 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/requires: src/libs/tgfdata/CMakeFiles/tg
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/requires
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata && $(CMAKE_COMMAND) -P CMakeFiles/tgfdata.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/libs/tgfdata && $(CMAKE_COMMAND) -P CMakeFiles/tgfdata.dir/cmake_clean.cmake
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/clean
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfdata/CMakeFiles/tgfdata.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/tgfdata /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/tgfdata /home/gaoyu/speed-dream/src/libs/tgfdata/CMakeFiles/tgfdata.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/depend
 

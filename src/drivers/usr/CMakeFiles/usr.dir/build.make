@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/drivers/usr/CMakeFiles/usr.dir/depend.make
@@ -51,17 +51,17 @@ include src/drivers/usr/CMakeFiles/usr.dir/flags.make
 
 src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.o: src/drivers/usr/CMakeFiles/usr.dir/flags.make
 src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.o: src/drivers/usr/src/usr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/usr.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/usr.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/usr.cpp.o -c /home/gaoyu/speed-dream/src/drivers/usr/src/usr.cpp
 
 src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usr.dir/src/usr.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/usr.cpp > CMakeFiles/usr.dir/src/usr.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/usr/src/usr.cpp > CMakeFiles/usr.dir/src/usr.cpp.i
 
 src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usr.dir/src/usr.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/usr.cpp -o CMakeFiles/usr.dir/src/usr.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/usr/src/usr.cpp -o CMakeFiles/usr.dir/src/usr.cpp.s
 
 src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.o.requires:
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.o.requires
@@ -74,17 +74,17 @@ src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.o.provides.build: src/drivers/usr
 
 src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.o: src/drivers/usr/CMakeFiles/usr.dir/flags.make
 src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.o: src/drivers/usr/src/cardata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/cardata.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/cardata.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/cardata.cpp.o -c /home/gaoyu/speed-dream/src/drivers/usr/src/cardata.cpp
 
 src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usr.dir/src/cardata.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/cardata.cpp > CMakeFiles/usr.dir/src/cardata.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/usr/src/cardata.cpp > CMakeFiles/usr.dir/src/cardata.cpp.i
 
 src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usr.dir/src/cardata.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/cardata.cpp -o CMakeFiles/usr.dir/src/cardata.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/usr/src/cardata.cpp -o CMakeFiles/usr.dir/src/cardata.cpp.s
 
 src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.o.requires:
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.o.requires
@@ -97,17 +97,17 @@ src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.o.provides.build: src/drivers
 
 src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.o: src/drivers/usr/CMakeFiles/usr.dir/flags.make
 src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.o: src/drivers/usr/src/driver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/driver.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/driver.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/driver.cpp.o -c /home/gaoyu/speed-dream/src/drivers/usr/src/driver.cpp
 
 src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usr.dir/src/driver.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/driver.cpp > CMakeFiles/usr.dir/src/driver.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/usr/src/driver.cpp > CMakeFiles/usr.dir/src/driver.cpp.i
 
 src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usr.dir/src/driver.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/driver.cpp -o CMakeFiles/usr.dir/src/driver.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/usr/src/driver.cpp -o CMakeFiles/usr.dir/src/driver.cpp.s
 
 src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.o.requires:
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.o.requires
@@ -120,17 +120,17 @@ src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.o.provides.build: src/drivers/
 
 src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.o: src/drivers/usr/CMakeFiles/usr.dir/flags.make
 src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.o: src/drivers/usr/src/mod.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/mod.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/mod.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/mod.cpp.o -c /home/gaoyu/speed-dream/src/drivers/usr/src/mod.cpp
 
 src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usr.dir/src/mod.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/mod.cpp > CMakeFiles/usr.dir/src/mod.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/usr/src/mod.cpp > CMakeFiles/usr.dir/src/mod.cpp.i
 
 src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usr.dir/src/mod.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/mod.cpp -o CMakeFiles/usr.dir/src/mod.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/usr/src/mod.cpp -o CMakeFiles/usr.dir/src/mod.cpp.s
 
 src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.o.requires:
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.o.requires
@@ -143,17 +143,17 @@ src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.o.provides.build: src/drivers/usr
 
 src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.o: src/drivers/usr/CMakeFiles/usr.dir/flags.make
 src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.o: src/drivers/usr/src/opponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/opponent.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/opponent.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/opponent.cpp.o -c /home/gaoyu/speed-dream/src/drivers/usr/src/opponent.cpp
 
 src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usr.dir/src/opponent.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/opponent.cpp > CMakeFiles/usr.dir/src/opponent.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/usr/src/opponent.cpp > CMakeFiles/usr.dir/src/opponent.cpp.i
 
 src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usr.dir/src/opponent.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/opponent.cpp -o CMakeFiles/usr.dir/src/opponent.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/usr/src/opponent.cpp -o CMakeFiles/usr.dir/src/opponent.cpp.s
 
 src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.o.requires:
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.o.requires
@@ -166,17 +166,17 @@ src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.o.provides.build: src/driver
 
 src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.o: src/drivers/usr/CMakeFiles/usr.dir/flags.make
 src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.o: src/drivers/usr/src/pit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/pit.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/pit.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/pit.cpp.o -c /home/gaoyu/speed-dream/src/drivers/usr/src/pit.cpp
 
 src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usr.dir/src/pit.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/pit.cpp > CMakeFiles/usr.dir/src/pit.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/usr/src/pit.cpp > CMakeFiles/usr.dir/src/pit.cpp.i
 
 src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usr.dir/src/pit.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/pit.cpp -o CMakeFiles/usr.dir/src/pit.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/usr/src/pit.cpp -o CMakeFiles/usr.dir/src/pit.cpp.s
 
 src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.o.requires:
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.o.requires
@@ -189,17 +189,17 @@ src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.o.provides.build: src/drivers/usr
 
 src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.o: src/drivers/usr/CMakeFiles/usr.dir/flags.make
 src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.o: src/drivers/usr/src/raceline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/raceline.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/raceline.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/raceline.cpp.o -c /home/gaoyu/speed-dream/src/drivers/usr/src/raceline.cpp
 
 src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usr.dir/src/raceline.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/raceline.cpp > CMakeFiles/usr.dir/src/raceline.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/usr/src/raceline.cpp > CMakeFiles/usr.dir/src/raceline.cpp.i
 
 src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usr.dir/src/raceline.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/raceline.cpp -o CMakeFiles/usr.dir/src/raceline.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/usr/src/raceline.cpp -o CMakeFiles/usr.dir/src/raceline.cpp.s
 
 src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.o.requires:
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.o.requires
@@ -212,17 +212,17 @@ src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.o.provides.build: src/driver
 
 src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.o: src/drivers/usr/CMakeFiles/usr.dir/flags.make
 src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.o: src/drivers/usr/src/spline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/spline.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/spline.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/spline.cpp.o -c /home/gaoyu/speed-dream/src/drivers/usr/src/spline.cpp
 
 src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usr.dir/src/spline.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/spline.cpp > CMakeFiles/usr.dir/src/spline.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/usr/src/spline.cpp > CMakeFiles/usr.dir/src/spline.cpp.i
 
 src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usr.dir/src/spline.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/spline.cpp -o CMakeFiles/usr.dir/src/spline.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/usr/src/spline.cpp -o CMakeFiles/usr.dir/src/spline.cpp.s
 
 src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.o.requires:
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.o.requires
@@ -235,17 +235,17 @@ src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.o.provides.build: src/drivers/
 
 src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.o: src/drivers/usr/CMakeFiles/usr.dir/flags.make
 src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.o: src/drivers/usr/src/strategy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/strategy.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/strategy.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/usr.dir/src/strategy.cpp.o -c /home/gaoyu/speed-dream/src/drivers/usr/src/strategy.cpp
 
 src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usr.dir/src/strategy.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/strategy.cpp > CMakeFiles/usr.dir/src/strategy.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/usr/src/strategy.cpp > CMakeFiles/usr.dir/src/strategy.cpp.i
 
 src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usr.dir/src/strategy.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/src/strategy.cpp -o CMakeFiles/usr.dir/src/strategy.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/usr/src/strategy.cpp -o CMakeFiles/usr.dir/src/strategy.cpp.s
 
 src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.o.requires:
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.o.requires
@@ -323,39 +323,39 @@ lib64/games/speed-dreams-2/drivers/usr/usr.so: /usr/lib/x86_64-linux-gnu/libSDL.
 lib64/games/speed-dreams-2/drivers/usr/usr.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/drivers/usr/usr.so: src/drivers/usr/CMakeFiles/usr.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/usr/usr.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usr.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_trb1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_trb1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_trb1/usr_trb1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_trb1/usr_trb1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_sc
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_sc
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_sc/usr_sc.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_sc/usr_sc.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_ls1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_ls1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_ls1/usr_ls1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_ls1/usr_ls1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_ls2
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_ls2
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_ls2/usr_ls2.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_ls2/usr_ls2.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_mpa1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_mpa1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_mpa1/usr_mpa1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_mpa1/usr_mpa1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_36GP
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_36GP
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_36GP/usr_36GP.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_36GP/usr_36GP.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_rs
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_rs
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_rs/usr_rs.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_rs/usr_rs.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_lp1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_lp1
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_lp1/usr_lp1.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/usr_lp1/usr_lp1.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usr.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_trb1
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_trb1
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_trb1/usr_trb1.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_trb1/usr_trb1.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_sc
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_sc
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_sc/usr_sc.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_sc/usr_sc.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_ls1
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_ls1
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_ls1/usr_ls1.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_ls1/usr_ls1.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_ls2
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_ls2
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_ls2/usr_ls2.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_ls2/usr_ls2.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_mpa1
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_mpa1
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_mpa1/usr_mpa1.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_mpa1/usr_mpa1.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_36GP
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_36GP
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_36GP/usr_36GP.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_36GP/usr_36GP.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_rs
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_rs
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_rs/usr_rs.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_rs/usr_rs.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_lp1
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_lp1
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E echo Cloning\ usr.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_lp1/usr_lp1.so
+	cd /home/gaoyu/speed-dream/src/drivers/usr && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr/usr.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/usr_lp1/usr_lp1.so
 
 # Rule to build all files generated by this target.
 src/drivers/usr/CMakeFiles/usr.dir/build: lib64/games/speed-dreams-2/drivers/usr/usr.so
@@ -373,10 +373,10 @@ src/drivers/usr/CMakeFiles/usr.dir/requires: src/drivers/usr/CMakeFiles/usr.dir/
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/requires
 
 src/drivers/usr/CMakeFiles/usr.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr && $(CMAKE_COMMAND) -P CMakeFiles/usr.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/drivers/usr && $(CMAKE_COMMAND) -P CMakeFiles/usr.dir/cmake_clean.cmake
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/clean
 
 src/drivers/usr/CMakeFiles/usr.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/usr/CMakeFiles/usr.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/drivers/usr /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/drivers/usr /home/gaoyu/speed-dream/src/drivers/usr/CMakeFiles/usr.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/drivers/usr/CMakeFiles/usr.dir/depend
 

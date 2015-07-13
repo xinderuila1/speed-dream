@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/drivers/dandroid/CMakeFiles/dandroid.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/CMakeFiles/dandroid.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/dandroid/CMakeFiles/dandroid.dir/rule
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ dandroid: src/drivers/dandroid/CMakeFiles/dandroid.dir/rule
 
 # fast build rule for target.
 dandroid/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/build
 .PHONY : dandroid/fast
 
 src/ClothoidPath.o: src/ClothoidPath.cpp.o
@@ -178,7 +178,7 @@ src/ClothoidPath.o: src/ClothoidPath.cpp.o
 
 # target to build an object file
 src/ClothoidPath.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o
 .PHONY : src/ClothoidPath.cpp.o
 
 src/ClothoidPath.i: src/ClothoidPath.cpp.i
@@ -186,7 +186,7 @@ src/ClothoidPath.i: src/ClothoidPath.cpp.i
 
 # target to preprocess a source file
 src/ClothoidPath.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.i
 .PHONY : src/ClothoidPath.cpp.i
 
 src/ClothoidPath.s: src/ClothoidPath.cpp.s
@@ -194,7 +194,7 @@ src/ClothoidPath.s: src/ClothoidPath.cpp.s
 
 # target to generate assembly for a file
 src/ClothoidPath.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.s
 .PHONY : src/ClothoidPath.cpp.s
 
 src/LinePath.o: src/LinePath.cpp.o
@@ -202,7 +202,7 @@ src/LinePath.o: src/LinePath.cpp.o
 
 # target to build an object file
 src/LinePath.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o
 .PHONY : src/LinePath.cpp.o
 
 src/LinePath.i: src/LinePath.cpp.i
@@ -210,7 +210,7 @@ src/LinePath.i: src/LinePath.cpp.i
 
 # target to preprocess a source file
 src/LinePath.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.i
 .PHONY : src/LinePath.cpp.i
 
 src/LinePath.s: src/LinePath.cpp.s
@@ -218,7 +218,7 @@ src/LinePath.s: src/LinePath.cpp.s
 
 # target to generate assembly for a file
 src/LinePath.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.s
 .PHONY : src/LinePath.cpp.s
 
 src/MyTrack.o: src/MyTrack.cpp.o
@@ -226,7 +226,7 @@ src/MyTrack.o: src/MyTrack.cpp.o
 
 # target to build an object file
 src/MyTrack.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o
 .PHONY : src/MyTrack.cpp.o
 
 src/MyTrack.i: src/MyTrack.cpp.i
@@ -234,7 +234,7 @@ src/MyTrack.i: src/MyTrack.cpp.i
 
 # target to preprocess a source file
 src/MyTrack.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.i
 .PHONY : src/MyTrack.cpp.i
 
 src/MyTrack.s: src/MyTrack.cpp.s
@@ -242,7 +242,7 @@ src/MyTrack.s: src/MyTrack.cpp.s
 
 # target to generate assembly for a file
 src/MyTrack.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.s
 .PHONY : src/MyTrack.cpp.s
 
 src/Utils.o: src/Utils.cpp.o
@@ -250,7 +250,7 @@ src/Utils.o: src/Utils.cpp.o
 
 # target to build an object file
 src/Utils.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.o
 .PHONY : src/Utils.cpp.o
 
 src/Utils.i: src/Utils.cpp.i
@@ -258,7 +258,7 @@ src/Utils.i: src/Utils.cpp.i
 
 # target to preprocess a source file
 src/Utils.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.i
 .PHONY : src/Utils.cpp.i
 
 src/Utils.s: src/Utils.cpp.s
@@ -266,7 +266,7 @@ src/Utils.s: src/Utils.cpp.s
 
 # target to generate assembly for a file
 src/Utils.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.s
 .PHONY : src/Utils.cpp.s
 
 src/cubic.o: src/cubic.cpp.o
@@ -274,7 +274,7 @@ src/cubic.o: src/cubic.cpp.o
 
 # target to build an object file
 src/cubic.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o
 .PHONY : src/cubic.cpp.o
 
 src/cubic.i: src/cubic.cpp.i
@@ -282,7 +282,7 @@ src/cubic.i: src/cubic.cpp.i
 
 # target to preprocess a source file
 src/cubic.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.i
 .PHONY : src/cubic.cpp.i
 
 src/cubic.s: src/cubic.cpp.s
@@ -290,7 +290,7 @@ src/cubic.s: src/cubic.cpp.s
 
 # target to generate assembly for a file
 src/cubic.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.s
 .PHONY : src/cubic.cpp.s
 
 src/dandroid.o: src/dandroid.cpp.o
@@ -298,7 +298,7 @@ src/dandroid.o: src/dandroid.cpp.o
 
 # target to build an object file
 src/dandroid.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o
 .PHONY : src/dandroid.cpp.o
 
 src/dandroid.i: src/dandroid.cpp.i
@@ -306,7 +306,7 @@ src/dandroid.i: src/dandroid.cpp.i
 
 # target to preprocess a source file
 src/dandroid.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.i
 .PHONY : src/dandroid.cpp.i
 
 src/dandroid.s: src/dandroid.cpp.s
@@ -314,7 +314,7 @@ src/dandroid.s: src/dandroid.cpp.s
 
 # target to generate assembly for a file
 src/dandroid.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.s
 .PHONY : src/dandroid.cpp.s
 
 src/danpath.o: src/danpath.cpp.o
@@ -322,7 +322,7 @@ src/danpath.o: src/danpath.cpp.o
 
 # target to build an object file
 src/danpath.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o
 .PHONY : src/danpath.cpp.o
 
 src/danpath.i: src/danpath.cpp.i
@@ -330,7 +330,7 @@ src/danpath.i: src/danpath.cpp.i
 
 # target to preprocess a source file
 src/danpath.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.i
 .PHONY : src/danpath.cpp.i
 
 src/danpath.s: src/danpath.cpp.s
@@ -338,7 +338,7 @@ src/danpath.s: src/danpath.cpp.s
 
 # target to generate assembly for a file
 src/danpath.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.s
 .PHONY : src/danpath.cpp.s
 
 src/driver.o: src/driver.cpp.o
@@ -346,7 +346,7 @@ src/driver.o: src/driver.cpp.o
 
 # target to build an object file
 src/driver.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o
 .PHONY : src/driver.cpp.o
 
 src/driver.i: src/driver.cpp.i
@@ -354,7 +354,7 @@ src/driver.i: src/driver.cpp.i
 
 # target to preprocess a source file
 src/driver.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.i
 .PHONY : src/driver.cpp.i
 
 src/driver.s: src/driver.cpp.s
@@ -362,7 +362,7 @@ src/driver.s: src/driver.cpp.s
 
 # target to generate assembly for a file
 src/driver.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.s
 .PHONY : src/driver.cpp.s
 
 src/opponent.o: src/opponent.cpp.o
@@ -370,7 +370,7 @@ src/opponent.o: src/opponent.cpp.o
 
 # target to build an object file
 src/opponent.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o
 .PHONY : src/opponent.cpp.o
 
 src/opponent.i: src/opponent.cpp.i
@@ -378,7 +378,7 @@ src/opponent.i: src/opponent.cpp.i
 
 # target to preprocess a source file
 src/opponent.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.i
 .PHONY : src/opponent.cpp.i
 
 src/opponent.s: src/opponent.cpp.s
@@ -386,7 +386,7 @@ src/opponent.s: src/opponent.cpp.s
 
 # target to generate assembly for a file
 src/opponent.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.s
 .PHONY : src/opponent.cpp.s
 
 src/pidcontroller.o: src/pidcontroller.cpp.o
@@ -394,7 +394,7 @@ src/pidcontroller.o: src/pidcontroller.cpp.o
 
 # target to build an object file
 src/pidcontroller.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o
 .PHONY : src/pidcontroller.cpp.o
 
 src/pidcontroller.i: src/pidcontroller.cpp.i
@@ -402,7 +402,7 @@ src/pidcontroller.i: src/pidcontroller.cpp.i
 
 # target to preprocess a source file
 src/pidcontroller.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.i
 .PHONY : src/pidcontroller.cpp.i
 
 src/pidcontroller.s: src/pidcontroller.cpp.s
@@ -410,7 +410,7 @@ src/pidcontroller.s: src/pidcontroller.cpp.s
 
 # target to generate assembly for a file
 src/pidcontroller.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.s
 .PHONY : src/pidcontroller.cpp.s
 
 src/pit.o: src/pit.cpp.o
@@ -418,7 +418,7 @@ src/pit.o: src/pit.cpp.o
 
 # target to build an object file
 src/pit.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o
 .PHONY : src/pit.cpp.o
 
 src/pit.i: src/pit.cpp.i
@@ -426,7 +426,7 @@ src/pit.i: src/pit.cpp.i
 
 # target to preprocess a source file
 src/pit.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.i
 .PHONY : src/pit.cpp.i
 
 src/pit.s: src/pit.cpp.s
@@ -434,7 +434,7 @@ src/pit.s: src/pit.cpp.s
 
 # target to generate assembly for a file
 src/pit.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.s
 .PHONY : src/pit.cpp.s
 
 src/spline.o: src/spline.cpp.o
@@ -442,7 +442,7 @@ src/spline.o: src/spline.cpp.o
 
 # target to build an object file
 src/spline.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o
 .PHONY : src/spline.cpp.o
 
 src/spline.i: src/spline.cpp.i
@@ -450,7 +450,7 @@ src/spline.i: src/spline.cpp.i
 
 # target to preprocess a source file
 src/spline.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.i
 .PHONY : src/spline.cpp.i
 
 src/spline.s: src/spline.cpp.s
@@ -458,7 +458,7 @@ src/spline.s: src/spline.cpp.s
 
 # target to generate assembly for a file
 src/spline.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/drivers/dandroid/CMakeFiles/dandroid.dir/build.make src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.s
 .PHONY : src/spline.cpp.s
 
 # Help Target
@@ -523,6 +523,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

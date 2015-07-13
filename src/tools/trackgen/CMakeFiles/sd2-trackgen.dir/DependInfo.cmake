@@ -4,14 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/ac3d.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/ac3d.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/easymesh.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/easymesh.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/elevation.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/elevation.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/main.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/main.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/objects.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/objects.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/relief.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/relief.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/track.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/track.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/util.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/util.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/trackgen/ac3d.cpp" "/home/gaoyu/speed-dream/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/ac3d.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/trackgen/easymesh.cpp" "/home/gaoyu/speed-dream/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/easymesh.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/trackgen/elevation.cpp" "/home/gaoyu/speed-dream/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/elevation.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/trackgen/main.cpp" "/home/gaoyu/speed-dream/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/main.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/trackgen/objects.cpp" "/home/gaoyu/speed-dream/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/objects.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/trackgen/relief.cpp" "/home/gaoyu/speed-dream/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/relief.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/trackgen/track.cpp" "/home/gaoyu/speed-dream/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/track.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/trackgen/util.cpp" "/home/gaoyu/speed-dream/src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/util.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -33,11 +33,11 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

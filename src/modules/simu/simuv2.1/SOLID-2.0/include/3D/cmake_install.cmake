@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/3D
+# Install script for directory: /home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/3D
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/speed-dreams-2/3D" TYPE FILE FILES
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Basic.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Matrix.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Point.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Quaternion.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Tuple3.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Tuple4.h"
-    "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Vector.h"
+    "/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Basic.h"
+    "/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Matrix.h"
+    "/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Point.h"
+    "/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Quaternion.h"
+    "/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Tuple3.h"
+    "/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Tuple4.h"
+    "/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/3D/Vector.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

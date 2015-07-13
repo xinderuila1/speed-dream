@@ -179,7 +179,7 @@
 
 /* Run-time directories */
 #define SD_DATADIR "share/games/speed-dreams-2/"
-#define SD_DATADIR_SRC "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/data/"
+#define SD_DATADIR_SRC "/home/gaoyu/speed-dream/data/"
 #define SD_LIBDIR "lib64/games/speed-dreams-2/"
 #define SD_BINDIR "games/"
 #define SD_LOCALDIR "~/.speed-dreams-2/"

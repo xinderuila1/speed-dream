@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/sound/snddefault/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/modules/sound/snddefault/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ snddefault: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule
 
 # fast build rule for target.
 snddefault/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build
 .PHONY : snddefault/fast
 
 CarSoundData.o: CarSoundData.cpp.o
@@ -178,7 +178,7 @@ CarSoundData.o: CarSoundData.cpp.o
 
 # target to build an object file
 CarSoundData.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.o
 .PHONY : CarSoundData.cpp.o
 
 CarSoundData.i: CarSoundData.cpp.i
@@ -186,7 +186,7 @@ CarSoundData.i: CarSoundData.cpp.i
 
 # target to preprocess a source file
 CarSoundData.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.i
 .PHONY : CarSoundData.cpp.i
 
 CarSoundData.s: CarSoundData.cpp.s
@@ -194,7 +194,7 @@ CarSoundData.s: CarSoundData.cpp.s
 
 # target to generate assembly for a file
 CarSoundData.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.s
 .PHONY : CarSoundData.cpp.s
 
 OpenalSound.o: OpenalSound.cpp.o
@@ -202,7 +202,7 @@ OpenalSound.o: OpenalSound.cpp.o
 
 # target to build an object file
 OpenalSound.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.o
 .PHONY : OpenalSound.cpp.o
 
 OpenalSound.i: OpenalSound.cpp.i
@@ -210,7 +210,7 @@ OpenalSound.i: OpenalSound.cpp.i
 
 # target to preprocess a source file
 OpenalSound.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.i
 .PHONY : OpenalSound.cpp.i
 
 OpenalSound.s: OpenalSound.cpp.s
@@ -218,7 +218,7 @@ OpenalSound.s: OpenalSound.cpp.s
 
 # target to generate assembly for a file
 OpenalSound.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.s
 .PHONY : OpenalSound.cpp.s
 
 OpenalSoundInterface.o: OpenalSoundInterface.cpp.o
@@ -226,7 +226,7 @@ OpenalSoundInterface.o: OpenalSoundInterface.cpp.o
 
 # target to build an object file
 OpenalSoundInterface.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.o
 .PHONY : OpenalSoundInterface.cpp.o
 
 OpenalSoundInterface.i: OpenalSoundInterface.cpp.i
@@ -234,7 +234,7 @@ OpenalSoundInterface.i: OpenalSoundInterface.cpp.i
 
 # target to preprocess a source file
 OpenalSoundInterface.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.i
 .PHONY : OpenalSoundInterface.cpp.i
 
 OpenalSoundInterface.s: OpenalSoundInterface.cpp.s
@@ -242,7 +242,7 @@ OpenalSoundInterface.s: OpenalSoundInterface.cpp.s
 
 # target to generate assembly for a file
 OpenalSoundInterface.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.s
 .PHONY : OpenalSoundInterface.cpp.s
 
 PlibSound.o: PlibSound.cpp.o
@@ -250,7 +250,7 @@ PlibSound.o: PlibSound.cpp.o
 
 # target to build an object file
 PlibSound.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.o
 .PHONY : PlibSound.cpp.o
 
 PlibSound.i: PlibSound.cpp.i
@@ -258,7 +258,7 @@ PlibSound.i: PlibSound.cpp.i
 
 # target to preprocess a source file
 PlibSound.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.i
 .PHONY : PlibSound.cpp.i
 
 PlibSound.s: PlibSound.cpp.s
@@ -266,7 +266,7 @@ PlibSound.s: PlibSound.cpp.s
 
 # target to generate assembly for a file
 PlibSound.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.s
 .PHONY : PlibSound.cpp.s
 
 PlibSoundInterface.o: PlibSoundInterface.cpp.o
@@ -274,7 +274,7 @@ PlibSoundInterface.o: PlibSoundInterface.cpp.o
 
 # target to build an object file
 PlibSoundInterface.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.o
 .PHONY : PlibSoundInterface.cpp.o
 
 PlibSoundInterface.i: PlibSoundInterface.cpp.i
@@ -282,7 +282,7 @@ PlibSoundInterface.i: PlibSoundInterface.cpp.i
 
 # target to preprocess a source file
 PlibSoundInterface.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.i
 .PHONY : PlibSoundInterface.cpp.i
 
 PlibSoundInterface.s: PlibSoundInterface.cpp.s
@@ -290,7 +290,7 @@ PlibSoundInterface.s: PlibSoundInterface.cpp.s
 
 # target to generate assembly for a file
 PlibSoundInterface.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.s
 .PHONY : PlibSoundInterface.cpp.s
 
 Sound.o: Sound.cpp.o
@@ -298,7 +298,7 @@ Sound.o: Sound.cpp.o
 
 # target to build an object file
 Sound.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.o
 .PHONY : Sound.cpp.o
 
 Sound.i: Sound.cpp.i
@@ -306,7 +306,7 @@ Sound.i: Sound.cpp.i
 
 # target to preprocess a source file
 Sound.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.i
 .PHONY : Sound.cpp.i
 
 Sound.s: Sound.cpp.s
@@ -314,7 +314,7 @@ Sound.s: Sound.cpp.s
 
 # target to generate assembly for a file
 Sound.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.s
 .PHONY : Sound.cpp.s
 
 SoundInterface.o: SoundInterface.cpp.o
@@ -322,7 +322,7 @@ SoundInterface.o: SoundInterface.cpp.o
 
 # target to build an object file
 SoundInterface.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.o
 .PHONY : SoundInterface.cpp.o
 
 SoundInterface.i: SoundInterface.cpp.i
@@ -330,7 +330,7 @@ SoundInterface.i: SoundInterface.cpp.i
 
 # target to preprocess a source file
 SoundInterface.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.i
 .PHONY : SoundInterface.cpp.i
 
 SoundInterface.s: SoundInterface.cpp.s
@@ -338,7 +338,7 @@ SoundInterface.s: SoundInterface.cpp.s
 
 # target to generate assembly for a file
 SoundInterface.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.s
 .PHONY : SoundInterface.cpp.s
 
 grsound.o: grsound.cpp.o
@@ -346,7 +346,7 @@ grsound.o: grsound.cpp.o
 
 # target to build an object file
 grsound.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.o
 .PHONY : grsound.cpp.o
 
 grsound.i: grsound.cpp.i
@@ -354,7 +354,7 @@ grsound.i: grsound.cpp.i
 
 # target to preprocess a source file
 grsound.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.i
 .PHONY : grsound.cpp.i
 
 grsound.s: grsound.cpp.s
@@ -362,7 +362,7 @@ grsound.s: grsound.cpp.s
 
 # target to generate assembly for a file
 grsound.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.s
 .PHONY : grsound.cpp.s
 
 snddefault.o: snddefault.cpp.o
@@ -370,7 +370,7 @@ snddefault.o: snddefault.cpp.o
 
 # target to build an object file
 snddefault.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.o
 .PHONY : snddefault.cpp.o
 
 snddefault.i: snddefault.cpp.i
@@ -378,7 +378,7 @@ snddefault.i: snddefault.cpp.i
 
 # target to preprocess a source file
 snddefault.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.i
 .PHONY : snddefault.cpp.i
 
 snddefault.s: snddefault.cpp.s
@@ -386,7 +386,7 @@ snddefault.s: snddefault.cpp.s
 
 # target to generate assembly for a file
 snddefault.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.s
 .PHONY : snddefault.cpp.s
 
 # Help Target
@@ -442,6 +442,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

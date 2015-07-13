@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/drivers/dandroid/CMakeFiles/dandroid.dir/depend.make
@@ -51,17 +51,17 @@ include src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o: src/drivers/dandroid/src/ClothoidPath.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/ClothoidPath.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/ClothoidPath.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/ClothoidPath.cpp > CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/ClothoidPath.cpp > CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/ClothoidPath.cpp -o CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/ClothoidPath.cpp -o CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o.requires
@@ -74,17 +74,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/ClothoidPath.cpp.o.provides.bui
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o: src/drivers/dandroid/src/cubic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/cubic.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/cubic.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/cubic.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/cubic.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/cubic.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/cubic.cpp > CMakeFiles/dandroid.dir/src/cubic.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/cubic.cpp > CMakeFiles/dandroid.dir/src/cubic.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/cubic.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/cubic.cpp -o CMakeFiles/dandroid.dir/src/cubic.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/cubic.cpp -o CMakeFiles/dandroid.dir/src/cubic.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o.requires
@@ -97,17 +97,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/cubic.cpp.o.provides.build: src
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o: src/drivers/dandroid/src/dandroid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/dandroid.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/dandroid.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/dandroid.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/dandroid.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/dandroid.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/dandroid.cpp > CMakeFiles/dandroid.dir/src/dandroid.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/dandroid.cpp > CMakeFiles/dandroid.dir/src/dandroid.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/dandroid.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/dandroid.cpp -o CMakeFiles/dandroid.dir/src/dandroid.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/dandroid.cpp -o CMakeFiles/dandroid.dir/src/dandroid.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o.requires
@@ -120,17 +120,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/dandroid.cpp.o.provides.build: 
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o: src/drivers/dandroid/src/danpath.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/danpath.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/danpath.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/danpath.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/danpath.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/danpath.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/danpath.cpp > CMakeFiles/dandroid.dir/src/danpath.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/danpath.cpp > CMakeFiles/dandroid.dir/src/danpath.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/danpath.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/danpath.cpp -o CMakeFiles/dandroid.dir/src/danpath.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/danpath.cpp -o CMakeFiles/dandroid.dir/src/danpath.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o.requires
@@ -143,17 +143,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/danpath.cpp.o.provides.build: s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o: src/drivers/dandroid/src/driver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/driver.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/driver.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/driver.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/driver.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/driver.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/driver.cpp > CMakeFiles/dandroid.dir/src/driver.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/driver.cpp > CMakeFiles/dandroid.dir/src/driver.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/driver.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/driver.cpp -o CMakeFiles/dandroid.dir/src/driver.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/driver.cpp -o CMakeFiles/dandroid.dir/src/driver.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o.requires
@@ -166,17 +166,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/driver.cpp.o.provides.build: sr
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o: src/drivers/dandroid/src/LinePath.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/LinePath.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/LinePath.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/LinePath.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/LinePath.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/LinePath.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/LinePath.cpp > CMakeFiles/dandroid.dir/src/LinePath.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/LinePath.cpp > CMakeFiles/dandroid.dir/src/LinePath.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/LinePath.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/LinePath.cpp -o CMakeFiles/dandroid.dir/src/LinePath.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/LinePath.cpp -o CMakeFiles/dandroid.dir/src/LinePath.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o.requires
@@ -189,17 +189,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/LinePath.cpp.o.provides.build: 
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o: src/drivers/dandroid/src/MyTrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/MyTrack.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/MyTrack.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/MyTrack.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/MyTrack.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/MyTrack.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/MyTrack.cpp > CMakeFiles/dandroid.dir/src/MyTrack.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/MyTrack.cpp > CMakeFiles/dandroid.dir/src/MyTrack.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/MyTrack.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/MyTrack.cpp -o CMakeFiles/dandroid.dir/src/MyTrack.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/MyTrack.cpp -o CMakeFiles/dandroid.dir/src/MyTrack.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o.requires
@@ -212,17 +212,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/MyTrack.cpp.o.provides.build: s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o: src/drivers/dandroid/src/opponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/opponent.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/opponent.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/opponent.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/opponent.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/opponent.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/opponent.cpp > CMakeFiles/dandroid.dir/src/opponent.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/opponent.cpp > CMakeFiles/dandroid.dir/src/opponent.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/opponent.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/opponent.cpp -o CMakeFiles/dandroid.dir/src/opponent.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/opponent.cpp -o CMakeFiles/dandroid.dir/src/opponent.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o.requires
@@ -235,17 +235,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/opponent.cpp.o.provides.build: 
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o: src/drivers/dandroid/src/pidcontroller.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/pidcontroller.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/pidcontroller.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/pidcontroller.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/pidcontroller.cpp > CMakeFiles/dandroid.dir/src/pidcontroller.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/pidcontroller.cpp > CMakeFiles/dandroid.dir/src/pidcontroller.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/pidcontroller.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/pidcontroller.cpp -o CMakeFiles/dandroid.dir/src/pidcontroller.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/pidcontroller.cpp -o CMakeFiles/dandroid.dir/src/pidcontroller.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o.requires
@@ -258,17 +258,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pidcontroller.cpp.o.provides.bu
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o: src/drivers/dandroid/src/pit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/pit.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/pit.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/pit.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/pit.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/pit.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/pit.cpp > CMakeFiles/dandroid.dir/src/pit.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/pit.cpp > CMakeFiles/dandroid.dir/src/pit.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/pit.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/pit.cpp -o CMakeFiles/dandroid.dir/src/pit.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/pit.cpp -o CMakeFiles/dandroid.dir/src/pit.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o.requires
@@ -281,17 +281,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/pit.cpp.o.provides.build: src/d
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o: src/drivers/dandroid/src/spline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/spline.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/spline.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/spline.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/spline.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/spline.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/spline.cpp > CMakeFiles/dandroid.dir/src/spline.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/spline.cpp > CMakeFiles/dandroid.dir/src/spline.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/spline.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/spline.cpp -o CMakeFiles/dandroid.dir/src/spline.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/spline.cpp -o CMakeFiles/dandroid.dir/src/spline.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o.requires
@@ -304,17 +304,17 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/src/spline.cpp.o.provides.build: sr
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.o: src/drivers/dandroid/CMakeFiles/dandroid.dir/flags.make
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.o: src/drivers/dandroid/src/Utils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/Utils.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/Utils.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dandroid.dir/src/Utils.cpp.o -c /home/gaoyu/speed-dream/src/drivers/dandroid/src/Utils.cpp
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dandroid.dir/src/Utils.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/Utils.cpp > CMakeFiles/dandroid.dir/src/Utils.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/dandroid/src/Utils.cpp > CMakeFiles/dandroid.dir/src/Utils.cpp.i
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dandroid.dir/src/Utils.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/src/Utils.cpp -o CMakeFiles/dandroid.dir/src/Utils.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/dandroid/src/Utils.cpp -o CMakeFiles/dandroid.dir/src/Utils.cpp.s
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.o.requires:
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/src/Utils.cpp.o.requires
@@ -398,11 +398,11 @@ lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so: /usr/lib/x86_64-linux-g
 lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so: src/drivers/dandroid/CMakeFiles/dandroid.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dandroid.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/dandroid_36GP
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/cmake -E make_directory /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/dandroid_36GP
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/cmake -E echo Cloning\ dandroid.so=/home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so\ into\ /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/dandroid_36GP/dandroid_36GP.so
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && /usr/bin/cmake -E copy_if_different /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so /home/gaoyu/桌面/speed-dreams-code-6039-trunk/lib64/games/speed-dreams-2/drivers/dandroid_36GP/dandroid_36GP.so
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dandroid.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/cmake -E echo Creating\ directory\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/dandroid_36GP
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/cmake -E make_directory /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/dandroid_36GP
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/cmake -E echo Cloning\ dandroid.so=/home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so\ into\ /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/dandroid_36GP/dandroid_36GP.so
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && /usr/bin/cmake -E copy_if_different /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so /home/gaoyu/speed-dream/lib64/games/speed-dreams-2/drivers/dandroid_36GP/dandroid_36GP.so
 
 # Rule to build all files generated by this target.
 src/drivers/dandroid/CMakeFiles/dandroid.dir/build: lib64/games/speed-dreams-2/drivers/dandroid/dandroid.so
@@ -423,10 +423,10 @@ src/drivers/dandroid/CMakeFiles/dandroid.dir/requires: src/drivers/dandroid/CMak
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/requires
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid && $(CMAKE_COMMAND) -P CMakeFiles/dandroid.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/drivers/dandroid && $(CMAKE_COMMAND) -P CMakeFiles/dandroid.dir/cmake_clean.cmake
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/clean
 
 src/drivers/dandroid/CMakeFiles/dandroid.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/dandroid/CMakeFiles/dandroid.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/drivers/dandroid /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/drivers/dandroid /home/gaoyu/speed-dream/src/drivers/dandroid/CMakeFiles/dandroid.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/drivers/dandroid/CMakeFiles/dandroid.dir/depend
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/drivers/kilo2008/CMakeFiles/kilo2008.dir/depend.make
@@ -51,17 +51,17 @@ include src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.o: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.o: src/drivers/kilo2008/kilo2008.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/kilo2008.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/kilo2008.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/kilo2008.cpp.o -c /home/gaoyu/speed-dream/src/drivers/kilo2008/kilo2008.cpp
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kilo2008.dir/kilo2008.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/kilo2008.cpp > CMakeFiles/kilo2008.dir/kilo2008.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/kilo2008/kilo2008.cpp > CMakeFiles/kilo2008.dir/kilo2008.cpp.i
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kilo2008.dir/kilo2008.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/kilo2008.cpp -o CMakeFiles/kilo2008.dir/kilo2008.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/kilo2008/kilo2008.cpp -o CMakeFiles/kilo2008.dir/kilo2008.cpp.s
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.o.requires:
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.o.requires
@@ -74,17 +74,17 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.o.provides.build: src/
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.o: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.o: src/drivers/kilo2008/opponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/opponent.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/opponent.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/opponent.cpp.o -c /home/gaoyu/speed-dream/src/drivers/kilo2008/opponent.cpp
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kilo2008.dir/opponent.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/opponent.cpp > CMakeFiles/kilo2008.dir/opponent.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/kilo2008/opponent.cpp > CMakeFiles/kilo2008.dir/opponent.cpp.i
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kilo2008.dir/opponent.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/opponent.cpp -o CMakeFiles/kilo2008.dir/opponent.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/kilo2008/opponent.cpp -o CMakeFiles/kilo2008.dir/opponent.cpp.s
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.o.requires:
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.o.requires
@@ -97,17 +97,17 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.o.provides.build: src/
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.o: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.o: src/drivers/kilo2008/pit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/pit.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/pit.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/pit.cpp.o -c /home/gaoyu/speed-dream/src/drivers/kilo2008/pit.cpp
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kilo2008.dir/pit.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/pit.cpp > CMakeFiles/kilo2008.dir/pit.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/kilo2008/pit.cpp > CMakeFiles/kilo2008.dir/pit.cpp.i
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kilo2008.dir/pit.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/pit.cpp -o CMakeFiles/kilo2008.dir/pit.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/kilo2008/pit.cpp -o CMakeFiles/kilo2008.dir/pit.cpp.s
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.o.requires:
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.o.requires
@@ -120,17 +120,17 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.o.provides.build: src/drive
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.o: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.o: src/drivers/kilo2008/strategy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/strategy.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/strategy.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/strategy.cpp.o -c /home/gaoyu/speed-dream/src/drivers/kilo2008/strategy.cpp
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kilo2008.dir/strategy.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/strategy.cpp > CMakeFiles/kilo2008.dir/strategy.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/kilo2008/strategy.cpp > CMakeFiles/kilo2008.dir/strategy.cpp.i
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kilo2008.dir/strategy.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/strategy.cpp -o CMakeFiles/kilo2008.dir/strategy.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/kilo2008/strategy.cpp -o CMakeFiles/kilo2008.dir/strategy.cpp.s
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.o.requires:
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.o.requires
@@ -143,17 +143,17 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.o.provides.build: src/
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.o: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.o: src/drivers/kilo2008/cardata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/cardata.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/cardata.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/cardata.cpp.o -c /home/gaoyu/speed-dream/src/drivers/kilo2008/cardata.cpp
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kilo2008.dir/cardata.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/cardata.cpp > CMakeFiles/kilo2008.dir/cardata.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/kilo2008/cardata.cpp > CMakeFiles/kilo2008.dir/cardata.cpp.i
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kilo2008.dir/cardata.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/cardata.cpp -o CMakeFiles/kilo2008.dir/cardata.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/kilo2008/cardata.cpp -o CMakeFiles/kilo2008.dir/cardata.cpp.s
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.o.requires:
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.o.requires
@@ -166,17 +166,17 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.o.provides.build: src/d
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.o: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.o: src/drivers/kilo2008/spline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/spline.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/spline.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/spline.cpp.o -c /home/gaoyu/speed-dream/src/drivers/kilo2008/spline.cpp
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kilo2008.dir/spline.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/spline.cpp > CMakeFiles/kilo2008.dir/spline.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/kilo2008/spline.cpp > CMakeFiles/kilo2008.dir/spline.cpp.i
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kilo2008.dir/spline.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/spline.cpp -o CMakeFiles/kilo2008.dir/spline.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/kilo2008/spline.cpp -o CMakeFiles/kilo2008.dir/spline.cpp.s
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.o.requires:
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.o.requires
@@ -189,17 +189,17 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.o.provides.build: src/dr
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.o: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.o: src/drivers/kilo2008/raceline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/raceline.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/raceline.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/raceline.cpp.o -c /home/gaoyu/speed-dream/src/drivers/kilo2008/raceline.cpp
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kilo2008.dir/raceline.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/raceline.cpp > CMakeFiles/kilo2008.dir/raceline.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/kilo2008/raceline.cpp > CMakeFiles/kilo2008.dir/raceline.cpp.i
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kilo2008.dir/raceline.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/raceline.cpp -o CMakeFiles/kilo2008.dir/raceline.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/kilo2008/raceline.cpp -o CMakeFiles/kilo2008.dir/raceline.cpp.s
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.o.requires:
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.o.requires
@@ -212,17 +212,17 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.o.provides.build: src/
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.o: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.o: src/drivers/kilo2008/kdriver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/kdriver.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/kdriver.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/kdriver.cpp.o -c /home/gaoyu/speed-dream/src/drivers/kilo2008/kdriver.cpp
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kilo2008.dir/kdriver.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/kdriver.cpp > CMakeFiles/kilo2008.dir/kdriver.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/kilo2008/kdriver.cpp > CMakeFiles/kilo2008.dir/kdriver.cpp.i
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kilo2008.dir/kdriver.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/kdriver.cpp -o CMakeFiles/kilo2008.dir/kdriver.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/kilo2008/kdriver.cpp -o CMakeFiles/kilo2008.dir/kdriver.cpp.s
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.o.requires:
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.o.requires
@@ -235,17 +235,17 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.o.provides.build: src/d
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.o: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/flags.make
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.o: src/drivers/kilo2008/util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/util.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/util.cpp
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kilo2008.dir/util.cpp.o -c /home/gaoyu/speed-dream/src/drivers/kilo2008/util.cpp
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kilo2008.dir/util.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/util.cpp > CMakeFiles/kilo2008.dir/util.cpp.i
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/drivers/kilo2008/util.cpp > CMakeFiles/kilo2008.dir/util.cpp.i
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kilo2008.dir/util.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/util.cpp -o CMakeFiles/kilo2008.dir/util.cpp.s
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/drivers/kilo2008/util.cpp -o CMakeFiles/kilo2008.dir/util.cpp.s
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.o.requires:
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.o.requires
@@ -323,7 +323,7 @@ lib64/games/speed-dreams-2/drivers/kilo2008/kilo2008.so: /usr/lib/x86_64-linux-g
 lib64/games/speed-dreams-2/drivers/kilo2008/kilo2008.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/drivers/kilo2008/kilo2008.so: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/kilo2008/kilo2008.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kilo2008.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kilo2008.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build: lib64/games/speed-dreams-2/drivers/kilo2008/kilo2008.so
@@ -341,10 +341,10 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/requires: src/drivers/kilo2008/CMak
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/requires
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 && $(CMAKE_COMMAND) -P CMakeFiles/kilo2008.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/drivers/kilo2008 && $(CMAKE_COMMAND) -P CMakeFiles/kilo2008.dir/cmake_clean.cmake
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/clean
 
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008 /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/drivers/kilo2008/CMakeFiles/kilo2008.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/drivers/kilo2008 /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/drivers/kilo2008 /home/gaoyu/speed-dream/src/drivers/kilo2008/CMakeFiles/kilo2008.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/depend
 

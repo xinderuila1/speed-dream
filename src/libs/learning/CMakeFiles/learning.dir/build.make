@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/libs/learning/CMakeFiles/learning.dir/depend.make
@@ -51,17 +51,17 @@ include src/libs/learning/CMakeFiles/learning.dir/flags.make
 
 src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.o: src/libs/learning/CMakeFiles/learning.dir/flags.make
 src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.o: src/libs/learning/ANN.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/ANN.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/ANN.cpp
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/ANN.cpp.o -c /home/gaoyu/speed-dream/src/libs/learning/ANN.cpp
 
 src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning.dir/ANN.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/ANN.cpp > CMakeFiles/learning.dir/ANN.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/learning/ANN.cpp > CMakeFiles/learning.dir/ANN.cpp.i
 
 src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning.dir/ANN.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/ANN.cpp -o CMakeFiles/learning.dir/ANN.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/learning/ANN.cpp -o CMakeFiles/learning.dir/ANN.cpp.s
 
 src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.o.requires:
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.o.requires
@@ -74,17 +74,17 @@ src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.o.provides.build: src/libs/lea
 
 src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.o: src/libs/learning/CMakeFiles/learning.dir/flags.make
 src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.o: src/libs/learning/Distribution.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/Distribution.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/Distribution.cpp
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/Distribution.cpp.o -c /home/gaoyu/speed-dream/src/libs/learning/Distribution.cpp
 
 src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning.dir/Distribution.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/Distribution.cpp > CMakeFiles/learning.dir/Distribution.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/learning/Distribution.cpp > CMakeFiles/learning.dir/Distribution.cpp.i
 
 src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning.dir/Distribution.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/Distribution.cpp -o CMakeFiles/learning.dir/Distribution.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/learning/Distribution.cpp -o CMakeFiles/learning.dir/Distribution.cpp.s
 
 src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.o.requires:
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.o.requires
@@ -97,17 +97,17 @@ src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.o.provides.build: src
 
 src/libs/learning/CMakeFiles/learning.dir/List.cpp.o: src/libs/learning/CMakeFiles/learning.dir/flags.make
 src/libs/learning/CMakeFiles/learning.dir/List.cpp.o: src/libs/learning/List.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/learning/CMakeFiles/learning.dir/List.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/List.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/List.cpp
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/List.cpp.o -c /home/gaoyu/speed-dream/src/libs/learning/List.cpp
 
 src/libs/learning/CMakeFiles/learning.dir/List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning.dir/List.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/List.cpp > CMakeFiles/learning.dir/List.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/learning/List.cpp > CMakeFiles/learning.dir/List.cpp.i
 
 src/libs/learning/CMakeFiles/learning.dir/List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning.dir/List.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/List.cpp -o CMakeFiles/learning.dir/List.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/learning/List.cpp -o CMakeFiles/learning.dir/List.cpp.s
 
 src/libs/learning/CMakeFiles/learning.dir/List.cpp.o.requires:
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/List.cpp.o.requires
@@ -120,17 +120,17 @@ src/libs/learning/CMakeFiles/learning.dir/List.cpp.o.provides.build: src/libs/le
 
 src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.o: src/libs/learning/CMakeFiles/learning.dir/flags.make
 src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.o: src/libs/learning/MathFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/MathFunctions.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/MathFunctions.cpp
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/MathFunctions.cpp.o -c /home/gaoyu/speed-dream/src/libs/learning/MathFunctions.cpp
 
 src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning.dir/MathFunctions.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/MathFunctions.cpp > CMakeFiles/learning.dir/MathFunctions.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/learning/MathFunctions.cpp > CMakeFiles/learning.dir/MathFunctions.cpp.i
 
 src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning.dir/MathFunctions.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/MathFunctions.cpp -o CMakeFiles/learning.dir/MathFunctions.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/learning/MathFunctions.cpp -o CMakeFiles/learning.dir/MathFunctions.cpp.s
 
 src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.o.requires:
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.o.requires
@@ -143,17 +143,17 @@ src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.o.provides.build: sr
 
 src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.o: src/libs/learning/CMakeFiles/learning.dir/flags.make
 src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.o: src/libs/learning/ann_policy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/ann_policy.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/ann_policy.cpp
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/ann_policy.cpp.o -c /home/gaoyu/speed-dream/src/libs/learning/ann_policy.cpp
 
 src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning.dir/ann_policy.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/ann_policy.cpp > CMakeFiles/learning.dir/ann_policy.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/learning/ann_policy.cpp > CMakeFiles/learning.dir/ann_policy.cpp.i
 
 src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning.dir/ann_policy.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/ann_policy.cpp -o CMakeFiles/learning.dir/ann_policy.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/learning/ann_policy.cpp -o CMakeFiles/learning.dir/ann_policy.cpp.s
 
 src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.o.requires:
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.o.requires
@@ -166,17 +166,17 @@ src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.o.provides.build: src/l
 
 src/libs/learning/CMakeFiles/learning.dir/policy.cpp.o: src/libs/learning/CMakeFiles/learning.dir/flags.make
 src/libs/learning/CMakeFiles/learning.dir/policy.cpp.o: src/libs/learning/policy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/learning/CMakeFiles/learning.dir/policy.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/policy.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/policy.cpp
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/policy.cpp.o -c /home/gaoyu/speed-dream/src/libs/learning/policy.cpp
 
 src/libs/learning/CMakeFiles/learning.dir/policy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning.dir/policy.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/policy.cpp > CMakeFiles/learning.dir/policy.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/learning/policy.cpp > CMakeFiles/learning.dir/policy.cpp.i
 
 src/libs/learning/CMakeFiles/learning.dir/policy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning.dir/policy.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/policy.cpp -o CMakeFiles/learning.dir/policy.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/learning/policy.cpp -o CMakeFiles/learning.dir/policy.cpp.s
 
 src/libs/learning/CMakeFiles/learning.dir/policy.cpp.o.requires:
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/policy.cpp.o.requires
@@ -189,17 +189,17 @@ src/libs/learning/CMakeFiles/learning.dir/policy.cpp.o.provides.build: src/libs/
 
 src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.o: src/libs/learning/CMakeFiles/learning.dir/flags.make
 src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.o: src/libs/learning/string_utils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/string_utils.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/string_utils.cpp
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/string_utils.cpp.o -c /home/gaoyu/speed-dream/src/libs/learning/string_utils.cpp
 
 src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning.dir/string_utils.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/string_utils.cpp > CMakeFiles/learning.dir/string_utils.cpp.i
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/libs/learning/string_utils.cpp > CMakeFiles/learning.dir/string_utils.cpp.i
 
 src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning.dir/string_utils.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/string_utils.cpp -o CMakeFiles/learning.dir/string_utils.cpp.s
+	cd /home/gaoyu/speed-dream/src/libs/learning && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/libs/learning/string_utils.cpp -o CMakeFiles/learning.dir/string_utils.cpp.s
 
 src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.o.requires:
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.o.requires
@@ -234,7 +234,7 @@ lib64/games/speed-dreams-2/lib/liblearning.so: src/libs/learning/CMakeFiles/lear
 lib64/games/speed-dreams-2/lib/liblearning.so: lib64/games/speed-dreams-2/lib/libportability.so
 lib64/games/speed-dreams-2/lib/liblearning.so: src/libs/learning/CMakeFiles/learning.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/liblearning.so"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learning.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/libs/learning && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learning.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libs/learning/CMakeFiles/learning.dir/build: lib64/games/speed-dreams-2/lib/liblearning.so
@@ -250,10 +250,10 @@ src/libs/learning/CMakeFiles/learning.dir/requires: src/libs/learning/CMakeFiles
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/requires
 
 src/libs/learning/CMakeFiles/learning.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning && $(CMAKE_COMMAND) -P CMakeFiles/learning.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/libs/learning && $(CMAKE_COMMAND) -P CMakeFiles/learning.dir/cmake_clean.cmake
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/clean
 
 src/libs/learning/CMakeFiles/learning.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/learning/CMakeFiles/learning.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/learning /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/libs/learning /home/gaoyu/speed-dream/src/libs/learning/CMakeFiles/learning.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/depend
 

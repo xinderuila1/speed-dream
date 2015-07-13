@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0
+# Install script for directory: /home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/src/cmake_install.cmake")
-  INCLUDE("/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/simu/simuv2.1/SOLID-2.0/include/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/src/cmake_install.cmake")
+  INCLUDE("/home/gaoyu/speed-dream/src/modules/simu/simuv2.1/SOLID-2.0/include/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

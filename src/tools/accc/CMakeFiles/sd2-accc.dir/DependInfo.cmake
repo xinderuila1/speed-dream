@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/ac3dgroup.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/ac3dload.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.o"
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/mainaccc.cpp" "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/accc/ac3dgroup.cpp" "/home/gaoyu/speed-dream/src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/accc/ac3dload.cpp" "/home/gaoyu/speed-dream/src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.o"
+  "/home/gaoyu/speed-dream/src/tools/accc/mainaccc.cpp" "/home/gaoyu/speed-dream/src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,7 +28,7 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "/home/gaoyu/speed-dream/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

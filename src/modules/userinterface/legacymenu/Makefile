@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CPackSourceConfig.cmake
+	cd /home/gaoyu/speed-dream && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gaoyu/speed-dream/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/modules/userinterface/legacymenu/CMakeFiles/progress.marks
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles /home/gaoyu/speed-dream/src/modules/userinterface/legacymenu/CMakeFiles/progress.marks
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoyu/speed-dream/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/clean
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/preinstall
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule
+	cd /home/gaoyu/speed-dream && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ legacymenu: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule
 
 # fast build rule for target.
 legacymenu/fast:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build
 .PHONY : legacymenu/fast
 
 confscreens/advancedgraphconfig.o: confscreens/advancedgraphconfig.cpp.o
@@ -178,7 +178,7 @@ confscreens/advancedgraphconfig.o: confscreens/advancedgraphconfig.cpp.o
 
 # target to build an object file
 confscreens/advancedgraphconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o
 .PHONY : confscreens/advancedgraphconfig.cpp.o
 
 confscreens/advancedgraphconfig.i: confscreens/advancedgraphconfig.cpp.i
@@ -186,7 +186,7 @@ confscreens/advancedgraphconfig.i: confscreens/advancedgraphconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/advancedgraphconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i
 .PHONY : confscreens/advancedgraphconfig.cpp.i
 
 confscreens/advancedgraphconfig.s: confscreens/advancedgraphconfig.cpp.s
@@ -194,7 +194,7 @@ confscreens/advancedgraphconfig.s: confscreens/advancedgraphconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/advancedgraphconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s
 .PHONY : confscreens/advancedgraphconfig.cpp.s
 
 confscreens/aiconfig.o: confscreens/aiconfig.cpp.o
@@ -202,7 +202,7 @@ confscreens/aiconfig.o: confscreens/aiconfig.cpp.o
 
 # target to build an object file
 confscreens/aiconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o
 .PHONY : confscreens/aiconfig.cpp.o
 
 confscreens/aiconfig.i: confscreens/aiconfig.cpp.i
@@ -210,7 +210,7 @@ confscreens/aiconfig.i: confscreens/aiconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/aiconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i
 .PHONY : confscreens/aiconfig.cpp.i
 
 confscreens/aiconfig.s: confscreens/aiconfig.cpp.s
@@ -218,7 +218,7 @@ confscreens/aiconfig.s: confscreens/aiconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/aiconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s
 .PHONY : confscreens/aiconfig.cpp.s
 
 confscreens/carsettingsmenu.o: confscreens/carsettingsmenu.cpp.o
@@ -226,7 +226,7 @@ confscreens/carsettingsmenu.o: confscreens/carsettingsmenu.cpp.o
 
 # target to build an object file
 confscreens/carsettingsmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o
 .PHONY : confscreens/carsettingsmenu.cpp.o
 
 confscreens/carsettingsmenu.i: confscreens/carsettingsmenu.cpp.i
@@ -234,7 +234,7 @@ confscreens/carsettingsmenu.i: confscreens/carsettingsmenu.cpp.i
 
 # target to preprocess a source file
 confscreens/carsettingsmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i
 .PHONY : confscreens/carsettingsmenu.cpp.i
 
 confscreens/carsettingsmenu.s: confscreens/carsettingsmenu.cpp.s
@@ -242,7 +242,7 @@ confscreens/carsettingsmenu.s: confscreens/carsettingsmenu.cpp.s
 
 # target to generate assembly for a file
 confscreens/carsettingsmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s
 .PHONY : confscreens/carsettingsmenu.cpp.s
 
 confscreens/controlconfig.o: confscreens/controlconfig.cpp.o
@@ -250,7 +250,7 @@ confscreens/controlconfig.o: confscreens/controlconfig.cpp.o
 
 # target to build an object file
 confscreens/controlconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o
 .PHONY : confscreens/controlconfig.cpp.o
 
 confscreens/controlconfig.i: confscreens/controlconfig.cpp.i
@@ -258,7 +258,7 @@ confscreens/controlconfig.i: confscreens/controlconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/controlconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i
 .PHONY : confscreens/controlconfig.cpp.i
 
 confscreens/controlconfig.s: confscreens/controlconfig.cpp.s
@@ -266,7 +266,7 @@ confscreens/controlconfig.s: confscreens/controlconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/controlconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s
 .PHONY : confscreens/controlconfig.cpp.s
 
 confscreens/displayconfig.o: confscreens/displayconfig.cpp.o
@@ -274,7 +274,7 @@ confscreens/displayconfig.o: confscreens/displayconfig.cpp.o
 
 # target to build an object file
 confscreens/displayconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o
 .PHONY : confscreens/displayconfig.cpp.o
 
 confscreens/displayconfig.i: confscreens/displayconfig.cpp.i
@@ -282,7 +282,7 @@ confscreens/displayconfig.i: confscreens/displayconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/displayconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i
 .PHONY : confscreens/displayconfig.cpp.i
 
 confscreens/displayconfig.s: confscreens/displayconfig.cpp.s
@@ -290,7 +290,7 @@ confscreens/displayconfig.s: confscreens/displayconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/displayconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s
 .PHONY : confscreens/displayconfig.cpp.s
 
 confscreens/graphconfig.o: confscreens/graphconfig.cpp.o
@@ -298,7 +298,7 @@ confscreens/graphconfig.o: confscreens/graphconfig.cpp.o
 
 # target to build an object file
 confscreens/graphconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o
 .PHONY : confscreens/graphconfig.cpp.o
 
 confscreens/graphconfig.i: confscreens/graphconfig.cpp.i
@@ -306,7 +306,7 @@ confscreens/graphconfig.i: confscreens/graphconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/graphconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i
 .PHONY : confscreens/graphconfig.cpp.i
 
 confscreens/graphconfig.s: confscreens/graphconfig.cpp.s
@@ -314,7 +314,7 @@ confscreens/graphconfig.s: confscreens/graphconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/graphconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s
 .PHONY : confscreens/graphconfig.cpp.s
 
 confscreens/hostsettingsmenu.o: confscreens/hostsettingsmenu.cpp.o
@@ -322,7 +322,7 @@ confscreens/hostsettingsmenu.o: confscreens/hostsettingsmenu.cpp.o
 
 # target to build an object file
 confscreens/hostsettingsmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o
 .PHONY : confscreens/hostsettingsmenu.cpp.o
 
 confscreens/hostsettingsmenu.i: confscreens/hostsettingsmenu.cpp.i
@@ -330,7 +330,7 @@ confscreens/hostsettingsmenu.i: confscreens/hostsettingsmenu.cpp.i
 
 # target to preprocess a source file
 confscreens/hostsettingsmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i
 .PHONY : confscreens/hostsettingsmenu.cpp.i
 
 confscreens/hostsettingsmenu.s: confscreens/hostsettingsmenu.cpp.s
@@ -338,7 +338,7 @@ confscreens/hostsettingsmenu.s: confscreens/hostsettingsmenu.cpp.s
 
 # target to generate assembly for a file
 confscreens/hostsettingsmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s
 .PHONY : confscreens/hostsettingsmenu.cpp.s
 
 confscreens/joy2butconfig.o: confscreens/joy2butconfig.cpp.o
@@ -346,7 +346,7 @@ confscreens/joy2butconfig.o: confscreens/joy2butconfig.cpp.o
 
 # target to build an object file
 confscreens/joy2butconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o
 .PHONY : confscreens/joy2butconfig.cpp.o
 
 confscreens/joy2butconfig.i: confscreens/joy2butconfig.cpp.i
@@ -354,7 +354,7 @@ confscreens/joy2butconfig.i: confscreens/joy2butconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/joy2butconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i
 .PHONY : confscreens/joy2butconfig.cpp.i
 
 confscreens/joy2butconfig.s: confscreens/joy2butconfig.cpp.s
@@ -362,7 +362,7 @@ confscreens/joy2butconfig.s: confscreens/joy2butconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/joy2butconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s
 .PHONY : confscreens/joy2butconfig.cpp.s
 
 confscreens/joystickconfig.o: confscreens/joystickconfig.cpp.o
@@ -370,7 +370,7 @@ confscreens/joystickconfig.o: confscreens/joystickconfig.cpp.o
 
 # target to build an object file
 confscreens/joystickconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o
 .PHONY : confscreens/joystickconfig.cpp.o
 
 confscreens/joystickconfig.i: confscreens/joystickconfig.cpp.i
@@ -378,7 +378,7 @@ confscreens/joystickconfig.i: confscreens/joystickconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/joystickconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i
 .PHONY : confscreens/joystickconfig.cpp.i
 
 confscreens/joystickconfig.s: confscreens/joystickconfig.cpp.s
@@ -386,7 +386,7 @@ confscreens/joystickconfig.s: confscreens/joystickconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/joystickconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s
 .PHONY : confscreens/joystickconfig.cpp.s
 
 confscreens/monitorconfig.o: confscreens/monitorconfig.cpp.o
@@ -394,7 +394,7 @@ confscreens/monitorconfig.o: confscreens/monitorconfig.cpp.o
 
 # target to build an object file
 confscreens/monitorconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o
 .PHONY : confscreens/monitorconfig.cpp.o
 
 confscreens/monitorconfig.i: confscreens/monitorconfig.cpp.i
@@ -402,7 +402,7 @@ confscreens/monitorconfig.i: confscreens/monitorconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/monitorconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i
 .PHONY : confscreens/monitorconfig.cpp.i
 
 confscreens/monitorconfig.s: confscreens/monitorconfig.cpp.s
@@ -410,7 +410,7 @@ confscreens/monitorconfig.s: confscreens/monitorconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/monitorconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s
 .PHONY : confscreens/monitorconfig.cpp.s
 
 confscreens/mouseconfig.o: confscreens/mouseconfig.cpp.o
@@ -418,7 +418,7 @@ confscreens/mouseconfig.o: confscreens/mouseconfig.cpp.o
 
 # target to build an object file
 confscreens/mouseconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o
 .PHONY : confscreens/mouseconfig.cpp.o
 
 confscreens/mouseconfig.i: confscreens/mouseconfig.cpp.i
@@ -426,7 +426,7 @@ confscreens/mouseconfig.i: confscreens/mouseconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/mouseconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i
 .PHONY : confscreens/mouseconfig.cpp.i
 
 confscreens/mouseconfig.s: confscreens/mouseconfig.cpp.s
@@ -434,7 +434,7 @@ confscreens/mouseconfig.s: confscreens/mouseconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/mouseconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s
 .PHONY : confscreens/mouseconfig.cpp.s
 
 confscreens/openglconfig.o: confscreens/openglconfig.cpp.o
@@ -442,7 +442,7 @@ confscreens/openglconfig.o: confscreens/openglconfig.cpp.o
 
 # target to build an object file
 confscreens/openglconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o
 .PHONY : confscreens/openglconfig.cpp.o
 
 confscreens/openglconfig.i: confscreens/openglconfig.cpp.i
@@ -450,7 +450,7 @@ confscreens/openglconfig.i: confscreens/openglconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/openglconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i
 .PHONY : confscreens/openglconfig.cpp.i
 
 confscreens/openglconfig.s: confscreens/openglconfig.cpp.s
@@ -458,7 +458,7 @@ confscreens/openglconfig.s: confscreens/openglconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/openglconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s
 .PHONY : confscreens/openglconfig.cpp.s
 
 confscreens/playerconfig.o: confscreens/playerconfig.cpp.o
@@ -466,7 +466,7 @@ confscreens/playerconfig.o: confscreens/playerconfig.cpp.o
 
 # target to build an object file
 confscreens/playerconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o
 .PHONY : confscreens/playerconfig.cpp.o
 
 confscreens/playerconfig.i: confscreens/playerconfig.cpp.i
@@ -474,7 +474,7 @@ confscreens/playerconfig.i: confscreens/playerconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/playerconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i
 .PHONY : confscreens/playerconfig.cpp.i
 
 confscreens/playerconfig.s: confscreens/playerconfig.cpp.s
@@ -482,7 +482,7 @@ confscreens/playerconfig.s: confscreens/playerconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/playerconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s
 .PHONY : confscreens/playerconfig.cpp.s
 
 confscreens/simuconfig.o: confscreens/simuconfig.cpp.o
@@ -490,7 +490,7 @@ confscreens/simuconfig.o: confscreens/simuconfig.cpp.o
 
 # target to build an object file
 confscreens/simuconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o
 .PHONY : confscreens/simuconfig.cpp.o
 
 confscreens/simuconfig.i: confscreens/simuconfig.cpp.i
@@ -498,7 +498,7 @@ confscreens/simuconfig.i: confscreens/simuconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/simuconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i
 .PHONY : confscreens/simuconfig.cpp.i
 
 confscreens/simuconfig.s: confscreens/simuconfig.cpp.s
@@ -506,7 +506,7 @@ confscreens/simuconfig.s: confscreens/simuconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/simuconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s
 .PHONY : confscreens/simuconfig.cpp.s
 
 confscreens/soundconfig.o: confscreens/soundconfig.cpp.o
@@ -514,7 +514,7 @@ confscreens/soundconfig.o: confscreens/soundconfig.cpp.o
 
 # target to build an object file
 confscreens/soundconfig.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o
 .PHONY : confscreens/soundconfig.cpp.o
 
 confscreens/soundconfig.i: confscreens/soundconfig.cpp.i
@@ -522,7 +522,7 @@ confscreens/soundconfig.i: confscreens/soundconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/soundconfig.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i
 .PHONY : confscreens/soundconfig.cpp.i
 
 confscreens/soundconfig.s: confscreens/soundconfig.cpp.s
@@ -530,7 +530,7 @@ confscreens/soundconfig.s: confscreens/soundconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/soundconfig.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s
 .PHONY : confscreens/soundconfig.cpp.s
 
 legacymenu.o: legacymenu.cpp.o
@@ -538,7 +538,7 @@ legacymenu.o: legacymenu.cpp.o
 
 # target to build an object file
 legacymenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.o
 .PHONY : legacymenu.cpp.o
 
 legacymenu.i: legacymenu.cpp.i
@@ -546,7 +546,7 @@ legacymenu.i: legacymenu.cpp.i
 
 # target to preprocess a source file
 legacymenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.i
 .PHONY : legacymenu.cpp.i
 
 legacymenu.s: legacymenu.cpp.s
@@ -554,7 +554,7 @@ legacymenu.s: legacymenu.cpp.s
 
 # target to generate assembly for a file
 legacymenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.s
 .PHONY : legacymenu.cpp.s
 
 mainscreens/creditsmenu.o: mainscreens/creditsmenu.cpp.o
@@ -562,7 +562,7 @@ mainscreens/creditsmenu.o: mainscreens/creditsmenu.cpp.o
 
 # target to build an object file
 mainscreens/creditsmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o
 .PHONY : mainscreens/creditsmenu.cpp.o
 
 mainscreens/creditsmenu.i: mainscreens/creditsmenu.cpp.i
@@ -570,7 +570,7 @@ mainscreens/creditsmenu.i: mainscreens/creditsmenu.cpp.i
 
 # target to preprocess a source file
 mainscreens/creditsmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i
 .PHONY : mainscreens/creditsmenu.cpp.i
 
 mainscreens/creditsmenu.s: mainscreens/creditsmenu.cpp.s
@@ -578,7 +578,7 @@ mainscreens/creditsmenu.s: mainscreens/creditsmenu.cpp.s
 
 # target to generate assembly for a file
 mainscreens/creditsmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s
 .PHONY : mainscreens/creditsmenu.cpp.s
 
 mainscreens/exitmenu.o: mainscreens/exitmenu.cpp.o
@@ -586,7 +586,7 @@ mainscreens/exitmenu.o: mainscreens/exitmenu.cpp.o
 
 # target to build an object file
 mainscreens/exitmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o
 .PHONY : mainscreens/exitmenu.cpp.o
 
 mainscreens/exitmenu.i: mainscreens/exitmenu.cpp.i
@@ -594,7 +594,7 @@ mainscreens/exitmenu.i: mainscreens/exitmenu.cpp.i
 
 # target to preprocess a source file
 mainscreens/exitmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i
 .PHONY : mainscreens/exitmenu.cpp.i
 
 mainscreens/exitmenu.s: mainscreens/exitmenu.cpp.s
@@ -602,7 +602,7 @@ mainscreens/exitmenu.s: mainscreens/exitmenu.cpp.s
 
 # target to generate assembly for a file
 mainscreens/exitmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s
 .PHONY : mainscreens/exitmenu.cpp.s
 
 mainscreens/mainmenu.o: mainscreens/mainmenu.cpp.o
@@ -610,7 +610,7 @@ mainscreens/mainmenu.o: mainscreens/mainmenu.cpp.o
 
 # target to build an object file
 mainscreens/mainmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o
 .PHONY : mainscreens/mainmenu.cpp.o
 
 mainscreens/mainmenu.i: mainscreens/mainmenu.cpp.i
@@ -618,7 +618,7 @@ mainscreens/mainmenu.i: mainscreens/mainmenu.cpp.i
 
 # target to preprocess a source file
 mainscreens/mainmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i
 .PHONY : mainscreens/mainmenu.cpp.i
 
 mainscreens/mainmenu.s: mainscreens/mainmenu.cpp.s
@@ -626,7 +626,7 @@ mainscreens/mainmenu.s: mainscreens/mainmenu.cpp.s
 
 # target to generate assembly for a file
 mainscreens/mainmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s
 .PHONY : mainscreens/mainmenu.cpp.s
 
 mainscreens/optionsmenu.o: mainscreens/optionsmenu.cpp.o
@@ -634,7 +634,7 @@ mainscreens/optionsmenu.o: mainscreens/optionsmenu.cpp.o
 
 # target to build an object file
 mainscreens/optionsmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o
 .PHONY : mainscreens/optionsmenu.cpp.o
 
 mainscreens/optionsmenu.i: mainscreens/optionsmenu.cpp.i
@@ -642,7 +642,7 @@ mainscreens/optionsmenu.i: mainscreens/optionsmenu.cpp.i
 
 # target to preprocess a source file
 mainscreens/optionsmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i
 .PHONY : mainscreens/optionsmenu.cpp.i
 
 mainscreens/optionsmenu.s: mainscreens/optionsmenu.cpp.s
@@ -650,7 +650,7 @@ mainscreens/optionsmenu.s: mainscreens/optionsmenu.cpp.s
 
 # target to generate assembly for a file
 mainscreens/optionsmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s
 .PHONY : mainscreens/optionsmenu.cpp.s
 
 mainscreens/splash.o: mainscreens/splash.cpp.o
@@ -658,7 +658,7 @@ mainscreens/splash.o: mainscreens/splash.cpp.o
 
 # target to build an object file
 mainscreens/splash.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o
 .PHONY : mainscreens/splash.cpp.o
 
 mainscreens/splash.i: mainscreens/splash.cpp.i
@@ -666,7 +666,7 @@ mainscreens/splash.i: mainscreens/splash.cpp.i
 
 # target to preprocess a source file
 mainscreens/splash.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i
 .PHONY : mainscreens/splash.cpp.i
 
 mainscreens/splash.s: mainscreens/splash.cpp.s
@@ -674,7 +674,7 @@ mainscreens/splash.s: mainscreens/splash.cpp.s
 
 # target to generate assembly for a file
 mainscreens/splash.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s
 .PHONY : mainscreens/splash.cpp.s
 
 racescreens/driverselect.o: racescreens/driverselect.cpp.o
@@ -682,7 +682,7 @@ racescreens/driverselect.o: racescreens/driverselect.cpp.o
 
 # target to build an object file
 racescreens/driverselect.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o
 .PHONY : racescreens/driverselect.cpp.o
 
 racescreens/driverselect.i: racescreens/driverselect.cpp.i
@@ -690,7 +690,7 @@ racescreens/driverselect.i: racescreens/driverselect.cpp.i
 
 # target to preprocess a source file
 racescreens/driverselect.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i
 .PHONY : racescreens/driverselect.cpp.i
 
 racescreens/driverselect.s: racescreens/driverselect.cpp.s
@@ -698,7 +698,7 @@ racescreens/driverselect.s: racescreens/driverselect.cpp.s
 
 # target to generate assembly for a file
 racescreens/driverselect.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s
 .PHONY : racescreens/driverselect.cpp.s
 
 racescreens/fileselect.o: racescreens/fileselect.cpp.o
@@ -706,7 +706,7 @@ racescreens/fileselect.o: racescreens/fileselect.cpp.o
 
 # target to build an object file
 racescreens/fileselect.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o
 .PHONY : racescreens/fileselect.cpp.o
 
 racescreens/fileselect.i: racescreens/fileselect.cpp.i
@@ -714,7 +714,7 @@ racescreens/fileselect.i: racescreens/fileselect.cpp.i
 
 # target to preprocess a source file
 racescreens/fileselect.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i
 .PHONY : racescreens/fileselect.cpp.i
 
 racescreens/fileselect.s: racescreens/fileselect.cpp.s
@@ -722,7 +722,7 @@ racescreens/fileselect.s: racescreens/fileselect.cpp.s
 
 # target to generate assembly for a file
 racescreens/fileselect.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s
 .PHONY : racescreens/fileselect.cpp.s
 
 racescreens/garagemenu.o: racescreens/garagemenu.cpp.o
@@ -730,7 +730,7 @@ racescreens/garagemenu.o: racescreens/garagemenu.cpp.o
 
 # target to build an object file
 racescreens/garagemenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o
 .PHONY : racescreens/garagemenu.cpp.o
 
 racescreens/garagemenu.i: racescreens/garagemenu.cpp.i
@@ -738,7 +738,7 @@ racescreens/garagemenu.i: racescreens/garagemenu.cpp.i
 
 # target to preprocess a source file
 racescreens/garagemenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i
 .PHONY : racescreens/garagemenu.cpp.i
 
 racescreens/garagemenu.s: racescreens/garagemenu.cpp.s
@@ -746,7 +746,7 @@ racescreens/garagemenu.s: racescreens/garagemenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/garagemenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s
 .PHONY : racescreens/garagemenu.cpp.s
 
 racescreens/networkingmenu.o: racescreens/networkingmenu.cpp.o
@@ -754,7 +754,7 @@ racescreens/networkingmenu.o: racescreens/networkingmenu.cpp.o
 
 # target to build an object file
 racescreens/networkingmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o
 .PHONY : racescreens/networkingmenu.cpp.o
 
 racescreens/networkingmenu.i: racescreens/networkingmenu.cpp.i
@@ -762,7 +762,7 @@ racescreens/networkingmenu.i: racescreens/networkingmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/networkingmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i
 .PHONY : racescreens/networkingmenu.cpp.i
 
 racescreens/networkingmenu.s: racescreens/networkingmenu.cpp.s
@@ -770,7 +770,7 @@ racescreens/networkingmenu.s: racescreens/networkingmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/networkingmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s
 .PHONY : racescreens/networkingmenu.cpp.s
 
 racescreens/raceconfigstate.o: racescreens/raceconfigstate.cpp.o
@@ -778,7 +778,7 @@ racescreens/raceconfigstate.o: racescreens/raceconfigstate.cpp.o
 
 # target to build an object file
 racescreens/raceconfigstate.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o
 .PHONY : racescreens/raceconfigstate.cpp.o
 
 racescreens/raceconfigstate.i: racescreens/raceconfigstate.cpp.i
@@ -786,7 +786,7 @@ racescreens/raceconfigstate.i: racescreens/raceconfigstate.cpp.i
 
 # target to preprocess a source file
 racescreens/raceconfigstate.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i
 .PHONY : racescreens/raceconfigstate.cpp.i
 
 racescreens/raceconfigstate.s: racescreens/raceconfigstate.cpp.s
@@ -794,7 +794,7 @@ racescreens/raceconfigstate.s: racescreens/raceconfigstate.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceconfigstate.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s
 .PHONY : racescreens/raceconfigstate.cpp.s
 
 racescreens/raceloadingmenu.o: racescreens/raceloadingmenu.cpp.o
@@ -802,7 +802,7 @@ racescreens/raceloadingmenu.o: racescreens/raceloadingmenu.cpp.o
 
 # target to build an object file
 racescreens/raceloadingmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o
 .PHONY : racescreens/raceloadingmenu.cpp.o
 
 racescreens/raceloadingmenu.i: racescreens/raceloadingmenu.cpp.i
@@ -810,7 +810,7 @@ racescreens/raceloadingmenu.i: racescreens/raceloadingmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/raceloadingmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i
 .PHONY : racescreens/raceloadingmenu.cpp.i
 
 racescreens/raceloadingmenu.s: racescreens/raceloadingmenu.cpp.s
@@ -818,7 +818,7 @@ racescreens/raceloadingmenu.s: racescreens/raceloadingmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceloadingmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s
 .PHONY : racescreens/raceloadingmenu.cpp.s
 
 racescreens/racemanmenu.o: racescreens/racemanmenu.cpp.o
@@ -826,7 +826,7 @@ racescreens/racemanmenu.o: racescreens/racemanmenu.cpp.o
 
 # target to build an object file
 racescreens/racemanmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o
 .PHONY : racescreens/racemanmenu.cpp.o
 
 racescreens/racemanmenu.i: racescreens/racemanmenu.cpp.i
@@ -834,7 +834,7 @@ racescreens/racemanmenu.i: racescreens/racemanmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racemanmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i
 .PHONY : racescreens/racemanmenu.cpp.i
 
 racescreens/racemanmenu.s: racescreens/racemanmenu.cpp.s
@@ -842,7 +842,7 @@ racescreens/racemanmenu.s: racescreens/racemanmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racemanmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s
 .PHONY : racescreens/racemanmenu.cpp.s
 
 racescreens/racenexteventmenu.o: racescreens/racenexteventmenu.cpp.o
@@ -850,7 +850,7 @@ racescreens/racenexteventmenu.o: racescreens/racenexteventmenu.cpp.o
 
 # target to build an object file
 racescreens/racenexteventmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o
 .PHONY : racescreens/racenexteventmenu.cpp.o
 
 racescreens/racenexteventmenu.i: racescreens/racenexteventmenu.cpp.i
@@ -858,7 +858,7 @@ racescreens/racenexteventmenu.i: racescreens/racenexteventmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racenexteventmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i
 .PHONY : racescreens/racenexteventmenu.cpp.i
 
 racescreens/racenexteventmenu.s: racescreens/racenexteventmenu.cpp.s
@@ -866,7 +866,7 @@ racescreens/racenexteventmenu.s: racescreens/racenexteventmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racenexteventmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s
 .PHONY : racescreens/racenexteventmenu.cpp.s
 
 racescreens/raceoptimizationmenu.o: racescreens/raceoptimizationmenu.cpp.o
@@ -874,7 +874,7 @@ racescreens/raceoptimizationmenu.o: racescreens/raceoptimizationmenu.cpp.o
 
 # target to build an object file
 racescreens/raceoptimizationmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.o
 .PHONY : racescreens/raceoptimizationmenu.cpp.o
 
 racescreens/raceoptimizationmenu.i: racescreens/raceoptimizationmenu.cpp.i
@@ -882,7 +882,7 @@ racescreens/raceoptimizationmenu.i: racescreens/raceoptimizationmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/raceoptimizationmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.i
 .PHONY : racescreens/raceoptimizationmenu.cpp.i
 
 racescreens/raceoptimizationmenu.s: racescreens/raceoptimizationmenu.cpp.s
@@ -890,7 +890,7 @@ racescreens/raceoptimizationmenu.s: racescreens/raceoptimizationmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceoptimizationmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceoptimizationmenu.cpp.s
 .PHONY : racescreens/raceoptimizationmenu.cpp.s
 
 racescreens/raceparamsmenu.o: racescreens/raceparamsmenu.cpp.o
@@ -898,7 +898,7 @@ racescreens/raceparamsmenu.o: racescreens/raceparamsmenu.cpp.o
 
 # target to build an object file
 racescreens/raceparamsmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o
 .PHONY : racescreens/raceparamsmenu.cpp.o
 
 racescreens/raceparamsmenu.i: racescreens/raceparamsmenu.cpp.i
@@ -906,7 +906,7 @@ racescreens/raceparamsmenu.i: racescreens/raceparamsmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/raceparamsmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i
 .PHONY : racescreens/raceparamsmenu.cpp.i
 
 racescreens/raceparamsmenu.s: racescreens/raceparamsmenu.cpp.s
@@ -914,7 +914,7 @@ racescreens/raceparamsmenu.s: racescreens/raceparamsmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceparamsmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s
 .PHONY : racescreens/raceparamsmenu.cpp.s
 
 racescreens/racepitmenu.o: racescreens/racepitmenu.cpp.o
@@ -922,7 +922,7 @@ racescreens/racepitmenu.o: racescreens/racepitmenu.cpp.o
 
 # target to build an object file
 racescreens/racepitmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o
 .PHONY : racescreens/racepitmenu.cpp.o
 
 racescreens/racepitmenu.i: racescreens/racepitmenu.cpp.i
@@ -930,7 +930,7 @@ racescreens/racepitmenu.i: racescreens/racepitmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racepitmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i
 .PHONY : racescreens/racepitmenu.cpp.i
 
 racescreens/racepitmenu.s: racescreens/racepitmenu.cpp.s
@@ -938,7 +938,7 @@ racescreens/racepitmenu.s: racescreens/racepitmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racepitmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s
 .PHONY : racescreens/racepitmenu.cpp.s
 
 racescreens/raceresultsmenus.o: racescreens/raceresultsmenus.cpp.o
@@ -946,7 +946,7 @@ racescreens/raceresultsmenus.o: racescreens/raceresultsmenus.cpp.o
 
 # target to build an object file
 racescreens/raceresultsmenus.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o
 .PHONY : racescreens/raceresultsmenus.cpp.o
 
 racescreens/raceresultsmenus.i: racescreens/raceresultsmenus.cpp.i
@@ -954,7 +954,7 @@ racescreens/raceresultsmenus.i: racescreens/raceresultsmenus.cpp.i
 
 # target to preprocess a source file
 racescreens/raceresultsmenus.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i
 .PHONY : racescreens/raceresultsmenus.cpp.i
 
 racescreens/raceresultsmenus.s: racescreens/raceresultsmenus.cpp.s
@@ -962,7 +962,7 @@ racescreens/raceresultsmenus.s: racescreens/raceresultsmenus.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceresultsmenus.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s
 .PHONY : racescreens/raceresultsmenus.cpp.s
 
 racescreens/racerunningmenus.o: racescreens/racerunningmenus.cpp.o
@@ -970,7 +970,7 @@ racescreens/racerunningmenus.o: racescreens/racerunningmenus.cpp.o
 
 # target to build an object file
 racescreens/racerunningmenus.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o
 .PHONY : racescreens/racerunningmenus.cpp.o
 
 racescreens/racerunningmenus.i: racescreens/racerunningmenus.cpp.i
@@ -978,7 +978,7 @@ racescreens/racerunningmenus.i: racescreens/racerunningmenus.cpp.i
 
 # target to preprocess a source file
 racescreens/racerunningmenus.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i
 .PHONY : racescreens/racerunningmenus.cpp.i
 
 racescreens/racerunningmenus.s: racescreens/racerunningmenus.cpp.s
@@ -986,7 +986,7 @@ racescreens/racerunningmenus.s: racescreens/racerunningmenus.cpp.s
 
 # target to generate assembly for a file
 racescreens/racerunningmenus.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s
 .PHONY : racescreens/racerunningmenus.cpp.s
 
 racescreens/raceselectmenu.o: racescreens/raceselectmenu.cpp.o
@@ -994,7 +994,7 @@ racescreens/raceselectmenu.o: racescreens/raceselectmenu.cpp.o
 
 # target to build an object file
 racescreens/raceselectmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o
 .PHONY : racescreens/raceselectmenu.cpp.o
 
 racescreens/raceselectmenu.i: racescreens/raceselectmenu.cpp.i
@@ -1002,7 +1002,7 @@ racescreens/raceselectmenu.i: racescreens/raceselectmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/raceselectmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i
 .PHONY : racescreens/raceselectmenu.cpp.i
 
 racescreens/raceselectmenu.s: racescreens/raceselectmenu.cpp.s
@@ -1010,7 +1010,7 @@ racescreens/raceselectmenu.s: racescreens/raceselectmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceselectmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s
 .PHONY : racescreens/raceselectmenu.cpp.s
 
 racescreens/racestartmenu.o: racescreens/racestartmenu.cpp.o
@@ -1018,7 +1018,7 @@ racescreens/racestartmenu.o: racescreens/racestartmenu.cpp.o
 
 # target to build an object file
 racescreens/racestartmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o
 .PHONY : racescreens/racestartmenu.cpp.o
 
 racescreens/racestartmenu.i: racescreens/racestartmenu.cpp.i
@@ -1026,7 +1026,7 @@ racescreens/racestartmenu.i: racescreens/racestartmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racestartmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i
 .PHONY : racescreens/racestartmenu.cpp.i
 
 racescreens/racestartmenu.s: racescreens/racestartmenu.cpp.s
@@ -1034,7 +1034,7 @@ racescreens/racestartmenu.s: racescreens/racestartmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racestartmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s
 .PHONY : racescreens/racestartmenu.cpp.s
 
 racescreens/racestopmenu.o: racescreens/racestopmenu.cpp.o
@@ -1042,7 +1042,7 @@ racescreens/racestopmenu.o: racescreens/racestopmenu.cpp.o
 
 # target to build an object file
 racescreens/racestopmenu.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o
 .PHONY : racescreens/racestopmenu.cpp.o
 
 racescreens/racestopmenu.i: racescreens/racestopmenu.cpp.i
@@ -1050,7 +1050,7 @@ racescreens/racestopmenu.i: racescreens/racestopmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racestopmenu.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i
 .PHONY : racescreens/racestopmenu.cpp.i
 
 racescreens/racestopmenu.s: racescreens/racestopmenu.cpp.s
@@ -1058,7 +1058,7 @@ racescreens/racestopmenu.s: racescreens/racestopmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racestopmenu.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s
 .PHONY : racescreens/racestopmenu.cpp.s
 
 racescreens/trackselect.o: racescreens/trackselect.cpp.o
@@ -1066,7 +1066,7 @@ racescreens/trackselect.o: racescreens/trackselect.cpp.o
 
 # target to build an object file
 racescreens/trackselect.cpp.o:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o
 .PHONY : racescreens/trackselect.cpp.o
 
 racescreens/trackselect.i: racescreens/trackselect.cpp.i
@@ -1074,7 +1074,7 @@ racescreens/trackselect.i: racescreens/trackselect.cpp.i
 
 # target to preprocess a source file
 racescreens/trackselect.cpp.i:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i
 .PHONY : racescreens/trackselect.cpp.i
 
 racescreens/trackselect.s: racescreens/trackselect.cpp.s
@@ -1082,7 +1082,7 @@ racescreens/trackselect.s: racescreens/trackselect.cpp.s
 
 # target to generate assembly for a file
 racescreens/trackselect.cpp.s:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s
+	cd /home/gaoyu/speed-dream && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s
 .PHONY : racescreens/trackselect.cpp.s
 
 # Help Target
@@ -1225,6 +1225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

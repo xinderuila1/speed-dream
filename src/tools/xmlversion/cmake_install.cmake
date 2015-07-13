@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/xmlversion
+# Install script for directory: /home/gaoyu/speed-dream/src/tools/xmlversion
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

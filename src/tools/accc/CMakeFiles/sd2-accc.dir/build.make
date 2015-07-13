@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_SOURCE_DIR = /home/gaoyu/speed-dream
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaoyu/桌面/speed-dreams-code-6039-trunk
+CMAKE_BINARY_DIR = /home/gaoyu/speed-dream
 
 # Include any dependencies generated for this target.
 include src/tools/accc/CMakeFiles/sd2-accc.dir/depend.make
@@ -51,17 +51,17 @@ include src/tools/accc/CMakeFiles/sd2-accc.dir/flags.make
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o: src/tools/accc/CMakeFiles/sd2-accc.dir/flags.make
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o: src/tools/accc/ac3dgroup.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/ac3dgroup.cpp
+	cd /home/gaoyu/speed-dream/src/tools/accc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o -c /home/gaoyu/speed-dream/src/tools/accc/ac3dgroup.cpp
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/ac3dgroup.cpp > CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.i
+	cd /home/gaoyu/speed-dream/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/tools/accc/ac3dgroup.cpp > CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.i
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/ac3dgroup.cpp -o CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.s
+	cd /home/gaoyu/speed-dream/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/tools/accc/ac3dgroup.cpp -o CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.s
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o.requires:
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o.requires
@@ -74,17 +74,17 @@ src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o.provides.build: src/tools
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.o: src/tools/accc/CMakeFiles/sd2-accc.dir/flags.make
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.o: src/tools/accc/ac3dload.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/ac3dload.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/ac3dload.cpp
+	cd /home/gaoyu/speed-dream/src/tools/accc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/ac3dload.cpp.o -c /home/gaoyu/speed-dream/src/tools/accc/ac3dload.cpp
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-accc.dir/ac3dload.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/ac3dload.cpp > CMakeFiles/sd2-accc.dir/ac3dload.cpp.i
+	cd /home/gaoyu/speed-dream/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/tools/accc/ac3dload.cpp > CMakeFiles/sd2-accc.dir/ac3dload.cpp.i
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-accc.dir/ac3dload.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/ac3dload.cpp -o CMakeFiles/sd2-accc.dir/ac3dload.cpp.s
+	cd /home/gaoyu/speed-dream/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/tools/accc/ac3dload.cpp -o CMakeFiles/sd2-accc.dir/ac3dload.cpp.s
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.o.requires:
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.o.requires
@@ -97,17 +97,17 @@ src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.o.provides.build: src/tools/
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.o: src/tools/accc/CMakeFiles/sd2-accc.dir/flags.make
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.o: src/tools/accc/mainaccc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/桌面/speed-dreams-code-6039-trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gaoyu/speed-dream/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.o"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/mainaccc.cpp.o -c /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/mainaccc.cpp
+	cd /home/gaoyu/speed-dream/src/tools/accc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/mainaccc.cpp.o -c /home/gaoyu/speed-dream/src/tools/accc/mainaccc.cpp
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-accc.dir/mainaccc.cpp.i"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/mainaccc.cpp > CMakeFiles/sd2-accc.dir/mainaccc.cpp.i
+	cd /home/gaoyu/speed-dream/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gaoyu/speed-dream/src/tools/accc/mainaccc.cpp > CMakeFiles/sd2-accc.dir/mainaccc.cpp.i
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-accc.dir/mainaccc.cpp.s"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/mainaccc.cpp -o CMakeFiles/sd2-accc.dir/mainaccc.cpp.s
+	cd /home/gaoyu/speed-dream/src/tools/accc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gaoyu/speed-dream/src/tools/accc/mainaccc.cpp -o CMakeFiles/sd2-accc.dir/mainaccc.cpp.s
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.o.requires:
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.o.requires
@@ -134,7 +134,7 @@ games/sd2-accc: src/tools/accc/CMakeFiles/sd2-accc.dir/build.make
 games/sd2-accc: lib64/games/speed-dreams-2/lib/libportability.so
 games/sd2-accc: src/tools/accc/CMakeFiles/sd2-accc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../games/sd2-accc"
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sd2-accc.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gaoyu/speed-dream/src/tools/accc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sd2-accc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tools/accc/CMakeFiles/sd2-accc.dir/build: games/sd2-accc
@@ -146,10 +146,10 @@ src/tools/accc/CMakeFiles/sd2-accc.dir/requires: src/tools/accc/CMakeFiles/sd2-a
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/requires
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/clean:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc && $(CMAKE_COMMAND) -P CMakeFiles/sd2-accc.dir/cmake_clean.cmake
+	cd /home/gaoyu/speed-dream/src/tools/accc && $(CMAKE_COMMAND) -P CMakeFiles/sd2-accc.dir/cmake_clean.cmake
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/clean
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/depend:
-	cd /home/gaoyu/桌面/speed-dreams-code-6039-trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc /home/gaoyu/桌面/speed-dreams-code-6039-trunk /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc /home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/tools/accc/CMakeFiles/sd2-accc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaoyu/speed-dream && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/tools/accc /home/gaoyu/speed-dream /home/gaoyu/speed-dream/src/tools/accc /home/gaoyu/speed-dream/src/tools/accc/CMakeFiles/sd2-accc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/depend
 
