@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/portability.cpp
+portability.h
+/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/portability.h
+
+/home/gaoyu/桌面/speed-dreams-code-6039-trunk/src/libs/portability/portability.h
+cstdlib
+-
+cstring
+-
+cmath
+-
+direct.h
+-
+process.h
+-
+unistd.h
+-
+config.h
+-
+cstdarg
+-
+cstdio
+-
+
+config.h
+

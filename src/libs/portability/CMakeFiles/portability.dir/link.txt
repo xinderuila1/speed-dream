@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O3 -DNDEBUG   -shared -Wl,-soname,libportability.so -o ../../../lib64/games/speed-dreams-2/lib/libportability.so CMakeFiles/portability.dir/portability.cpp.o -Wl,-rpath,::::::::::::::::::::::::::::::::::::::::: 

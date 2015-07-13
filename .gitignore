@@ -1,0 +1,12 @@
+###############
+#    folder   #
+###############
+/data/
+/doc/
+/cmake/
+/CMakeFiles/
+/games/
+/lib64/
+/packaging/
+
+
