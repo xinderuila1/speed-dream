@@ -12,5 +12,5 @@
 #  fixed file #
 ###############
 *.includecache
-
+*.cpp.o
 

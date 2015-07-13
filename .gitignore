@@ -13,4 +13,5 @@
 ###############
 *.includecache
 *.cpp.o
+*.cproject
 
