@@ -66,7 +66,15 @@ bool GfuiApplication::setupWindow(bool bNoMenu, int nWinWidth, int nWinHeight, i
 {
 	// Initialize the window/screen.
 	_bWindowUp = true; // In case, GfScrInit() would call restart() ...
+
+	//Add by gaoyu 2015-7-13
+	//窗口长宽的初始值是（-1,-1），注意这是缺省值
+	//实际中还是与实际的屏幕分辨率正相关的
+	//_bWindowUp = GfScrInit(2560, 1600, nFullScreen);
 	_bWindowUp = GfScrInit(nWinWidth, nWinHeight, nFullScreen);
+
+
+
 
 	// Initialize the UI menu infrastructure.
 	if (_bWindowUp && !bNoMenu)
