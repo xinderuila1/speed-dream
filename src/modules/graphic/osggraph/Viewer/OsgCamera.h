@@ -74,7 +74,7 @@ private :
 
 protected:
     SDView *screen;
-    osg::Vec3 eye,center,up,speed;
+    osg::Vec3 eye,center,up,speed;//eye 代表了camera的位置 Add by gaoyu 2015-7-14
     int Speed;
 
 public:
@@ -83,7 +83,10 @@ public:
 
     inline int getId(){return 0;}
 
+    //找到一条重要的注释  Add by gaoyu 2015-7-14
     virtual void update(tCarElt *car, tSituation *s) = 0;	/* Change the camera if necessary */
+
+
     virtual void setProjection(void) = 0;
     virtual void setModelView(void) = 0;
     virtual void setZoom(int cmd) = 0;				/* Set the zoom with commands */
