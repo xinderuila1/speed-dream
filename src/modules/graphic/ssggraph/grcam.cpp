@@ -638,6 +638,12 @@ void cGrCarCamMirror::adaptScreenSize()
     vpw = screen->getScrW();
     vph = screen->getScrH();
 
+    //screen 初始大小 Add by gaoyu
+    //vpx:0
+    //vpy:0
+    //vpw:1024
+    //vph:600
+
     // mirror width adjusted to fit board size
     int boardW = screen->getBoardWidth();
 
@@ -653,11 +659,19 @@ void cGrCarCamMirror::adaptScreenSize()
 
 void cGrCarCamMirror::beforeDraw (void)
 {
+    //Add by gaoyu 2015-7-14
+    //mirror的初始值
+    //mx:256
+    //my:440
+    //mw:512
+    //mh:100
+
+
     glFrontFace( GL_CW );
 
     // Scissor needed with Nouveau driver
-    glEnable(GL_SCISSOR_TEST);
-    glScissor(mx, my, mw, mh);
+    glEnable(GL_SCISSOR_TEST);//打开窗口裁剪功能
+    glScissor(mx, my, mw, mh);//下面这两个最好保持一致，否则绘制处物体会发生变形
     glViewport(mx, my, mw, mh);
 
     // make mirror in front of everything by forcing overdrawing of everything
