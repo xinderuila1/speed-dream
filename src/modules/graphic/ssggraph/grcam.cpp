@@ -262,6 +262,8 @@ void cGrPerspCamera::setViewOffset(float newOffset)
     }
 }
 
+//赛车跑起来之后，的视角缩放 Add by gaoyu 2015-7-14
+//fovy越小，视角越远，越大视角越近
 void cGrPerspCamera::setZoom(int cmd)
 {
     char	buf[256];
@@ -269,9 +271,9 @@ void cGrPerspCamera::setZoom(int cmd)
     switch(cmd) {
     case GR_ZOOM_IN:
 	if (fovy > 2) {
-	    fovy--;
+	    fovy++;
 	} else {
-	    fovy /= 2.0;
+	    fovy++;
 	}
 	if (fovy < fovymin) {
 	    fovy = fovymin;
