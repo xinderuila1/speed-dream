@@ -676,8 +676,8 @@ void cGrCarCamMirror::beforeDraw (void)
 //    glScissor(mx, my, mw, mh);//下面这两个最好保持一致，否则绘制处物体会发生变形
 //    glViewport(mx, my, mw, mh);
 
-    glScissor(mx-50*3, my-50*3, mw+50*3, mh+50*3);//下面这两个最好保持一致，否则绘制处物体会发生变形
-    glViewport(mx-50*3, my-50*3, mw+50*3, mh+50*3);
+    glScissor(mx-60*3, my-60*3, mw+90*3, mh+75*3);//下面这两个最好保持一致，否则绘制处物体会发生变形
+    glViewport(mx-60*3, my-60*3, mw+90*3, mh+75*3);
 
     // make mirror in front of everything by forcing overdrawing of everything
     glClear(GL_DEPTH_BUFFER_BIT);
