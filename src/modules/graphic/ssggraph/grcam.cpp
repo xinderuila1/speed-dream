@@ -424,6 +424,16 @@ class cGrCarCamInsideDriverEye : public cGrPerspCamera
 	up[1] = car->_posMat[2][1];
 	up[2] = car->_posMat[2][2];
 
+	//验证游戏内部的坐标方向 Add by gaoyu 2015-7-14
+	//eye:798.755981 766.570801 18.712021
+	//up:-0.000048 -0.000000 1.000000
+	//up[0] = up[0] + 10 ;
+	//up[1] = up[1] + 10;
+	//up[2] = up[2] + 10 ;
+
+
+
+
 	speed[0] = car->pub.DynGCg.vel.x;
 	speed[1] = car->pub.DynGCg.vel.y;
 	speed[2] = car->pub.DynGCg.vel.z;
