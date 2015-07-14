@@ -665,6 +665,8 @@ void cGrCarCamMirror::beforeDraw (void)
     //my:440
     //mw:512
     //mh:100
+	//origFovY:50 //越小视角越远(越向正方向走)，越大视角越近
+	//fovy:9.765625
 
 
 	//定义前面和背面多边形
