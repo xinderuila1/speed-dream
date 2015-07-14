@@ -423,6 +423,8 @@ void cGrScreen::update(tSituation *s, const cGrFrameInfo* frameInfo)
 		camDraw(s);
 	}
 
+
+	//用于绘制mirror的代码   Add by gaoyu 2015-7-14
 	/* Mirror */
 	if (mirrorFlag && curCam->isMirrorAllowed ()) {
 		dispCam = mirrorCam;
