@@ -667,12 +667,17 @@ void cGrCarCamMirror::beforeDraw (void)
     //mh:100
 
 
+	//定义前面和背面多边形
+	//在一个全部由不透明封闭表面组成的场景中，背面多边形是永远看不见的。剔除这些不可见的多边形对于加速图形的渲染有很大的益处
     glFrontFace( GL_CW );
 
     // Scissor needed with Nouveau driver
     glEnable(GL_SCISSOR_TEST);//打开窗口裁剪功能
-    glScissor(mx, my, mw, mh);//下面这两个最好保持一致，否则绘制处物体会发生变形
-    glViewport(mx, my, mw, mh);
+//    glScissor(mx, my, mw, mh);//下面这两个最好保持一致，否则绘制处物体会发生变形
+//    glViewport(mx, my, mw, mh);
+
+    glScissor(mx-50*3, my-50*3, mw+50*3, mh+50*3);//下面这两个最好保持一致，否则绘制处物体会发生变形
+    glViewport(mx-50*3, my-50*3, mw+50*3, mh+50*3);
 
     // make mirror in front of everything by forcing overdrawing of everything
     glClear(GL_DEPTH_BUFFER_BIT);
