@@ -806,7 +806,6 @@ lib64/games/speed-dreams-2/modules/graphic/osggraph.so: /usr/lib/x86_64-linux-gn
 lib64/games/speed-dreams-2/modules/graphic/osggraph.so: /usr/lib/x86_64-linux-gnu/libXext.so
 lib64/games/speed-dreams-2/modules/graphic/osggraph.so: /usr/lib/libplibul.so
 lib64/games/speed-dreams-2/modules/graphic/osggraph.so: /usr/lib/libplibsg.so
-lib64/games/speed-dreams-2/modules/graphic/osggraph.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/modules/graphic/osggraph.so: lib64/games/speed-dreams-2/lib/libportability.so
 lib64/games/speed-dreams-2/modules/graphic/osggraph.so: src/modules/graphic/osggraph/CMakeFiles/osggraph.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/graphic/osggraph.so"

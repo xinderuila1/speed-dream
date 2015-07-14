@@ -1036,7 +1036,6 @@ lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: /usr/lib/x86_64-
 lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: /usr/lib/x86_64-linux-gnu/libXext.so
 lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: /usr/lib/x86_64-linux-gnu/libopenal.so
 lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: /usr/lib/libplibjs.so
-lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: lib64/games/speed-dreams-2/lib/libtgf.so
 lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: lib64/games/speed-dreams-2/lib/libportability.so
 lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so: /usr/lib/x86_64-linux-gnu/libdl.so

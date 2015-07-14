@@ -53,16 +53,16 @@
 #define HAVE_LIBXEXT 1
 
 /* Define to 1 if you have the `Xi' library (-lXi). */
-#define HAVE_LIBXI 1
+/* #undef HAVE_LIBXI */
 
 /* Define to 1 if you have the `Xmu' library (-lXmu). */
-#define HAVE_LIBXMU 1
+/* #undef HAVE_LIBXMU */
 
 /* Define to 1 if you have the `Xrandr' library (-lXrandr). */
-#define HAVE_LIBXRANDR 1
+/* #undef HAVE_LIBXRANDR */
 
 /* Define to 1 if you have the `Xrender' library (-lXrender). */
-#define HAVE_LIBXRENDER 1
+/* #undef HAVE_LIBXRENDER */
 
 /* Define to 1 if you have the `Xt' library (-lXt). */
 #define HAVE_LIBXT 1
@@ -136,7 +136,7 @@
 #endif //VERSION
 
 #ifndef VERSION_LONG
-#define VERSION_LONG "2.2-trunk-r目录  未版本控制"
+#define VERSION_LONG "2.2-trunk"
 #endif //VERSION_LONG
 
 /* Define to 1 if your processor stores words with the most significant byte
@@ -153,7 +153,7 @@
 #endif
 
 /* Build system / configuration information */
-#define SD_BUILD_INFO_SYSTEM "Linux-3.16.0-30-generic"
+#define SD_BUILD_INFO_SYSTEM "Linux-3.13.0-24-generic"
 #define SD_BUILD_INFO_CMAKE_VERSION "2.8.12.2"
 #define SD_BUILD_INFO_CMAKE_GENERATOR "Unix Makefiles"
 #define SD_BUILD_INFO_COMPILER_VERSION "4.8.4"

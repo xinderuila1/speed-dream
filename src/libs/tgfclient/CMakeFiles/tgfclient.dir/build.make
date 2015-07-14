@@ -710,7 +710,6 @@ lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libSM.
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libICE.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libX11.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libXext.so
-lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/libplibsl.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libpng.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libz.so
@@ -719,7 +718,6 @@ lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libGLU
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libGL.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libopenal.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/libplibjs.so
-lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/libplibul.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: /usr/lib/libplibsg.so
 lib64/games/speed-dreams-2/lib/libtgfclient.so: lib64/games/speed-dreams-2/lib/libtgf.so

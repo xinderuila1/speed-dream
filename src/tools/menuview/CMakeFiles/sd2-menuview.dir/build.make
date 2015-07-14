@@ -147,7 +147,6 @@ games/sd2-menuview: /usr/lib/x86_64-linux-gnu/libX11.so
 games/sd2-menuview: /usr/lib/x86_64-linux-gnu/libXext.so
 games/sd2-menuview: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 games/sd2-menuview: /usr/lib/x86_64-linux-gnu/libSDL.so
-games/sd2-menuview: /usr/lib/x86_64-linux-gnu/libXrandr.so
 games/sd2-menuview: /usr/lib/libplibsg.so
 games/sd2-menuview: /usr/lib/libplibul.so
 games/sd2-menuview: /usr/lib/x86_64-linux-gnu/libdl.so
