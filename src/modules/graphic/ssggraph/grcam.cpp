@@ -635,6 +635,8 @@ void cGrCarCamMirror::update(tCarElt *car, tSituation * /* s */)
     center[1] = p[1];
     center[2] = p[2];
 
+    //注意到一个问题，无论是哪一种视角，up向量的值总是car->_posMat[2]，
+    //所以它应该并不决定，相机的视线的方向 Add by gaoyu 2015-7-15
     up[0] = car->_posMat[2][0];
     up[1] = car->_posMat[2][1];
     up[2] = car->_posMat[2][2];
