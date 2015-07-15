@@ -431,7 +431,10 @@ class cGrCarCamInsideDriverEye : public cGrPerspCamera
 	//up[1] = up[1] + 10;
 	//up[2] = up[2] + 10 ;
 
-
+	//逆时针旋转90度（F2场景中的一种起作用） Add by gaoyu 2015-7-15
+//	up[0] = eye[0]*2 - up[0];
+//	up[1] = eye[1]*2 - up[1];
+//	up[2] = eye[2]*2 - up[2];
 
 
 	speed[0] = car->pub.DynGCg.vel.x;
