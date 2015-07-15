@@ -250,9 +250,12 @@ static void
 rmCaptureScreen()
 {
 	char filename[256];
-    
+
+	//为了能够输出每一帧的RGB信息，下面的代码不能随机生成一个文件名，所以需要进行修改 Add by gaoyu 2015-7-15
     snprintf(filename, sizeof(filename), "%s/sd-%4.4d-%8.8d.png", rmMovieCapture.outputBase,
 			 rmMovieCapture.currentCapture, rmMovieCapture.currentFrame++);
+
+    //snprintf(filename, sizeof(filename), "/home/gaoyu/png/%8.8d.png", rmMovieCapture.currentFrame++);
 	
     GfScrCaptureAsPNG(filename);
 }
@@ -360,9 +363,13 @@ rmRedisplay()
 	// The menu changes has now been taken into account.
 	rmbMenuChanged = false;
 
+
+	//只要改成任何时候都输出每一帧的RGB信息到PNG，即可输出PNG格式的图片  Add by gaoyu 2015-7-15
 	// Capture the newly displayed frame if movie capture mode.
 	if (rmMovieCapture.active)
 		rmCaptureScreen();//会自动获取屏幕像素，并保存为png文件 Add by gaoyu 2015-7-15
+
+	//rmCaptureScreen();
 
 	// Request an redisplay in the next event loop.
 	GfuiApp().eventLoop().postRedisplay();
