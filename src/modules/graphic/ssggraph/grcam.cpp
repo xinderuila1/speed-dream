@@ -668,10 +668,15 @@ void cGrCarCamMirror::adaptScreenSize()
     // mirror width adjusted to fit board size
     int boardW = screen->getBoardWidth();
 
-    mx = vpx + vpw / 2 - (vpw * boardW /400);
-    my = vpy +  5 * vph / 6 - vph / 10;
-    mw = vpw * boardW /200;
-    mh = vph / 6;
+//    mx = vpx + vpw / 2 - (vpw * boardW /400);
+//    my = vpy +  5 * vph / 6 - vph / 10;
+//    mw = vpw * boardW /200;
+//    mh = vph / 6;
+
+    mx = vpx;
+    my = vpy;
+    mw = vpw;
+    mh = vph;
 
     aspectRatio = float(mw) / mh;
 
@@ -699,11 +704,11 @@ void cGrCarCamMirror::beforeDraw (void)
 
     // Scissor needed with Nouveau driver
     glEnable(GL_SCISSOR_TEST);//打开窗口裁剪功能
-//    glScissor(mx, my, mw, mh);//下面这两个最好保持一致，否则绘制处物体会发生变形
-//    glViewport(mx, my, mw, mh);
+    glScissor(mx, my, mw, mh);//下面这两个最好保持一致，否则绘制处物体会发生变形
+    glViewport(mx, my, mw, mh);
 
-    glScissor(mx-60*3, my-60*3, mw+90*3, mh+75*3);//下面这两个最好保持一致，否则绘制处物体会发生变形
-    glViewport(mx-60*3, my-60*3, mw+90*3, mh+75*3);
+//    glScissor(mx-60*3, my-60*3, mw+90*3, mh+75*3);//下面这两个最好保持一致，否则绘制处物体会发生变形
+//    glViewport(mx-60*3, my-60*3, mw+90*3, mh+75*3);
 
     // make mirror in front of everything by forcing overdrawing of everything
     glClear(GL_DEPTH_BUFFER_BIT);
