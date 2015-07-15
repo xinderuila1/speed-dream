@@ -617,18 +617,22 @@ void cGrCarCamMirror::update(tCarElt *car, tSituation * /* s */)
 {
     sgVec3 P, p;
 
-    P[0] = car->_bonnetPos_x - (car->_dimension_x/2); // behind car
+    P[0] = car->_bonnetPos_x; // behind car
     P[1] = car->_bonnetPos_y;
     P[2] = car->_bonnetPos_z;
+    //p[2] = car->_statGC_z - 70;
+
     sgXformPnt3(P, car->_posMat);
 
     eye[0] = P[0];
     eye[1] = P[1];
     eye[2] = P[2];
 
-    p[0] = car->_bonnetPos_x + 30.0;
+    p[0] = car->_bonnetPos_x  - (car->_dimension_x/2) - 100;//x的跨度大一点，这样当调整其他坐标，导致的转角不至过大
     p[1] = car->_bonnetPos_y;
     p[2] = car->_bonnetPos_z;
+    //p[2] = car->_statGC_z - 20;
+
     sgXformPnt3(p, car->_posMat);
 
     center[0] = p[0];
@@ -651,6 +655,46 @@ void cGrCarCamMirror::update(tCarElt *car, tSituation * /* s */)
     //up:-0.000048 -0.000000 1.00000
 
 }
+
+//备份代码，用来还原  Add by gaoyu 2015-7-15
+//void cGrCarCamMirror::update(tCarElt *car, tSituation * /* s */)
+//{
+//    sgVec3 P, p;
+//
+//    P[0] = car->_bonnetPos_x - (car->_dimension_x/2); // behind car
+//    P[1] = car->_bonnetPos_y;
+//    P[2] = car->_bonnetPos_z;
+//    sgXformPnt3(P, car->_posMat);
+//
+//    eye[0] = P[0];
+//    eye[1] = P[1];
+//    eye[2] = P[2];
+//
+//    p[0] = car->_bonnetPos_x + 30.0;
+//    p[1] = car->_bonnetPos_y;
+//    p[2] = car->_bonnetPos_z;
+//    sgXformPnt3(p, car->_posMat);
+//
+//    center[0] = p[0];
+//    center[1] = p[1];
+//    center[2] = p[2];
+//
+//    //注意到一个问题，无论是哪一种视角，up向量的值总是car->_posMat[2]，
+//    //所以它应该并不决定，相机的视线的方向 Add by gaoyu 2015-7-15
+//    up[0] = car->_posMat[2][0];
+//    up[1] = car->_posMat[2][1];
+//    up[2] = car->_posMat[2][2];
+//
+//    speed[0] =car->pub.DynGCg.vel.x;
+//    speed[1] =car->pub.DynGCg.vel.y;
+//    speed[2] =car->pub.DynGCg.vel.z;
+//
+//    //测试下，刚进来游戏时，鼠标没有输入时，mirror的初始方向  Add by gaoyu 2015-7-14
+//    //通过修改up向量的值，可以修改mirror中视线的方向
+//    //eye:797.145996 766.950806 18.861944
+//    //up:-0.000048 -0.000000 1.00000
+//
+//}
 
 void cGrCarCamMirror::adaptScreenSize()
 {
