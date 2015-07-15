@@ -271,9 +271,9 @@ void cGrPerspCamera::setZoom(int cmd)
     switch(cmd) {
     case GR_ZOOM_IN:
 	if (fovy > 2) {
-	    fovy++;
+	    fovy--;
 	} else {
-	    fovy++;
+		fovy /= 2.0;
 	}
 	if (fovy < fovymin) {
 	    fovy = fovymin;
