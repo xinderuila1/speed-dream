@@ -639,6 +639,12 @@ void cGrCarCamMirror::update(tCarElt *car, tSituation * /* s */)
     speed[0] =car->pub.DynGCg.vel.x;
     speed[1] =car->pub.DynGCg.vel.y;
     speed[2] =car->pub.DynGCg.vel.z;
+
+    //测试下，刚进来游戏时，鼠标没有输入时，mirror的初始方向  Add by gaoyu 2015-7-14
+    //通过修改up向量的值，可以修改mirror中视线的方向
+    //eye:797.145996 766.950806 18.861944
+    //up:-0.000048 -0.000000 1.00000
+
 }
 
 void cGrCarCamMirror::adaptScreenSize()
