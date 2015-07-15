@@ -619,7 +619,7 @@ void cGrCarCamMirror::update(tCarElt *car, tSituation * /* s */)
 
     P[0] = car->_bonnetPos_x; // behind car
     P[1] = car->_bonnetPos_y;
-    P[2] = car->_bonnetPos_z;
+    P[2] = car->_bonnetPos_z + 2.5;
     //p[2] = car->_statGC_z - 70;
 
     sgXformPnt3(P, car->_posMat);
@@ -630,7 +630,7 @@ void cGrCarCamMirror::update(tCarElt *car, tSituation * /* s */)
 
     p[0] = car->_bonnetPos_x  - (car->_dimension_x/2) - 100;//x的跨度大一点，这样当调整其他坐标，导致的转角不至过大
     p[1] = car->_bonnetPos_y;
-    p[2] = car->_bonnetPos_z;
+    p[2] = car->_bonnetPos_z + 5;
     //p[2] = car->_statGC_z - 20;
 
     sgXformPnt3(p, car->_posMat);
