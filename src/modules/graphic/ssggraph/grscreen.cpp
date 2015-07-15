@@ -347,6 +347,7 @@ void cGrScreen::camDraw(tSituation *s)
   		grPreDrawSky(s, dispCam->getFogStart(), dispCam->getFogEnd());
   	}
 
+	//绘制了，除了天空、云彩、天气以外的所有对象 Add by gaoyu 2015-7-15
 	// Draw the rest of the scene (track, buildings, landscape, cars, ...)
 	grDrawScene();
 
