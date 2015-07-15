@@ -362,7 +362,7 @@ rmRedisplay()
 
 	// Capture the newly displayed frame if movie capture mode.
 	if (rmMovieCapture.active)
-		rmCaptureScreen();
+		rmCaptureScreen();//会自动获取屏幕像素，并保存为png文件 Add by gaoyu 2015-7-15
 
 	// Request an redisplay in the next event loop.
 	GfuiApp().eventLoop().postRedisplay();
