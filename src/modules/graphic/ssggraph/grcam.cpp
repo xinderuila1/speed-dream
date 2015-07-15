@@ -635,6 +635,8 @@ void cGrCarCamMirror::update(tCarElt *car, tSituation * /* s */)
 
     sgXformPnt3(p, car->_posMat);
 
+
+    //才发现相机的视线方向并不是eye只想center，而是center只想eye
     center[0] = p[0];
     center[1] = p[1];
     center[2] = p[2];
