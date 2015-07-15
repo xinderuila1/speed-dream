@@ -1048,6 +1048,8 @@ int GfScrCaptureAsPNG(const char *filename)
 
 	const double dCaptureDuration = dCaptureEndTime - dCaptureBeginTime;
 	
+
+	//可能找到保存RGB信息的代码   Add by gaoyu 2015-7-15
 	// Write RGB image to the PNG file (and measure elapsed time).
 	const int nStatus = GfTexWriteImageToPNG(img, filename, viewW, viewH);
 
