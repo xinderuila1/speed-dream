@@ -540,7 +540,7 @@ GfTexWriteImageToPNG(unsigned char *img, const char *filename, int width, int he
 	FILE *fp;
 	png_structp	png_ptr;
 	png_infop info_ptr;
-	png_bytep *row_pointers;
+	png_bytep *row_pointers;//里面就是RGBA数据了
 	png_uint_32 rowbytes;
 	int i;
 	unsigned char *cur_ptr;
@@ -548,37 +548,60 @@ GfTexWriteImageToPNG(unsigned char *img, const char *filename, int width, int he
 #define DEFGAMMA 1.0
 #define ReadGammaFromSettingsFile 1
 
+
+	//意外预防，没必要看
 	if (!img) {
 		GfError("GfTexWriteImageToPNG(%s) : Null image buffer pointer\n", filename);
 		return -1;
 	}
 
+	//意外预防，没必要看
 	fp = fopen(filename, "wb");
 	if (fp == NULL) {
 		GfError("GfTexWriteImageToPNG(%s) : Can't open file for writing\n", filename);
 		return -1;
 	}
 	
+	//准备工作类似于上下文
 	png_ptr = png_create_write_struct(PNG_LIBPNG_VER_STRING, NULL, (png_error_ptr)NULL, (png_error_ptr)NULL);
 	if (png_ptr == NULL) {
 		return -1;
 	}
 	
+	//准备工作类似于上下文
 	info_ptr = png_create_info_struct(png_ptr);
 	if (info_ptr == NULL) {
 		png_destroy_write_struct(&png_ptr, (png_infopp)NULL);
 		return -1;
 	}
 	
+	//准备工作类似于上下文
 	if (setjmp(png_jmpbuf(png_ptr))) {    
 		png_destroy_write_struct(&png_ptr, &info_ptr);
 		fclose(fp);
 		return -1;
 	}
 	
+	//这句话很重要，要写入的文件与PNG数据见建立了关联
 	png_init_io(png_ptr, fp);
+
+
+	//写入保存的PNG文件的文件头信息，原型如下：
+	//void png_set_IHDR(png_structp png_ptr,
+//	                                   png_infop info_ptr,
+//	                                   png_uint_32 width,
+//	                                   png_uint_32 height,
+//	                                   int bit_depth,
+//	                                   int color_type,
+//	                                   int interlace_type,
+//	                                   int compression_type,
+//	                                   int filter_type);
 	png_set_IHDR(png_ptr, info_ptr, width, height, 8, PNG_COLOR_TYPE_RGB,
 			PNG_INTERLACE_NONE, PNG_COMPRESSION_TYPE_DEFAULT, PNG_FILTER_TYPE_DEFAULT);
+
+
+
+
 #if (ReadGammaFromSettingsFile)
 	char pszConfFilename[256];
 	snprintf(pszConfFilename, sizeof(pszConfFilename), "%s%s", GfLocalDir(), GFSCR_CONF_FILE);
