@@ -615,6 +615,88 @@ GfTexWriteImageToPNG(unsigned char *img, const char *filename, int width, int he
 	return 0;
 }
 
+
+//尝试重写GfTexWriteImageToJPG
+int GfTexWriteImageToJPG(unsigned char *img, const char *filename, int width, int height)
+{
+	FILE *fp;
+	png_structp	png_ptr;
+	png_infop info_ptr;
+	png_bytep *row_pointers;
+	png_uint_32 rowbytes;
+	int i;
+	unsigned char *cur_ptr;
+	float		screen_gamma;
+#define DEFGAMMA 1.0
+#define ReadGammaFromSettingsFile 1
+
+	if (!img) {
+		GfError("GfTexWriteImageToPNG(%s) : Null image buffer pointer\n", filename);
+		return -1;
+	}
+
+	fp = fopen(filename, "wb");
+	if (fp == NULL) {
+		GfError("GfTexWriteImageToPNG(%s) : Can't open file for writing\n", filename);
+		return -1;
+	}
+
+	png_ptr = png_create_write_struct(PNG_LIBPNG_VER_STRING, NULL, (png_error_ptr)NULL, (png_error_ptr)NULL);
+	if (png_ptr == NULL) {
+		return -1;
+	}
+
+	info_ptr = png_create_info_struct(png_ptr);
+	if (info_ptr == NULL) {
+		png_destroy_write_struct(&png_ptr, (png_infopp)NULL);
+		return -1;
+	}
+
+	if (setjmp(png_jmpbuf(png_ptr))) {
+		png_destroy_write_struct(&png_ptr, &info_ptr);
+		fclose(fp);
+		return -1;
+	}
+
+	png_init_io(png_ptr, fp);
+	png_set_IHDR(png_ptr, info_ptr, width, height, 8, PNG_COLOR_TYPE_RGB,
+			PNG_INTERLACE_NONE, PNG_COMPRESSION_TYPE_DEFAULT, PNG_FILTER_TYPE_DEFAULT);
+#if (ReadGammaFromSettingsFile)
+	char pszConfFilename[256];
+	snprintf(pszConfFilename, sizeof(pszConfFilename), "%s%s", GfLocalDir(), GFSCR_CONF_FILE);
+    void *handle = GfParmReadFile(pszConfFilename, GFPARM_RMODE_STD | GFPARM_RMODE_CREAT);
+    screen_gamma = (float)GfParmGetNum(handle, GFSCR_SECT_VALIDPROPS, GFSCR_ATT_GAMMA, (char*)NULL, DEFGAMMA);
+    GfParmReleaseHandle(handle);
+#else
+	screen_gamma = DEFGAMMA;
+#endif
+	png_set_gAMA(png_ptr, info_ptr, screen_gamma);
+	/* png_set_bgr(png_ptr);    TO INVERT THE COLORS !!!! */
+	png_write_info(png_ptr, info_ptr);
+	png_write_flush(png_ptr);
+
+	rowbytes = width * 3;
+	row_pointers = (png_bytep*)malloc(height * sizeof(png_bytep));
+
+	if (row_pointers == NULL) {
+		fclose(fp);
+		png_destroy_write_struct(&png_ptr, &info_ptr);
+		return -1;
+	}
+
+	for (i = 0, cur_ptr = img + (height - 1) * rowbytes ; i < height; i++, cur_ptr -= rowbytes) {
+		row_pointers[i] = cur_ptr;
+	}
+
+	png_write_image(png_ptr, row_pointers);
+	png_write_end(png_ptr, (png_infop)NULL);
+	png_destroy_write_struct(&png_ptr, &info_ptr);
+	fclose(fp);
+	free(row_pointers);
+
+	return 0;
+}
+
 /** Read a PNG RGBA 8888 / JPEG RGB 888 image into a RGBA 8888 OpenGL 2D texture.
     @ingroup	img
     @param	filename	file name of the image

@@ -632,8 +632,8 @@ TGFCLIENT_API const char* GfuiMenuGetStrProperty(void* hparm, const char* pszNam
 TGFCLIENT_API unsigned char* GfTexReadImageFromFile(const char* filename, float screen_gamma, int* pWidth, int* pHeight, int* pPow2Width = 0, int* pPow2Height = 0);
 TGFCLIENT_API unsigned char* GfTexReadImageFromPNG(const char* filename, float screen_gamma, int* pWidth, int* pHeight, int* pPow2Width = 0, int* pPow2Height = 0);
 TGFCLIENT_API unsigned char* GfTexReadImageFromJPEG(const char* filename, float screen_gamma, int* pWidth, int* pHeight, int* pPow2Width = 0, int* pPow2Height = 0);
-
 TGFCLIENT_API int GfTexWriteImageToPNG(unsigned char* img, const char* filename, int width, int height);
+TGFCLIENT_API int GfTexWriteImageToJPG(unsigned char* img, const char* filename, int width, int height);//尝试保存RGB到JPG
 TGFCLIENT_API void GfTexFreeTexture(unsigned glTexId);
 TGFCLIENT_API unsigned GfTexReadTexture(const char* filename, int* pWidth = 0, int* pHeight = 0,
 										int* pPow2Width = 0, int* pPow2Height = 0);
