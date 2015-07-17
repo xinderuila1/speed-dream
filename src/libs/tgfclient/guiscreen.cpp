@@ -1010,13 +1010,14 @@ bool GfScrToggleFullScreen()
     @param	scrh	address of screen height
     @return	none
  */
+//仔细了解下glReadPixels函数 Add by gaoyu 2015-7-16
 unsigned char* GfScrCapture(int* viewW, int *viewH)
 {
-    unsigned char *img;
+    unsigned char *img;//所以这仅仅是指向了RGB数据的首地址，顺序存放的
     int sW, sH;
 	
     GfScrGetSize(&sW, &sH, viewW, viewH);
-    img = (unsigned char*)malloc((*viewW) * (*viewH) * 3);
+    img = (unsigned char*)malloc((*viewW) * (*viewH) * 3);//这是分配了连续的内存空间，用来存放rgb信息
     if (img)
 	{
 		glPixelStorei(GL_PACK_ROW_LENGTH, 0);
@@ -1042,7 +1043,7 @@ int GfScrCaptureAsPNG(const char *filename)
 	// Capture screen to an RGB image (in memory) (and measure elapsed time).
 	const double dCaptureBeginTime = GfTimeClock();
 
-	unsigned char* img = GfScrCapture(&viewW, &viewH);
+	unsigned char* img = GfScrCapture(&viewW, &viewH);//应该弄懂如何去除的RGB信息  Add by gaoyu 2015-7-17
 
 	const double dCaptureEndTime = GfTimeClock();
 
