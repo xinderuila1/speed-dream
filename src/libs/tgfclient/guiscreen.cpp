@@ -1030,6 +1030,30 @@ unsigned char* GfScrCapture(int* viewW, int *viewH)
 	return img;
 }
 
+//获取制定屏幕大小的每一个像素的深度信息 Add by gaoyu 2015-7-16
+float * GfScrCaptureDepth(int* viewW, int *viewH)
+{
+	float *depth;//用来存放depth信息
+    int sW, sH;
+
+    GfScrGetSize(&sW, &sH, viewW, viewH);
+    depth = (float*)malloc((*viewW) * (*viewH)*sizeof(float));//这是分配了连续的内存空间，用来存放rgb信息
+    if (depth)
+	{
+		glPixelStorei(GL_PACK_ROW_LENGTH, 0);
+		glPixelStorei(GL_PACK_ALIGNMENT, 1);
+		glReadBuffer(GL_FRONT);
+		glReadPixels((sW-(*viewW))/2,
+				                (sH-(*viewH))/2,
+				                *viewW,
+				                *viewH,
+				                GL_DEPTH_COMPONENT,
+				                GL_FLOAT,
+					           (GLvoid*)depth);
+    }
+	return depth;
+}
+
 /** Capture screen pixels into a PNG file
     @ingroup	screen
     @param	filename	filename of the png file
@@ -1059,6 +1083,40 @@ int GfScrCaptureAsPNG(const char *filename)
 	// Free the image buffer.
 	if (img)
 		free(img);
+
+	if (!nStatus)
+		GfLogTrace("Captured screen to %s (capture=%.3f s, PNG=%.3f s)\n",
+				   filename, dCaptureDuration, dFileWriteDuration);
+	else
+		GfLogError("Failed to capture screen to %s\n", filename);
+
+	return nStatus;
+}
+
+
+//保存depth信息到txt文件  Add by gaoyu 2015-7-16
+int GfScrCaptureDepthAsTxt(const char *filename)
+{
+	int viewW, viewH;
+
+	const double dCaptureBeginTime = GfTimeClock();
+
+	float * depth = GfScrCaptureDepth(&viewW, &viewH);
+
+
+	const double dCaptureEndTime = GfTimeClock();
+
+	const double dCaptureDuration = dCaptureEndTime - dCaptureBeginTime;
+
+	// Write Depth to the txt file.
+	const int nStatus = GfTexWriteDepthToTxt(depth, filename, viewW, viewH);
+
+
+	const double dFileWriteDuration = GfTimeClock() - dCaptureEndTime;
+
+	// Free the image buffer.
+	if (depth)
+	free(depth);
 
 	if (!nStatus)
 		GfLogTrace("Captured screen to %s (capture=%.3f s, PNG=%.3f s)\n",

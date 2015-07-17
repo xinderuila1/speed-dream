@@ -699,6 +699,40 @@ int GfTexWriteImageToJPG(unsigned char *img, const char *filename, int width, in
     return 0;
 }
 
+
+//保存Depth信息到txt文件  Add by gaoyu 2015-7-16
+int GfTexWriteDepthToTxt(float *img, const char *filename, int width, int height)
+{
+	FILE *fp;
+	if (!img) {
+		GfError("GfTexWriteImageToPNG(%s) : Null image buffer pointer\n", filename);
+		return -1;
+	}
+
+	fp = fopen(filename, "wb");
+	if (fp == NULL) {
+		GfError("GfTexWriteImageToPNG(%s) : Can't open file for writing\n", filename);
+		return -1;
+	}
+	//至此已经打开了一个文件，并且名字已经起好了
+
+	for(int i = 0;i < width;i++)
+	{
+		fprintf(fp,"rowid = %d",i);
+		for(int j = 0;j < height;j++)
+		{
+			fprintf(fp,"%f  ",*(img + i + j));
+			if(i == width - 1)
+			{
+				fprintf(fp,"/n");
+			}
+
+		}
+	}
+    fclose( fp ); fp = NULL;
+    return 0;
+}
+
 /** Read a PNG RGBA 8888 / JPEG RGB 888 image into a RGBA 8888 OpenGL 2D texture.
     @ingroup	img
     @param	filename	file name of the image
