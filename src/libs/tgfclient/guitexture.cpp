@@ -716,20 +716,13 @@ int GfTexWriteDepthToTxt(float *img, const char *filename, int width, int height
 	}
 	//至此已经打开了一个文件，并且名字已经起好了
 
-	for(int i = 0;i < width;i++)
-	{
-		fprintf(fp,"rowid = %d",i);
-		for(int j = 0;j < height;j++)
-		{
-			fprintf(fp,"%f  ",*(img + i + j));
-			if(i == width - 1)
-			{
-				fprintf(fp,"/n");
-			}
+	 fwrite(&height, sizeof(int),1, fp);
+	 fwrite(&width, sizeof(int),1, fp);
 
-		}
-	}
-    fclose( fp ); fp = NULL;
+	 //注意要按列存
+	 //注意现在我并不知道取出的img数据是按列存还是按行存的
+	 fwrite(img,sizeof(float),width*height,fp);
+	 fclose(fp);
     return 0;
 }
 
