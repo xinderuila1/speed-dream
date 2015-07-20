@@ -416,12 +416,12 @@ void cGrScreen::update(tSituation *s, const cGrFrameInfo* frameInfo)
 		glViewport(scrx, scry, scrw, scrh);
 		glScissor(scrx, scry, scrw, scrh);
 		dispCam = curCam;
-		camDraw(s);
+//		camDraw(s);//因为保存每一帧的数据，赛车跑起来比较卡，所以不再渲染大场景，仅仅绘制mirror中的对象  Add by gaoyu 2015-7-20
 		glDisable(GL_SCISSOR_TEST);
 	} else {
 		glViewport(scrx, scry, scrw, scrh);
 		dispCam = curCam;
-		camDraw(s);
+//		camDraw(s);//因为保存每一帧的数据，赛车跑起来比较卡，所以不再渲染大场景，仅仅绘制mirror中的对象  Add by gaoyu 2015-7-20
 	}
 
 
