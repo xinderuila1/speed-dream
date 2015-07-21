@@ -256,8 +256,8 @@ rmCaptureScreen()
 //    snprintf(filename, sizeof(filename), "%s/sd-%4.4d-%8.8d.png", rmMovieCapture.outputBase,
 //			 rmMovieCapture.currentCapture, rmMovieCapture.currentFrame++);
 
-    snprintf(filename, sizeof(filename), "/home/gaoyu/speed-dream/png/%8.8d.png", rmMovieCapture.currentFrame);
-    snprintf(filenameDepth, sizeof(filenameDepth), "/home/gaoyu/speed-dream/dat/%8.8d.dat", rmMovieCapture.currentFrame);
+    snprintf(filename, sizeof(filename), "/home/gaoyu/speed-dream/png/%d.png", rmMovieCapture.currentFrame);
+    snprintf(filenameDepth, sizeof(filenameDepth), "/home/gaoyu/speed-dream/dat/%d.dat", rmMovieCapture.currentFrame);
     rmMovieCapture.currentFrame++;
 	
     GfScrCaptureAsPNG(filename);
