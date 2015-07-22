@@ -123,6 +123,7 @@ lib64/games/speed-dreams-2/drivers/human/human.so: /usr/lib/libplibjs.so
 lib64/games/speed-dreams-2/drivers/human/human.so: /usr/lib/libplibsg.so
 lib64/games/speed-dreams-2/drivers/human/human.so: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 lib64/games/speed-dreams-2/drivers/human/human.so: /usr/lib/x86_64-linux-gnu/libSDL.so
+lib64/games/speed-dreams-2/drivers/human/human.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/drivers/human/human.so: /usr/lib/libplibul.so
 lib64/games/speed-dreams-2/drivers/human/human.so: src/drivers/human/CMakeFiles/human.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/human/human.so"

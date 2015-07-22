@@ -323,6 +323,7 @@ lib64/games/speed-dreams-2/modules/sound/snddefault.so: /usr/lib/x86_64-linux-gn
 lib64/games/speed-dreams-2/modules/sound/snddefault.so: /usr/lib/x86_64-linux-gnu/libICE.so
 lib64/games/speed-dreams-2/modules/sound/snddefault.so: /usr/lib/x86_64-linux-gnu/libX11.so
 lib64/games/speed-dreams-2/modules/sound/snddefault.so: /usr/lib/x86_64-linux-gnu/libXext.so
+lib64/games/speed-dreams-2/modules/sound/snddefault.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/modules/sound/snddefault.so: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/sound/snddefault.so"
 	cd /home/gaoyu/speed-dream/src/modules/sound/snddefault && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snddefault.dir/link.txt --verbose=$(VERBOSE)

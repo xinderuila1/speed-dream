@@ -111,6 +111,7 @@ games/speed-dreams-2: /usr/lib/x86_64-linux-gnu/libX11.so
 games/speed-dreams-2: /usr/lib/x86_64-linux-gnu/libXext.so
 games/speed-dreams-2: /usr/lib/x86_64-linux-gnu/libopenal.so
 games/speed-dreams-2: /usr/lib/libplibjs.so
+games/speed-dreams-2: /usr/lib/x86_64-linux-gnu/libXrandr.so
 games/speed-dreams-2: lib64/games/speed-dreams-2/lib/libtgf.so
 games/speed-dreams-2: lib64/games/speed-dreams-2/lib/libportability.so
 games/speed-dreams-2: /usr/lib/x86_64-linux-gnu/libdl.so

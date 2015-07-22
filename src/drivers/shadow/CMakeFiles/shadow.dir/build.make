@@ -820,6 +820,7 @@ lib64/games/speed-dreams-2/drivers/shadow/shadow.so: /usr/lib/libplibsg.so
 lib64/games/speed-dreams-2/drivers/shadow/shadow.so: /usr/lib/libplibul.so
 lib64/games/speed-dreams-2/drivers/shadow/shadow.so: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 lib64/games/speed-dreams-2/drivers/shadow/shadow.so: /usr/lib/x86_64-linux-gnu/libSDL.so
+lib64/games/speed-dreams-2/drivers/shadow/shadow.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/drivers/shadow/shadow.so: src/drivers/shadow/CMakeFiles/shadow.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/shadow/shadow.so"
 	cd /home/gaoyu/speed-dream/src/drivers/shadow && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shadow.dir/link.txt --verbose=$(VERBOSE)

@@ -265,13 +265,13 @@ void ReSituationUpdater::runOneStep(double deltaTimeIncrement)
 
 	//GfLogDebug("ReSituationUpdater::runOneStep: currTime=%.3f\n", s->currentTime);
 	if (s->currentTime >= -2.0 && s->currentTime < deltaTimeIncrement - 2.0) {
-		ReRaceMsgSetBig(pCurrReInfo, "Ready", 1.0);
+		//ReRaceMsgSetBig(pCurrReInfo, "Ready", 1.0);//比赛开始时不显示提示 Add by gaoyu 2015-7-22
 		GfLogInfo("Ready.\n");
 	} else if (s->currentTime >= -1.0 && s->currentTime < deltaTimeIncrement - 1.0) {
-		ReRaceMsgSetBig(pCurrReInfo, "Set", 1.0);
+		//ReRaceMsgSetBig(pCurrReInfo, "Set", 1.0);
 		GfLogInfo("Set.\n");
 	} else if (s->currentTime >= 0.0 && s->currentTime < deltaTimeIncrement) {
-		ReRaceMsgSetBig(pCurrReInfo, "Go", 1.0);
+		//ReRaceMsgSetBig(pCurrReInfo, "Go", 1.0);
 		GfLogInfo("Go.\n");
 	}
 

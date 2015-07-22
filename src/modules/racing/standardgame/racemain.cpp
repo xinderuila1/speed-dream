@@ -642,7 +642,7 @@ RePreRacePause(void)
 		{
 			mode = RM_ASYNC | RM_NEXT_STEP;
 			//ReStop();
-			ReSituation::self().setRaceMessage("Hit <Enter> to Start",-1/*always*/, /*big=*/true);
+			//ReSituation::self().setRaceMessage("Hit <Enter> to Start",-1/*always*/, /*big=*/true);//比赛开始时,不显示提示 Add by gaoyu 2015-7-22
 			ReStop();
 		}
 	}

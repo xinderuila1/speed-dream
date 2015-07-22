@@ -320,6 +320,7 @@ lib64/games/speed-dreams-2/drivers/usr/usr.so: /usr/lib/libplibsg.so
 lib64/games/speed-dreams-2/drivers/usr/usr.so: /usr/lib/libplibul.so
 lib64/games/speed-dreams-2/drivers/usr/usr.so: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 lib64/games/speed-dreams-2/drivers/usr/usr.so: /usr/lib/x86_64-linux-gnu/libSDL.so
+lib64/games/speed-dreams-2/drivers/usr/usr.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/drivers/usr/usr.so: src/drivers/usr/CMakeFiles/usr.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/usr/usr.so"
 	cd /home/gaoyu/speed-dream/src/drivers/usr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usr.dir/link.txt --verbose=$(VERBOSE)

@@ -120,6 +120,7 @@ lib64/games/speed-dreams-2/drivers/replay/replay.so: /usr/lib/libplibsg.so
 lib64/games/speed-dreams-2/drivers/replay/replay.so: /usr/lib/libplibul.so
 lib64/games/speed-dreams-2/drivers/replay/replay.so: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 lib64/games/speed-dreams-2/drivers/replay/replay.so: /usr/lib/x86_64-linux-gnu/libSDL.so
+lib64/games/speed-dreams-2/drivers/replay/replay.so: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib64/games/speed-dreams-2/drivers/replay/replay.so: src/drivers/replay/CMakeFiles/replay.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/replay/replay.so"
 	cd /home/gaoyu/speed-dream/src/drivers/replay && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/replay.dir/link.txt --verbose=$(VERBOSE)
