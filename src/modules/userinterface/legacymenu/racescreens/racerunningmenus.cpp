@@ -256,8 +256,13 @@ rmCaptureScreen()
 //    snprintf(filename, sizeof(filename), "%s/sd-%4.4d-%8.8d.png", rmMovieCapture.outputBase,
 //			 rmMovieCapture.currentCapture, rmMovieCapture.currentFrame++);
 
-    snprintf(filename, sizeof(filename), "/home/gaoyu/speed-dream/png/%d.png", rmMovieCapture.currentFrame);
-    snprintf(filenameDepth, sizeof(filenameDepth), "/home/gaoyu/speed-dream/dat/%d.dat", rmMovieCapture.currentFrame);
+
+	//将文件输出到贺亮亮的代码文件夹下面  Add by gaoyu 2015-7-22
+    snprintf(filename, sizeof(filename), "/home/gaoyu/gaoyu-liangliang/data/rgb/%d.png", rmMovieCapture.currentFrame);
+    snprintf(filenameDepth, sizeof(filenameDepth), "/home/gaoyu/gaoyu-liangliang/data/depth/%d.dat", rmMovieCapture.currentFrame);
+
+//    snprintf(filename, sizeof(filename), "/home/gaoyu/speed-dream/png/%d.png", rmMovieCapture.currentFrame);
+//    snprintf(filenameDepth, sizeof(filenameDepth), "/home/gaoyu/speed-dream/dat/%d.dat", rmMovieCapture.currentFrame);
     rmMovieCapture.currentFrame++;
 	
     GfScrCaptureAsPNG(filename);
