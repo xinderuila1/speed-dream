@@ -116,7 +116,7 @@ static void setupOpenGLFeatures(void)
 	bInitialized = true;
 }
 
-
+//分屏的代码 Add by gaoyu 2015-7-29
 static void
 grAdaptScreenSize(void)
 {
