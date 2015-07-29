@@ -122,6 +122,9 @@ grAdaptScreenSize(void)
 {
     int i;
 
+    //grNbActiveScreens是显示的屏幕数,代码中最多6个   Add by gaoyu 2015-7-29
+    //只要分别设置每一个screen的大小即可,但是视线方向还不知道怎么设置
+
     switch (grNbActiveScreens)
 	{
 		default:
