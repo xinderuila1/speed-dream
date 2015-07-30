@@ -442,7 +442,7 @@ void cGrScreen::update(tSituation *s, const cGrFrameInfo* frameInfo)
 	glEnable(GL_TEXTURE_2D);
 	
 	GfProfStartProfile("boardCam*");
-	boardCam->action();
+	//boardCam->action();//计分板等各种参数的代码   Add by gaoyu 2015-7-30
 	GfProfStopProfile("boardCam*");
 	
 	GfProfStartProfile("grDisp**");
