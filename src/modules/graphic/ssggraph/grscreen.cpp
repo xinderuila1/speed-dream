@@ -371,6 +371,88 @@ void cGrScreen::camDraw(tSituation *s)
     GfProfStopProfile("dispCam->afterDraw*");
 }
 
+//单独绘制其他screen中的camera  Add by gaoyu 2015-7-30
+void cGrScreen::camDrawInOtherScreen(tSituation *s)
+{
+    GfProfStartProfile("dispCam->beforeDraw*");
+    dispCam->beforeDraw();
+    GfProfStopProfile("dispCam->beforeDraw*");
+
+	glDisable(GL_COLOR_MATERIAL);
+
+	GfProfStartProfile("dispCam->update*");
+	dispCam->update(curCar, s);
+	GfProfStopProfile("dispCam->update*");
+
+	// Draw the static background.
+	// Exclude this when sky dome enabled, because it is then actually invisible.
+	if (dispCam->getDrawBackground() &&  (grSkyDomeDistance == 0 || grTrack->skyversion == 0)) {
+		glDisable(GL_LIGHTING);
+		glDisable(GL_DEPTH_TEST);
+		glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
+		grDrawStaticBackground(dispCam, bgCam);
+		glClear(GL_DEPTH_BUFFER_BIT);
+	}
+	glEnable(GL_DEPTH_TEST);
+
+	// Activate the current display camera.
+	GfProfStartProfile("dispCam->action*");
+	dispCam->action();
+	GfProfStopProfile("dispCam->action*");
+
+	GfProfStartProfile("grDrawCar*");
+
+	// Draw the fog
+	// TODO: Make this consistent with sky dome own fog / excluded when sky dome enabled ?
+ 	glFogf(GL_FOG_START, dispCam->getFogStart());
+ 	glFogf(GL_FOG_END, dispCam->getFogEnd());
+ 	glEnable(GL_FOG);
+
+	// Sort the cars by distance for transparent windows
+	TheDispCam = dispCam; // Needed by compareCars() ordering function
+	if (dispCam != mirrorCam)
+		qsort(cars, s->_ncars, sizeof(tCarElt*), compareCars);
+
+	for (int i = 0; i < s->_ncars; i++) {
+		grDrawCar(s, cars[i], curCar, dispCam->getDrawCurrent(), dispCam->getDrawDriver(), s->currentTime, dispCam);
+	}
+
+	GfProfStopProfile("grDrawCar*");
+
+	GfProfStartProfile("grDrawScene*");
+
+	glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+	// Draw the sky dome if enabled (first part)
+	if (dispCam->getDrawBackground() &&  grSkyDomeDistance > 0 && grTrack->skyversion > 0) {
+  		grPreDrawSky(s, dispCam->getFogStart(), dispCam->getFogEnd());
+  	}
+
+	//绘制了，除了天空、云彩、天气以外的所有对象 Add by gaoyu 2015-7-15
+	// Draw the rest of the scene (track, buildings, landscape, cars, ...)
+	//grDrawScene();
+
+	// Draw the sky dome if enabled (last part)
+	if (dispCam->getDrawBackground() &&  grSkyDomeDistance > 0 && grTrack->skyversion > 0) {
+		grPostDrawSky();
+	}
+
+	GfProfStopProfile("grDrawScene*");
+
+	// Draw the precipitation if any.
+	if (dispCam->isMirrorAllowed() == 1) {
+		// angle the rain for 1st person views
+		grRain.drawPrecipitation(grTrack->local.rain, 1.0, 0.0,
+			curCar->_roll * SG_RADIANS_TO_DEGREES, 0.0, curCar->_speed_x);
+	} else
+		grRain.drawPrecipitation(grTrack->local.rain, 1.0, 0.0, 0.0, 0.0, 0.0);
+
+    GfProfStartProfile("dispCam->afterDraw*");
+    dispCam->afterDraw();
+    GfProfStopProfile("dispCam->afterDraw*");
+}
+
 
 /* Update screen display */
 void cGrScreen::update(tSituation *s, const cGrFrameInfo* frameInfo)
@@ -521,7 +603,7 @@ void cGrScreen::updateTranslateView(tSituation *s, const cGrFrameInfo* frameInfo
 	/* Mirror */
 	if (mirrorFlag && curCam->isMirrorAllowed ()) {
 		dispCam = mirrorCam;
-		camDraw (s);
+		camDrawInOtherScreen(s);
 	}
 	
 

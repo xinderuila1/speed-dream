@@ -70,8 +70,9 @@ class cGrScreen {
 		void update(tSituation *s, const cGrFrameInfo* frameInfo);
 
 
-		//单独修改某一块screen Add by gaoyu 2015-7-30
-		void updateTranslateView(tSituation *s, const cGrFrameInfo* frameInfo);
+
+		void updateTranslateView(tSituation *s, const cGrFrameInfo* frameInfo);//单独修改某一块screen Add by gaoyu 2015-7-30
+		void camDrawInOtherScreen(tSituation *s);//单独绘制其他screen中的camera  Add by gaoyu 2015-7-30
 
 
 		void camDraw(tSituation *s);
