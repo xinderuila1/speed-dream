@@ -381,7 +381,11 @@ void cGrScreen::camDrawInOtherScreen(tSituation *s)
 	glDisable(GL_COLOR_MATERIAL);
 
 	GfProfStartProfile("dispCam->update*");
-	dispCam->update(curCar, s);
+	//dispCam->update(curCar, s);
+
+
+	dispCam->updateAnotherScreenView(curCar, s);
+
 	GfProfStopProfile("dispCam->update*");
 
 	// Draw the static background.
@@ -431,7 +435,7 @@ void cGrScreen::camDrawInOtherScreen(tSituation *s)
 
 	//绘制了，除了天空、云彩、天气以外的所有对象 Add by gaoyu 2015-7-15
 	// Draw the rest of the scene (track, buildings, landscape, cars, ...)
-	//grDrawScene();
+	grDrawScene();
 
 	// Draw the sky dome if enabled (last part)
 	if (dispCam->getDrawBackground() &&  grSkyDomeDistance > 0 && grTrack->skyversion > 0) {
