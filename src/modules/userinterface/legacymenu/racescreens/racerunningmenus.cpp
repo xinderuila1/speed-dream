@@ -378,7 +378,7 @@ rmRedisplay()
 	if (rmMovieCapture.active)
 		rmCaptureScreen();//会自动获取屏幕像素，并保存为png文件 Add by gaoyu 2015-7-15
 
-	rmCaptureScreen();
+	//rmCaptureScreen();
 
 	// Request an redisplay in the next event loop.
 	GfuiApp().eventLoop().postRedisplay();

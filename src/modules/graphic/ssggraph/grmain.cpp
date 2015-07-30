@@ -710,6 +710,7 @@ initCars(tSituation *s)
 		GfParmSetNum(grHandle, GR_SCT_DISPMODE, GR_ATT_CUR_SCREEN, NULL, nCurrentScreenIndex);
 	}
 
+	//为每一块屏幕初始化视角  Add by gaoyu 2015-7-30
 	// Initialize the cameras for all the screens.
     for (i = 0; i < GR_NB_MAX_SCREEN; i++) {
 	grScreens[i]->initCams(s);
