@@ -424,6 +424,98 @@ void cGrScreen::update(tSituation *s, const cGrFrameInfo* frameInfo)
 		camDraw(s);
 	}
 
+	//用于绘制mirror的代码   Add by gaoyu 2015-7-14
+	/* Mirror */
+	if (mirrorFlag && curCam->isMirrorAllowed ()) {
+		dispCam = mirrorCam;
+		camDraw (s);
+	}
+
+	glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
+	glDisable(GL_CULL_FACE);
+	glDisable(GL_DEPTH_TEST);
+	glDisable(GL_LIGHTING);
+	glDisable(GL_COLOR_MATERIAL);
+	glDisable(GL_ALPHA_TEST);
+	glDisable(GL_FOG);
+	glEnable(GL_TEXTURE_2D);
+
+	GfProfStartProfile("boardCam*");
+	//boardCam->action();//计分板等各种参数的代码   Add by gaoyu 2015-7-30
+	GfProfStopProfile("boardCam*");
+
+	GfProfStartProfile("grDisp**");
+	glDisable(GL_TEXTURE_2D);
+
+	TRACE_GL("cGrScreen::update glDisable(GL_DEPTH_TEST)");
+	if (boardWidth != 100) {
+		// Only need to scissor if board does not occupy whole (split) screen
+		glEnable(GL_SCISSOR_TEST);
+		glScissor(scrx + (scrw * (100 - boardWidth)/200), scry, scrw * boardWidth / 100, scrh);
+		board->refreshBoard(s, frameInfo, curCar,
+						grNbActiveScreens > 1 && grGetCurrentScreen() == this);
+		glDisable(GL_SCISSOR_TEST);
+	} else {
+		board->refreshBoard(s, frameInfo, curCar,
+						grNbActiveScreens > 1 && grGetCurrentScreen() == this);
+	}
+	TRACE_GL("cGrScreen::update display boards");
+
+	GfProfStopProfile("grDisp**");
+}
+
+//单独修改某一块screen Add by gaoyu 2015-7-30
+void cGrScreen::updateTranslateView(tSituation *s, const cGrFrameInfo* frameInfo)
+{
+	if (!active) {
+		return;
+	}
+
+	int carChanged = 0;
+	if (selectNextFlag) {
+		for (int i = 0; i < (s->_ncars - 1); i++) {
+			if (curCar == s->cars[i]) {
+				curCar = s->cars[i + 1];
+				carChanged = 1;
+				break;
+			}
+		}
+		selectNextFlag = false;
+	}
+
+	if (selectPrevFlag) {
+		for (int i = 1; i < s->_ncars; i++) {
+			if (curCar == s->cars[i]) {
+				curCar = s->cars[i - 1];
+				carChanged = 1;
+				break;
+			}
+		}
+		selectPrevFlag = false;
+	}
+	if (carChanged) {
+		sprintf(path, "%s/%d", GR_SCT_DISPMODE, id);
+		GfParmSetStr(grHandle, path, GR_ATT_CUR_DRV, curCar->_name);
+		loadParams (s);
+		board->setWidth(fakeWidth);
+		GfParmWriteFile(NULL, grHandle, "Graph");
+		curCam->onSelect(curCar, s);
+	}
+
+	if (grNbActiveScreens > 1) {
+		// only need to scissor with split screens (to prevent a problem with Nouvuea driver)
+		glEnable(GL_SCISSOR_TEST);
+		glViewport(scrx, scry, scrw, scrh);
+		glScissor(scrx, scry, scrw, scrh);
+		dispCam = curCam;
+		camDraw(s);
+		glDisable(GL_SCISSOR_TEST);
+	} else {
+		glViewport(scrx, scry, scrw, scrh);
+		dispCam = curCam;
+		camDraw(s);
+	}
+
 
 	//用于绘制mirror的代码   Add by gaoyu 2015-7-14
 	/* Mirror */
@@ -432,6 +524,12 @@ void cGrScreen::update(tSituation *s, const cGrFrameInfo* frameInfo)
 		camDraw (s);
 	}
 	
+
+
+
+
+
+
 	glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
 	glDisable(GL_CULL_FACE);
 	glDisable(GL_DEPTH_TEST);

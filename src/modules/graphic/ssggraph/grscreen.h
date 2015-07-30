@@ -68,6 +68,12 @@ class cGrScreen {
 		inline void setZoom(const long zoom) { curCam->setZoom(zoom); }
 		int  isInScreen(int x, int y);
 		void update(tSituation *s, const cGrFrameInfo* frameInfo);
+
+
+		//单独修改某一块screen Add by gaoyu 2015-7-30
+		void updateTranslateView(tSituation *s, const cGrFrameInfo* frameInfo);
+
+
 		void camDraw(tSituation *s);
 		void updateCurrent(tSituation *s);
 

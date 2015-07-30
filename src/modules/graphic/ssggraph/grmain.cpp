@@ -610,7 +610,15 @@ refresh(tSituation *s)
 
     //刷新每一个screen  render内容的代码   Add by gaoyu 2015-7-30
     for (i = 0; i < grNbActiveScreens; i++) {
-		grScreens[i]->update(s, &frameInfo);
+
+    	if(i == 0)
+    	{
+    		grScreens[i]->update(s, &frameInfo);
+    	}
+    	else
+    	{
+    		grScreens[i]->updateTranslateView(s, &frameInfo);//单独控制,第一块screen之外的所有screen  Add by gaoyu 2015-7-30
+    	}
     }
 
     grUpdateSmoke(s->currentTime);
