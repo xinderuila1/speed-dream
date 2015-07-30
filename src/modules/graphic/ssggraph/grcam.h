@@ -185,8 +185,8 @@ class cGrPerspCamera : public cGrCamera
         sgVec3 P, p;
 
         P[0] = car->_bonnetPos_x; // behind car
-        P[1] = car->_bonnetPos_y;
-        P[2] = car->_bonnetPos_z + 2.5 + 2.5;
+        P[1] = car->_bonnetPos_y - 2.5;
+        P[2] = car->_bonnetPos_z + 2.5;
         //p[2] = car->_statGC_z - 70;
 
         sgXformPnt3(P, car->_posMat);
