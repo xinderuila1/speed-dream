@@ -608,6 +608,7 @@ refresh(tSituation *s)
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     GfProfStopProfile("grDrawBackground/glClear");
 
+    //刷新每一个screen  render内容的代码   Add by gaoyu 2015-7-30
     for (i = 0; i < grNbActiveScreens; i++) {
 		grScreens[i]->update(s, &frameInfo);
     }
