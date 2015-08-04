@@ -322,9 +322,9 @@ void cGrScreen::camDraw(tSituation *s)
 	
 	// Draw the fog
 	// TODO: Make this consistent with sky dome own fog / excluded when sky dome enabled ?
- 	glFogf(GL_FOG_START, dispCam->getFogStart());
- 	glFogf(GL_FOG_END, dispCam->getFogEnd());
- 	glEnable(GL_FOG);
+// 	glFogf(GL_FOG_START, dispCam->getFogStart());
+// 	glFogf(GL_FOG_END, dispCam->getFogEnd());
+// 	glEnable(GL_FOG);
 	
 	// Sort the cars by distance for transparent windows
 	TheDispCam = dispCam; // Needed by compareCars() ordering function
@@ -343,18 +343,18 @@ void cGrScreen::camDraw(tSituation *s)
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 	// Draw the sky dome if enabled (first part)
-	if (dispCam->getDrawBackground() &&  grSkyDomeDistance > 0 && grTrack->skyversion > 0) {
-  		grPreDrawSky(s, dispCam->getFogStart(), dispCam->getFogEnd());
-  	}
+//	if (dispCam->getDrawBackground() &&  grSkyDomeDistance > 0 && grTrack->skyversion > 0) {
+//  		grPreDrawSky(s, dispCam->getFogStart(), dispCam->getFogEnd());
+//  	}
 
 	//绘制了，除了天空、云彩、天气以外的所有对象 Add by gaoyu 2015-7-15
 	// Draw the rest of the scene (track, buildings, landscape, cars, ...)
 	grDrawScene();
 
 	// Draw the sky dome if enabled (last part)
-	if (dispCam->getDrawBackground() &&  grSkyDomeDistance > 0 && grTrack->skyversion > 0) {
-		grPostDrawSky();
-	}
+//	if (dispCam->getDrawBackground() &&  grSkyDomeDistance > 0 && grTrack->skyversion > 0) {
+//		grPostDrawSky();
+//	}
 	
 	GfProfStopProfile("grDrawScene*");
 
